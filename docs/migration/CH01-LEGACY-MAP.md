@@ -1,0 +1,44 @@
+# Chapter 01 legacy migration map
+
+**Updated:** 2026-10-22 · **Skill:** `rh-legacy-migration` · **Command:** `/rh-migrate-ch01`
+
+## What actually exists (checked 2026-10-22)
+
+| Asset | Found? | Location | Count |
+| --- | --- | --- | --- |
+| Historic contract "13 split + 3 omnibus + portal + 96-question bank = 18 HTML" | **No** — not in any uploaded zip, nor in `medpromx/ravanhamych1` / `ravanhamych2` | — | — |
+| 13 legacy units (`lesson.md` + `questions.json`) | Yes | `sources/archive-md/فصل_۰۱_…/` | 13 lessons · 65 questions (5 each) |
+| Depression reference lesson + interactive bank | Yes | `sources/legacy-sites/ravanhamych1/index.html` (commit in `SNAPSHOT.txt`) | 19 sections · 20 questions |
+| Chapter-01 Word drafts | No (folder in the zip is empty) | — | — |
+
+**Blocking question for the owner:** where is the 18-file / 96-question Chapter 01 set? Until it is supplied, "96 questions" stays a target, not a count.
+
+## Question import status
+
+| Source | Records | Contract-complete? | Status in repo |
+| --- | ---: | --- | --- |
+| ravanhamych1 `Q[]` (`c,s,o,a,e,t`) | 20 | yes — four explanations + tip | imported → `content/questions/legacy-ch01-depression.json` (`RH-L01-02-0001…0020`, DRAFT) |
+| 13 units `questions.json` | 65 | **no** — one combined `rationale`, no per-option analysis; `examSource`/`examYear` claim psychiatry promotion/board exams 1400–1404 (unverified) | not imported; kept raw. Needs per-option analyses authored and reviewed. Likely better suited to the future `psychiatry-board` track. |
+
+## Unit → target lesson map
+
+| # | Legacy unit | Legacy subchapter | Target ID | Questions | Status |
+| ---: | --- | --- | --- | ---: | --- |
+| 01 | pathophysiology, genetics, neuroimaging (schizophrenia) | 1-1 | RH-01-01-U01 | 5 | pending |
+| 02 | phenomenology: positive/negative/cognitive symptoms | 1-1 | RH-01-01-U02 | 5 | pending |
+| 03 | schizoaffective, schizophreniform, catatonia | 1-1 | RH-01-01-U03 | 5 | pending |
+| 04 | treatment-resistant schizophrenia, clozapine | 1-1 | RH-01-01-U04 | 5 | pending (pharmacology depth: check scope for psychology/counseling exams) |
+| 05 | bipolar I/II, mixed features | 1-2 | RH-01-02-U01 | 5 | pending |
+| 06 | MDD and clinical subtypes | 1-2 | RH-01-02-U02 | 5 | pending — merge with ravanhamych1 depression lesson (20 Q) |
+| 07 | persistent mood, child/adolescent | 1-2 | RH-01-02-U03 | 5 | pending |
+| 08 | suicide risk assessment, emergency | 1-2 | RH-01-02-U04 | 5 | pending — boundary with Chapter 03 |
+| 09 | panic disorder, agoraphobia | 1-3 | RH-01-03-U01 | 5 | pending |
+| 10 | GAD, specific phobia, social anxiety | 1-3 | RH-01-03-U02 | 5 | pending |
+| 11 | OCD and related | 1-3 | RH-01-03-U03 | 5 | pending |
+| 12 | PTSD, acute stress disorder | 1-3 | RH-01-03-U04 | 5 | pending |
+| 13 | adjustment disorders | 1-3 | RH-01-03-U05 | 5 | pending |
+
+The current placeholder `content/lessons/ch01/RH-01-01-U01.md` is a template demo and will be replaced by unit 01.
+
+## Rules
+Literal mapping only; legacy snapshots read-only; UIDs immutable; exam-origin claims stay LISTED until the original paper is checked; legacy URL → new URL list kept here for redirects.

@@ -1,0 +1,6 @@
+{
+ "lesson_id": "RH-02-01",
+ "references": [],
+ "claims": [],
+ "_schema": "references[]: {reference_id,title,edition,year,locator,state:LISTED|RETRIEVED|CHECKED|CONFLICT|SUPERSEDED}; claims[]: {claim_id,content_id,claim,source_file,source_location,reference_id,review_state,conflict_notes,reviewer,review_date}"
+}

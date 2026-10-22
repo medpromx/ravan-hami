@@ -1,0 +1,1154 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>اختلالات افسردگی | درسنامه فصل اول</title>
+<meta name="description" content="درسنامه فصل اول: اختلالات افسردگی؛ از نشانه‌شناسی تا تشخیص و مداخله، همراه با جدول‌های تشخیص افتراقی، نمونه‌های بالینی، پرسش‌های مروری و آزمون تعاملی">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f3ee; --paper:#ffffff; --paper-2:#fbfaf7; --ink:#1d2733; --ink-2:#4a5664; --ink-3:#7a8592;
+  --line:#e4e0d6; --line-2:#efece5;
+  --brand:#0f6b66; --brand-2:#0b4f4b; --brand-soft:#e3f2f0; --navy:#13293d;
+  --def:#2459a6; --def-bg:#eaf1fb; --def-line:#bcd2f0;
+  --gold:#9a6400; --gold-bg:#fff5df; --gold-line:#f0d79c;
+  --trap:#b3261e; --trap-bg:#fdecea; --trap-line:#f3bdb8;
+  --clin:#11785a; --clin-bg:#e6f5ee; --clin-line:#b6e0cb;
+  --safe:#8a1538; --safe-bg:#fbe9ef; --safe-line:#efb9cb;
+  --num:#5b3ea8; --num-bg:#efeafb; --num-line:#d3c6f2;
+  --ok:#137a43; --ok-bg:#e5f6ec; --bad:#b3261e; --bad-bg:#fdecea;
+  --shadow:0 1px 2px rgba(19,41,61,.06),0 6px 24px rgba(19,41,61,.06);
+  --radius:14px; --fs:17px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#11161c; --paper:#182029; --paper-2:#1c2530; --ink:#e7ecf1; --ink-2:#b5c0cc; --ink-3:#8793a1;
+    --line:#2b3642; --line-2:#24303b;
+    --brand:#4fc1b8; --brand-2:#7fd6cf; --brand-soft:#16312f; --navy:#0b1117;
+    --def:#8db8f2; --def-bg:#172638; --def-line:#2b4566;
+    --gold:#f0c46a; --gold-bg:#2b2414; --gold-line:#5a4720;
+    --trap:#ff8f86; --trap-bg:#33191a; --trap-line:#6a2b29;
+    --clin:#6fd3a8; --clin-bg:#142b23; --clin-line:#255040;
+    --safe:#f497b5; --safe-bg:#33192a; --safe-line:#6a2c47;
+    --num:#c1adf7; --num-bg:#241d3a; --num-line:#43376b;
+    --ok:#6fd3a0; --ok-bg:#142b20; --bad:#ff8f86; --bad-bg:#33191a;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#11161c; --paper:#182029; --paper-2:#1c2530; --ink:#e7ecf1; --ink-2:#b5c0cc; --ink-3:#8793a1;
+  --line:#2b3642; --line-2:#24303b;
+  --brand:#4fc1b8; --brand-2:#7fd6cf; --brand-soft:#16312f; --navy:#0b1117;
+  --def:#8db8f2; --def-bg:#172638; --def-line:#2b4566;
+  --gold:#f0c46a; --gold-bg:#2b2414; --gold-line:#5a4720;
+  --trap:#ff8f86; --trap-bg:#33191a; --trap-line:#6a2b29;
+  --clin:#6fd3a8; --clin-bg:#142b23; --clin-line:#255040;
+  --safe:#f497b5; --safe-bg:#33192a; --safe-line:#6a2c47;
+  --num:#c1adf7; --num-bg:#241d3a; --num-line:#43376b;
+  --ok:#6fd3a0; --ok-bg:#142b20; --bad:#ff8f86; --bad-bg:#33191a;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Vazirmatn,Tahoma,"Segoe UI",sans-serif;font-size:var(--fs);line-height:2.05;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--brand)}
+button{font-family:inherit}
+/* ---------- top bar ---------- */
+.topbar{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:10px;height:60px;padding:0 16px;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.iconbtn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:40px;height:40px;padding:0 10px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);cursor:pointer;font-size:14px;font-weight:500}
+.iconbtn:hover{border-color:var(--brand);color:var(--brand)}
+.iconbtn svg{width:20px;height:20px}
+.topbar .title{flex:1;min-width:0;font-weight:700;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topbar .title small{color:var(--ink-3);font-weight:400;margin-inline-start:6px}
+.tools{display:flex;gap:6px}
+.progress{position:absolute;bottom:-1px;right:0;height:3px;width:0;background:linear-gradient(90deg,var(--brand),var(--gold));transition:width .1s linear}
+@media (max-width:640px){.hide-sm{display:none!important}.topbar .title small{display:none}}
+/* ---------- drawer ---------- */
+.scrim{position:fixed;inset:0;background:rgba(10,20,30,.45);opacity:0;pointer-events:none;transition:opacity .25s;z-index:50}
+.drawer{position:fixed;top:0;bottom:0;right:0;width:min(340px,88vw);background:var(--paper);border-left:1px solid var(--line);transform:translateX(100%);transition:transform .28s ease;z-index:60;display:flex;flex-direction:column;box-shadow:var(--shadow)}
+body.menu-open .scrim{opacity:1;pointer-events:auto}
+body.menu-open .drawer{transform:none}
+.drawer header{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid var(--line)}
+.drawer header b{font-size:16px}
+.drawer nav{overflow-y:auto;padding:8px 10px 24px;flex:1}
+.drawer .grp{font-size:12px;color:var(--ink-3);font-weight:700;padding:14px 10px 4px}
+.drawer nav a{display:flex;gap:10px;align-items:baseline;padding:7px 10px;border-radius:9px;text-decoration:none;color:var(--ink-2);font-size:14.5px;line-height:1.7}
+.drawer nav a .n{flex:none;width:26px;color:var(--ink-3);font-weight:700;font-size:13px}
+.drawer nav a:hover{background:var(--paper-2);color:var(--ink)}
+.drawer nav a.active{background:var(--brand-soft);color:var(--brand);font-weight:700}
+.drawer nav a.active .n{color:var(--brand)}
+/* ---------- layout ---------- */
+.wrap{max-width:900px;margin:0 auto;padding:0 16px 80px}
+.cover{margin:24px auto 28px;max-width:900px;border-radius:22px;overflow:hidden;background:linear-gradient(135deg,#0d5551 0%,#13293d 100%);color:#fff;position:relative;box-shadow:var(--shadow)}
+.cover .in{padding:44px 40px 36px;position:relative;z-index:1}
+.cover:after{content:"";position:absolute;inset:auto -80px -120px auto;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.12),transparent 70%)}
+.cover .kicker{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.5px;background:rgba(255,255,255,.14);padding:4px 12px;border-radius:99px}
+.cover h1{font-size:clamp(28px,5vw,44px);line-height:1.45;margin:16px 0 6px;font-weight:900}
+.cover .sub{font-size:clamp(16px,2.4vw,20px);opacity:.9;margin:0 0 22px}
+.cover .meta{display:flex;flex-wrap:wrap;gap:8px}
+.cover .meta span{font-size:13px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);padding:4px 12px;border-radius:99px}
+@media (max-width:640px){.cover{margin:16px 0 22px;border-radius:16px}.cover .in{padding:30px 22px 26px}}
+.legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:0 0 28px}
+.legend div{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;background:var(--paper);border:1px solid var(--line);font-size:13.5px;line-height:1.6}
+.legend i{flex:none;width:12px;height:12px;border-radius:4px}
+section.ch{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:34px 40px 30px;margin:0 0 26px}
+@media (max-width:640px){section.ch{padding:24px 18px 20px}p,.q .stem{text-align:right}}
+.ch-head{display:flex;align-items:center;gap:14px;margin-bottom:10px;padding-bottom:14px;border-bottom:2px solid var(--line-2)}
+.ch-num{flex:none;width:46px;height:46px;border-radius:12px;display:grid;place-items:center;background:var(--brand-soft);color:var(--brand);font-weight:900;font-size:20px}
+.ch-head h2{margin:0;font-size:clamp(21px,3vw,26px);line-height:1.5;font-weight:800;color:var(--navy)}
+:root[data-theme="dark"] .ch-head h2{color:var(--ink)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ch-head h2{color:var(--ink)}}
+h3{font-size:19px;margin:28px 0 8px;color:var(--brand-2);font-weight:800;line-height:1.6}
+h3:before{content:"";display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--brand);margin-inline-end:10px;vertical-align:middle;transform:rotate(45deg)}
+h4{font-size:16.5px;margin:18px 0 4px;font-weight:700}
+p{margin:0 0 14px;text-align:justify}
+strong,b{font-weight:700}
+mark{background:var(--gold-bg);color:inherit;padding:0 3px;border-radius:4px;box-shadow:inset 0 -2px 0 var(--gold-line)}
+.k{display:inline-block;background:var(--num-bg);color:var(--num);border:1px solid var(--num-line);border-radius:7px;padding:0 7px;font-weight:700;line-height:1.75;font-size:.94em}
+ul,ol{margin:0 0 14px;padding-inline-start:26px}
+li{margin:3px 0}
+.lead{font-size:1.06em;color:var(--ink-2)}
+/* callouts */
+.box{border-radius:12px;padding:14px 18px 6px;margin:18px 0;border:1px solid;border-inline-start-width:5px}
+.box .bt{display:flex;align-items:center;gap:8px;font-weight:800;font-size:14.5px;margin-bottom:4px}
+.box .bt svg{width:18px;height:18px;flex:none}
+.box p:last-child,.box ul:last-child,.box ol:last-child{margin-bottom:10px}
+.box.def{background:var(--def-bg);border-color:var(--def-line);border-inline-start-color:var(--def)} .box.def .bt{color:var(--def)}
+.box.gold{background:var(--gold-bg);border-color:var(--gold-line);border-inline-start-color:var(--gold)} .box.gold .bt{color:var(--gold)}
+.box.trap{background:var(--trap-bg);border-color:var(--trap-line);border-inline-start-color:var(--trap)} .box.trap .bt{color:var(--trap)}
+.box.clin{background:var(--clin-bg);border-color:var(--clin-line);border-inline-start-color:var(--clin)} .box.clin .bt{color:var(--clin)}
+.box.safe{background:var(--safe-bg);border-color:var(--safe-line);border-inline-start-color:var(--safe)} .box.safe .bt{color:var(--safe)}
+.box.num{background:var(--num-bg);border-color:var(--num-line);border-inline-start-color:var(--num)} .box.num .bt{color:var(--num)}
+/* tables */
+.tbl{overflow-x:auto;margin:16px 0 20px;border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.85;min-width:560px}
+.tbl.narrow table{min-width:0}
+caption{caption-side:top;text-align:right;font-weight:800;font-size:14px;padding:10px 14px;color:var(--ink-2);background:var(--paper-2);border-bottom:1px solid var(--line)}
+th,td{padding:10px 14px;text-align:right;vertical-align:top;border-bottom:1px solid var(--line-2)}
+thead th{background:var(--brand-soft);color:var(--brand-2);font-weight:800;font-size:14px;white-space:nowrap}
+tbody tr:nth-child(even) td{background:var(--paper-2)}
+tbody tr:last-child td{border-bottom:0}
+td:first-child{font-weight:700;color:var(--ink)}
+td.c{text-align:center}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:1px 9px;border-radius:99px;line-height:1.9;white-space:nowrap}
+.tag.core{background:var(--brand-soft);color:var(--brand)}
+.tag.red{background:var(--trap-bg);color:var(--trap)}
+.tag.blue{background:var(--def-bg);color:var(--def)}
+.tag.gold{background:var(--gold-bg);color:var(--gold)}
+/* grids & cards */
+.grid{display:grid;gap:12px;margin:16px 0}
+.g2{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.card{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--paper-2)}
+.card h4{margin:0 0 4px;color:var(--brand-2)}
+.card p{margin:0;font-size:15px;line-height:1.9;text-align:right}
+.stat{border:1px solid var(--line);border-radius:12px;padding:14px;background:var(--paper-2);text-align:center}
+.stat b{display:block;font-size:30px;font-weight:900;color:var(--num);line-height:1.4}
+.stat span{font-size:14px;color:var(--ink-2);line-height:1.7;display:block}
+.objectives{counter-reset:o;list-style:none;padding:0}
+.objectives li{counter-increment:o;position:relative;padding:8px 46px 8px 12px;border-bottom:1px dashed var(--line)}
+.objectives li:last-child{border-bottom:0}
+.objectives li:before{content:counter(o,persian);position:absolute;right:6px;top:9px;width:28px;height:28px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;font-size:14px;font-weight:700;line-height:1}
+/* concept ladder */
+.ladder{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:18px 0;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.ladder div{padding:14px 16px;background:var(--paper-2);border-inline-start:1px solid var(--line);position:relative}
+.ladder div:first-child{border-inline-start:0}
+.ladder b{display:block;color:var(--brand-2);font-size:15.5px}
+.ladder span{font-size:14.5px;color:var(--ink-2);line-height:1.85;display:block}
+@media (max-width:640px){.ladder{grid-template-columns:1fr}.ladder div{border-inline-start:0;border-top:1px solid var(--line)}.ladder div:first-child{border-top:0}}
+/* map */
+.map{margin:18px 0;padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--paper-2)}
+.map .root{margin:0 auto 14px;max-width:360px;text-align:center;padding:10px 14px;border-radius:12px;background:var(--navy);color:#fff;font-weight:800}
+.map .cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.map .col{border:1px dashed var(--line);border-radius:12px;padding:10px}
+.map .col>b{display:block;text-align:center;font-size:14.5px;padding:6px;border-radius:9px;margin-bottom:8px}
+.map .col.dep>b{background:var(--brand-soft);color:var(--brand)}
+.map .col.bip>b{background:var(--gold-bg);color:var(--gold)}
+.map .chip{display:block;font-size:14px;line-height:1.75;padding:6px 10px;margin:5px 0;border-radius:8px;background:var(--paper);border:1px solid var(--line)}
+@media (max-width:640px){.map .cols{grid-template-columns:1fr}}
+/* steps */
+.steps{list-style:none;padding:0;margin:18px 0;counter-reset:s}
+.steps li{counter-increment:s;position:relative;padding:12px 60px 12px 14px;margin:0 0 10px;border:1px solid var(--line);border-radius:12px;background:var(--paper-2)}
+.steps li:before{content:counter(s,persian);position:absolute;right:14px;top:12px;width:32px;height:32px;border-radius:10px;background:var(--brand);color:#fff;display:grid;place-items:center;font-weight:800;line-height:1}
+.steps li b{display:block;color:var(--brand-2)}
+.steps li span{font-size:15px;color:var(--ink-2);line-height:1.9;display:block}
+.steps li .yes{color:var(--trap);font-weight:700}
+.steps.danger li:first-child{border-color:var(--safe-line);background:var(--safe-bg)}
+.steps.danger li:first-child:before{background:var(--safe)}
+/* vignette */
+.vig{border:1px solid var(--line);border-radius:14px;margin:20px 0;overflow:hidden}
+.vig .vh{display:flex;gap:10px;align-items:center;padding:12px 18px;background:var(--navy);color:#fff;font-weight:800;font-size:15.5px}
+.vig .vh span{font-size:12px;font-weight:700;background:rgba(255,255,255,.15);padding:2px 10px;border-radius:99px}
+.vig .vb{padding:16px 20px 6px;background:var(--paper-2)}
+.vig .vb p{font-size:16px}
+details.ans{border-top:1px solid var(--line);background:var(--paper)}
+details.ans summary{cursor:pointer;list-style:none;padding:12px 20px;font-weight:700;color:var(--brand);display:flex;align-items:center;gap:8px}
+details.ans summary::-webkit-details-marker{display:none}
+details.ans summary:before{content:"";width:9px;height:9px;border-inline-start:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform .2s;margin-top:-3px}
+details.ans[open] summary:before{transform:rotate(-135deg);margin-top:3px}
+details.ans .ab{padding:2px 20px 10px}
+/* traps grid */
+.traps{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:16px 0}
+.trapc{border:1px solid var(--trap-line);background:var(--trap-bg);border-radius:12px;padding:12px 16px}
+.trapc b{color:var(--trap);display:block;margin-bottom:2px;font-size:15px}
+.trapc p{margin:0;font-size:15px;line-height:1.9;text-align:right}
+/* flashcards */
+.flash{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:16px 0}
+.fc{border:1px solid var(--line);border-radius:12px;background:var(--paper-2);padding:14px 16px;cursor:pointer;transition:border-color .2s,background .2s;text-align:right;color:var(--ink);font-size:15.5px;line-height:1.9}
+.fc:hover{border-color:var(--brand)}
+.fc .q{font-weight:700;display:block}
+.fc .q:before{content:"پرسش " attr(data-n);display:block;font-size:12px;color:var(--brand);font-weight:800}
+.fc .a{display:none;margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);color:var(--ink-2);font-size:15px}
+.fc .hint{display:block;margin-top:6px;font-size:12.5px;color:var(--ink-3)}
+.fc.open{background:var(--clin-bg);border-color:var(--clin-line)}
+.fc.open .a{display:block}
+.fc.open .hint{display:none}
+.rowbtns{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.btn{border:1px solid var(--brand);background:var(--brand);color:#fff;border-radius:10px;padding:8px 16px;font-size:14.5px;font-weight:700;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--brand)}
+.btn:hover{filter:brightness(1.08)}
+/* quiz */
+.qbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;justify-content:space-between;padding:10px 14px;margin:14px 0 18px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
+.qbar .score{font-weight:800}
+.qbar .score .k{font-size:15px}
+.qfilter{display:flex;flex-wrap:wrap;gap:6px}
+.qfilter button{border:1px solid var(--line);background:var(--paper-2);color:var(--ink-2);border-radius:99px;padding:4px 12px;font-size:13px;font-weight:700;cursor:pointer}
+.qfilter button.on{background:var(--brand);border-color:var(--brand);color:#fff}
+.q{border:1px solid var(--line);border-radius:14px;margin:0 0 16px;overflow:hidden;background:var(--paper)}
+.q .qh{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 16px;background:var(--paper-2);border-bottom:1px solid var(--line)}
+.q .qh .qn{font-weight:900;color:var(--brand)}
+.q .stem{padding:14px 18px 4px;font-weight:700;line-height:2;text-align:justify}
+.q .opts{list-style:none;margin:0;padding:6px 14px 14px}
+.q .opts li{margin:6px 0}
+.q .opt{display:flex;gap:10px;width:100%;text-align:right;align-items:flex-start;border:1.5px solid var(--line);background:var(--paper);color:var(--ink);border-radius:11px;padding:10px 12px;font-size:15.5px;line-height:1.9;cursor:pointer;transition:border-color .15s,background .15s}
+.q .opt:hover:not([disabled]){border-color:var(--brand);background:var(--brand-soft)}
+.q .opt .l{flex:none;width:28px;height:28px;border-radius:8px;display:grid;place-items:center;background:var(--paper-2);border:1px solid var(--line);font-weight:800;font-size:14px;line-height:1;margin-top:2px}
+.q .opt[disabled]{cursor:default}
+.q .opt.correct{border-color:var(--ok);background:var(--ok-bg)}
+.q .opt.correct .l{background:var(--ok);color:#fff;border-color:var(--ok)}
+.q .opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.q .opt.wrong .l{background:var(--bad);color:#fff;border-color:var(--bad)}
+.q .opt.dim{opacity:.72}
+.q .exp{display:none;padding:4px 18px 14px;border-top:1px dashed var(--line);margin:0 14px}
+.q.done .exp{display:block}
+.q .verdict{font-weight:800;margin:10px 0 6px}
+.q .verdict.ok{color:var(--ok)} .q .verdict.no{color:var(--bad)}
+.q .exp ul{list-style:none;padding:0;margin:0 0 8px}
+.q .exp li{padding:6px 10px;border-radius:9px;margin:4px 0;font-size:15px;line-height:1.9;background:var(--paper-2)}
+.q .exp li.rt{background:var(--ok-bg)}
+.q .exp li b{margin-inline-end:4px}
+.q .tip{font-size:14.5px;line-height:1.9;padding:8px 12px;border-radius:9px;background:var(--gold-bg);border:1px solid var(--gold-line);margin-top:6px}
+.q .tip b{color:var(--gold)}
+.result{display:none;margin:18px 0;padding:18px;border-radius:14px;border:1px solid var(--clin-line);background:var(--clin-bg)}
+.result.show{display:block}
+.result h4{margin:0 0 6px;color:var(--clin)}
+footer.end{text-align:center;color:var(--ink-3);font-size:13.5px;padding:20px 0 0}
+.totop{position:fixed;left:16px;bottom:16px;z-index:30;width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--paper);color:var(--brand);box-shadow:var(--shadow);cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s;display:grid;place-items:center}
+.totop.show{opacity:1;pointer-events:auto}
+.totop svg{width:22px;height:22px}
+/* print */
+@media print{
+  :root{--fs:12.5pt}
+  body{background:#fff}
+  .topbar,.drawer,.scrim,.totop,.qbar,.rowbtns,.qfilter{display:none!important}
+  section.ch{box-shadow:none;border:0;padding:0 0 10pt;break-inside:auto}
+  .ch-head{break-after:avoid}
+  .cover{box-shadow:none;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  details.ans{display:block}
+  details.ans .ab{display:block!important}
+  .fc .a{display:block}.fc .hint{display:none}
+  .q .exp{display:block}
+  .box,.tbl,.vig,.q,.card{break-inside:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <button class="iconbtn" id="menuBtn" aria-label="باز کردن فهرست مطالب" aria-expanded="false" aria-controls="drawer">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    <span class="hide-sm">فهرست</span>
+  </button>
+  <div class="title">اختلالات افسردگی <small>درسنامه فصل اول</small></div>
+  <div class="tools">
+    <button class="iconbtn hide-sm" id="fsDown" aria-label="کوچک‌تر کردن متن">ـ آ</button>
+    <button class="iconbtn hide-sm" id="fsUp" aria-label="بزرگ‌تر کردن متن">+ آ</button>
+    <button class="iconbtn" id="themeBtn" aria-label="تغییر حالت روشن و تیره">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+    <button class="iconbtn hide-sm" id="printBtn" aria-label="چاپ درسنامه">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v7H6z"/></svg>
+      چاپ
+    </button>
+  </div>
+  <div class="progress" id="progress"></div>
+</header>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="فهرست مطالب">
+  <header><b>فهرست مطالب</b>
+    <button class="iconbtn" id="closeBtn" aria-label="بستن فهرست"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </header>
+  <nav id="toc">
+    <div class="grp">بخش نخست: مبانی</div>
+    <a href="#s1"><span class="n">۱</span>مقدمه و اهداف یادگیری</a>
+    <a href="#s2"><span class="n">۲</span>طبقه‌بندی و نقشه مفهومی</a>
+    <a href="#s3"><span class="n">۳</span>مفاهیم پایه و نشانه‌شناسی</a>
+    <a href="#s4"><span class="n">۴</span>همه‌گیرشناسی</a>
+    <a href="#s5"><span class="n">۵</span>سبب‌شناسی</a>
+    <div class="grp">بخش دوم: تشخیص</div>
+    <a href="#s6"><span class="n">۶</span>چارچوب ارزیابی بالینی</a>
+    <a href="#s7"><span class="n">۷</span>اختلال افسردگی اساسی</a>
+    <a href="#s8"><span class="n">۸</span>اختلال افسردگی مداوم</a>
+    <a href="#s9"><span class="n">۹</span>اختلال کژتنظیمی خلق اخلال‌گر</a>
+    <a href="#s10"><span class="n">۱۰</span>مشخص‌کننده‌های بالینی</a>
+    <a href="#s11"><span class="n">۱۱</span>تشخیص افتراقی</a>
+    <div class="grp">بخش سوم: مداخله و اخلاق</div>
+    <a href="#s12"><span class="n">۱۲</span>خطر خودکشی و مداخله در بحران</a>
+    <a href="#s13"><span class="n">۱۳</span>اخلاق، رازداری و حدود صلاحیت</a>
+    <a href="#s14"><span class="n">۱۴</span>رویکردهای درمانی و ارجاع</a>
+    <div class="grp">بخش چهارم: کاربرد و آزمون</div>
+    <a href="#s15"><span class="n">۱۵</span>نمونه‌های بالینی</a>
+    <a href="#s16"><span class="n">۱۶</span>نکات طلایی و دام‌های آزمونی</a>
+    <a href="#s17"><span class="n">۱۷</span>جمع‌بندی و اعداد کلیدی</a>
+    <a href="#s18"><span class="n">۱۸</span>پرسش‌های مروری</a>
+    <a href="#s19"><span class="n">۱۹</span>آزمون چهارگزینه‌ای تعاملی</a>
+  </nav>
+</aside>
+
+<div class="cover">
+  <div class="in">
+    <span class="kicker">فصل اول | آسیب‌شناسی روانی</span>
+    <h1>اختلالات افسردگی</h1>
+    <p class="sub">از نشانه‌شناسی تا تشخیص و مداخله</p>
+    <div class="meta">
+      <span>۱۹ بخش آموزشی</span><span>۱۱ جدول تشخیصی و مقایسه‌ای</span><span>۳ نمونه بالینی</span><span>۱۴ پرسش مروری</span><span>۲۰ سؤال چهارگزینه‌ای تعاملی</span>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+
+<div class="legend" aria-label="راهنمای رنگ‌ها">
+  <div><i style="background:var(--def)"></i>تعریف و مفهوم پایه</div>
+  <div><i style="background:var(--gold)"></i>نکته طلایی آزمون</div>
+  <div><i style="background:var(--trap)"></i>دام آزمونی</div>
+  <div><i style="background:var(--clin)"></i>نکته بالینی</div>
+  <div><i style="background:var(--safe)"></i>هشدار ایمنی</div>
+  <div><i style="background:var(--num)"></i>عدد و ملاک زمانی</div>
+</div>
+
+<!-- ============ ۱ ============ -->
+<section class="ch" id="s1">
+  <div class="ch-head"><div class="ch-num">۱</div><h2>مقدمه و اهداف یادگیری</h2></div>
+  <p class="lead">در زندگی روزمره، اندوه و کاهش موقت انگیزه می‌توانند پاسخ‌هایی طبیعی به ناکامی، تغییر یا فقدان باشند. اختلالات افسردگی زمانی مطرح می‌شوند که دگرگونی خلق، علاقه، توانایی لذت بردن و کارکرد فرد، الگویی پایدار و از نظر بالینی معنادار پیدا کند.</p>
+  <p>تشخیص افسردگی تنها بر وجود غم استوار نیست؛ مدت نشانه‌ها، تعداد و شدت آن‌ها، پیامدهای کارکردی و علت‌های جایگزین باید هم‌زمان بررسی شوند. بررسی افسردگی در عمل بالینی دو سویه مکمل دارد: از یک سو شناخت دقیق تظاهرات، سیر و معیارهای تشخیص، و از سوی دیگر قضاوت درباره ایمنی مراجع، حدود صلاحیت حرفه‌ای و ضرورت ارجاع. هیچ‌یک از این دو سویه جایگزین دیگری نیست.</p>
+  <p>اختلال افسردگی اساسی با شیوع طول عمر نزدیک به <span class="k">۱۷ درصد</span> از شایع‌ترین اختلالات روانی و از علل اصلی ناتوانی به شمار می‌رود. پرسش‌های آزمون در این مبحث به‌ندرت به تعریف صرف محدود می‌شوند؛ طراحان با گنجاندن جزئیات زمانی، مانند فاصله دوماهه میان دوره‌ها یا مهلت چهارهفته‌ای پس از زایمان، و با طرح موقعیت‌های مرزی میان افسردگی یک‌قطبی و دوقطبی، دقت تفکیک داوطلب را می‌سنجند.</p>
+  <div class="box clin"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>اهمیت در اتاق درمان</div>
+    <p>ناتوانی در شناخت به‌موقع نشانه‌های هشدار خودکشی مستقیماً با جان مراجع و مسئولیت حرفه‌ای درمانگر پیوند دارد. همچنین برچسب افسردگی یک‌قطبی برای فردی که سابقه هیپومانیا دارد، می‌تواند به درمان نامناسب و تغییر فاز خلقی به سمت شیدایی بینجامد.</p>
+  </div>
+  <h3>پس از مطالعه این فصل باید بتوانید</h3>
+  <ol class="objectives">
+    <li>نشانه منفرد، دوره افسردگی اساسی و اختلال افسردگی اساسی را از یکدیگر تفکیک کنید.</li>
+    <li>نُه نشانه دوره افسردگی اساسی را بدون خلط با نشانه‌های غیراختصاصی، در یک شرح‌حال شناسایی کنید.</li>
+    <li>معیارهای زمانی اختلال افسردگی مداوم، اختلال کژتنظیمی خلق اخلال‌گر و مشخص‌کننده‌ها را دقیق به کار ببرید.</li>
+    <li>ویژگی‌های ملانکولیک و نامعمول را بر پایه واکنش‌پذیری خلق و نشانه‌های نباتی مقایسه کنید.</li>
+    <li>افسردگی را از سوگ طبیعی، سوگ طولانی‌مدت، اختلالات دوقطبی و سایر وضعیت‌های مشابه افتراق دهید.</li>
+    <li>توالی صحیح ارزیابی ایمنی، مداخله در بحران و ارجاع را در موقعیت‌های پرخطر اجرا کنید.</li>
+  </ol>
+</section>
+
+<!-- ============ ۲ ============ -->
+<section class="ch" id="s2">
+  <div class="ch-head"><div class="ch-num">۲</div><h2>طبقه‌بندی و نقشه مفهومی</h2></div>
+  <p>در ویراست پنجم راهنمای تشخیصی و آماری اختلالات روانی، اختلالات خلقی به دو گروه جداگانه تقسیم شده‌اند: «اختلالات دوقطبی و مرتبط» و «اختلالات افسردگی». وجه مشترک گروه دوم، وجود خلق غمگین، تهی یا تحریک‌پذیر همراه با تغییرات جسمانی و شناختی است که بر کارکرد فرد اثر محسوس می‌گذارد. آنچه این اختلالات را از هم جدا می‌کند، مدت، زمان‌بندی و سبب‌شناسی فرضی آن‌هاست.</p>
+  <div class="map" role="img" aria-label="نقشه مفهومی طیف اختلالات خلقی">
+    <div class="root">طیف اختلالات خلقی</div>
+    <div class="cols">
+      <div class="col dep"><b>اختلالات افسردگی</b>
+        <span class="chip">اختلال کژتنظیمی خلق اخلال‌گر</span>
+        <span class="chip">اختلال افسردگی اساسی</span>
+        <span class="chip">اختلال افسردگی مداوم</span>
+        <span class="chip">اختلال ملال پیش از قاعدگی</span>
+        <span class="chip">اختلال افسردگی ناشی از مواد یا دارو</span>
+        <span class="chip">اختلال افسردگی ناشی از بیماری جسمانی دیگر</span>
+        <span class="chip">اختلال افسردگی معین دیگر و نامعین</span>
+      </div>
+      <div class="col bip"><b>اختلالات دوقطبی و مرتبط</b>
+        <span class="chip">اختلال دوقطبی نوع نخست: دست‌کم یک دوره مانیا</span>
+        <span class="chip">اختلال دوقطبی نوع دوم: هیپومانیا همراه با افسردگی اساسی</span>
+        <span class="chip">اختلال سیکلوتایمیک: نوسان مزمن زیرآستانه‌ای</span>
+        <span class="chip" style="border-style:dashed">نقطه اتصال دو گروه: «سابقه مانیا یا هیپومانیا» که تشخیص افسردگی یک‌قطبی را منتفی می‌کند</span>
+      </div>
+    </div>
+  </div>
+  <div class="box gold"><div class="bt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.5 5.5 21l2-7.5L2 9h7z"/></svg>نکته طلایی</div>
+    <p>اختلال کژتنظیمی خلق اخلال‌گر یک تشخیص تازه در این ویراست است و در گروه اختلالات افسردگی قرار می‌گیرد، نه در گروه دوقطبی. افسردگی مضاعف نیز یک تشخیص جداگانه نیست؛ اصطلاحی توصیفی برای وقوع دوره افسردگی اساسی بر بستر افسردگی مداوم است.</p>
+  </div>
+</section>
+
+<!-- ============ ۳ ============ -->
+<section class="ch" id="s3">
+  <div class="ch-head"><div class="ch-num">۳</div><h2>مفاهیم پایه و نشانه‌شناسی</h2></div>
+  <h3>نشانه، دوره و اختلال</h3>
+  <p>احساس اندوه، دلتنگی یا کاهش موقت علاقه، به‌تنهایی به معنای وجود اختلال روانی نیست. تمایز سه سطح زیر، پایه تمام تصمیم‌های تشخیصی این فصل است.</p>
+  <div class="ladder">
+    <div><b>نشانه</b><span>تجربه‌ای منفرد مانند غم، خستگی یا کم‌خوابی؛ به‌خودی‌خود تشخیص نیست.</span></div>
+    <div><b>دوره افسردگی اساسی</b><span>مجموعه‌ای از دست‌کم پنج نشانه از نُه نشانه، با مدت حداقل دو هفته و افت کارکرد.</span></div>
+    <div><b>اختلال افسردگی اساسی</b><span>تشخیصی که افزون بر احراز دوره، کنار گذاشتن تبیین‌های دیگر، به‌ویژه سابقه مانیا یا هیپومانیا، را می‌طلبد.</span></div>
+  </div>
+  <div class="box def"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v5h1"/></svg>تعریف</div>
+    <p>یک دوره افسردگی اساسی ممکن است در اختلال دوقطبی نیز رخ دهد. بنابراین «دوره» توصیف یک وضعیت است و «اختلال» تشخیصی است که به کل تاریخچه خلقی فرد وابسته است.</p>
+  </div>
+  <h3>تظاهرات اصلی</h3>
+  <p>خلق افسرده و کاهش علاقه یا لذت، دو نمود محوری افسردگی‌اند. در کنار آن‌ها ممکن است تغییر اشتها و وزن، اختلال خواب، کاهش انرژی، کندی یا بی‌قراری روانی‌حرکتی، افت تمرکز، احساس بی‌ارزشی یا گناه مفرط و اشتغال ذهنی با مرگ پدید آید. در کودکان و نوجوانان، <mark>تحریک‌پذیری</mark> می‌تواند جایگزین توصیف معمول خلق افسرده شود.</p>
+  <p>گاه فرد بیش از آنکه از اندوه سخن بگوید، خستگی، دردهای جسمانی یا افت بازدهی را گزارش می‌کند. در چنین مواردی باید نشانه‌های خلقی، عوامل جسمانی و موقعیت زندگی را به‌صورت یکپارچه سنجید.</p>
+  <h3>معادل‌های افسردگی</h3>
+  <p>در نوجوانان، افسردگی ممکن است به جای غم آشکار، در قالب رفتارهایی پنهان‌شده تظاهر کند که «معادل‌های افسردگی» نامیده می‌شوند. سه‌گانه کلاسیک این معادل‌ها عبارت است از:</p>
+  <div class="grid g3">
+    <div class="card"><h4>فرار از مدرسه</h4><p>غیبت‌های مکرر و افت ناگهانی تحصیلی.</p></div>
+    <div class="card"><h4>سوءمصرف الکل و مواد</h4><p>استفاده از مواد برای تسکین خلق ناخوشایند.</p></div>
+    <div class="card"><h4>رفتارهای پرخطر</h4><p>بی‌پروایی و رفتارهای جنسی پرخطر.</p></div>
+  </div>
+  <div class="box trap"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></svg>دام آزمونی</div>
+    <p>این رفتارها ضرورت بررسی افسردگی را نشان می‌دهند، اما هیچ رفتار منفردی به‌تنهایی ملاک تشخیص نیست. تشخیص همچنان به احراز ملاک‌های کامل وابسته است.</p>
+  </div>
+  <h3>زوال عقل کاذب در سالمندان</h3>
+  <p>در سالمندان، کاهش تمرکز و کندی تفکر ناشی از افسردگی ممکن است به‌صورت افت شناختی شبیه به زوال عقل تظاهر کند. افتراق این دو وضعیت اهمیت درمانی دارد، زیرا نقص شناختی ناشی از افسردگی با درمان افسردگی بهبود می‌یابد.</p>
+  <div class="tbl"><table>
+    <caption>افتراق زوال عقل کاذب افسردگی از زوال عقل واقعی</caption>
+    <thead><tr><th>مؤلفه</th><th>زوال عقل کاذب ناشی از افسردگی</th><th>زوال عقل واقعی</th></tr></thead>
+    <tbody>
+      <tr><td>آگاهی از نقص</td><td>بیمار از نقایص خود آگاه است و درباره آن‌ها شکایت می‌کند.</td><td>بیمار نقایص را انکار یا کوچک جلوه می‌دهد.</td></tr>
+      <tr><td>شیوه پاسخ‌دهی</td><td>پاسخ‌های «نمی‌دانم» و کم‌تلاشی همراه با درماندگی.</td><td>تلاش برای پاسخ دادن، گاه با جعل خاطره و پرکردن خلأها.</td></tr>
+      <tr><td>شروع و سیر</td><td>شروع نسبتاً مشخص و همزمان با نشانه‌های خلقی.</td><td>شروع تدریجی و پیشرونده.</td></tr>
+      <tr><td>عملکرد در آزمون</td><td>متغیر و وابسته به میزان تلاش.</td><td>نسبتاً پایدار و رو به افت.</td></tr>
+    </tbody>
+  </table></div>
+  <h3>مزمن بودن افسردگی</h3>
+  <p>در اختلال افسردگی مداوم، خلق افسرده به بخشی پایدار از تجربه روزانه فرد تبدیل می‌شود. این وضعیت ممکن است سال‌ها ادامه یابد و با ناامیدی، کاهش عزت‌نفس، خستگی و دشواری تمرکز همراه باشد. در بخشی از این مسیر ممکن است معیارهای یک دوره افسردگی اساسی نیز احراز شوند؛ وضعیتی که <b>افسردگی مضاعف</b> نامیده می‌شود.</p>
+</section>
+
+<!-- ============ ۴ ============ -->
+<section class="ch" id="s4">
+  <div class="ch-head"><div class="ch-num">۴</div><h2>همه‌گیرشناسی</h2></div>
+  <div class="grid g3">
+    <div class="stat"><b>۱۷٪</b><span>شیوع طول عمر افسردگی اساسی؛ بالاترین شیوع در میان اختلالات روانی</span></div>
+    <div class="stat"><b>۲ به ۱</b><span>نسبت زن به مرد در افسردگی اساسی؛ در دوقطبی این نسبت تقریباً برابر است</span></div>
+    <div class="stat"><b>۴۰ سالگی</b><span>میانگین سن شروع افسردگی اساسی؛ در دوقطبی حدود ۳۰ سالگی</span></div>
+  </div>
+  <p>در توصیف بالینی نشانه‌ها، فراوانی برخی تظاهرات در نمونه‌های بالینی کلاسیک به این شرح گزارش شده است:</p>
+  <div class="tbl narrow"><table>
+    <caption>فراوانی نشانه‌ها در بیماران افسرده</caption>
+    <thead><tr><th>نشانه</th><th>فراوانی تقریبی</th></tr></thead>
+    <tbody>
+      <tr><td>کاهش انرژی</td><td><span class="k">۹۷٪</span> شایع‌ترین نشانه</td></tr>
+      <tr><td>اضطراب همراه</td><td><span class="k">۹۰٪</span></td></tr>
+      <tr><td>اختلال خواب</td><td><span class="k">۸۰٪</span></td></tr>
+      <tr><td>تغییرات روزانه خلق</td><td><span class="k">۵۰٪</span></td></tr>
+      <tr><td>انکار تجربه افسردگی</td><td><span class="k">۵۰٪</span></td></tr>
+    </tbody>
+  </table></div>
+  <p>هم در اختلال یک‌قطبی و هم در دوقطبی، مردان بیشتر با <b>اختلالات مصرف مواد</b> همراه‌اند و زنان بیشتر با <b>اختلالات اضطرابی و اختلالات خوردن</b> همبود مراجعه می‌کنند.</p>
+  <div class="box clin"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>نکته بالینی</div>
+    <p>این برآوردها به جمعیت مطالعه و روش اندازه‌گیری وابسته‌اند و نرخ ثابتی برای همه جوامع نیستند. ارزش آن‌ها آموزشی و توصیفی است و مبنای تشخیص فردی قرار نمی‌گیرند.</p>
+  </div>
+</section>
+
+<!-- ============ ۵ ============ -->
+<section class="ch" id="s5">
+  <div class="ch-head"><div class="ch-num">۵</div><h2>سبب‌شناسی</h2></div>
+  <p>سبب‌شناسی افسردگی چندعاملی است و عوامل زیستی، روان‌شناختی و اجتماعی در شکل‌گیری و تداوم آن با یکدیگر تعامل دارند.</p>
+  <h3>آمین‌های زیستی</h3>
+  <div class="grid g2">
+    <div class="card"><h4>سروتونین و نوراپی‌نفرین</h4><p>بیشترین نقش را در زیست‌شناسی اختلالات خلقی دارند. کاهش کارکرد سروتونینی بیش از همه با افت خلق و افکار خودکشی همبسته است.</p></div>
+    <div class="card"><h4>دوپامین</h4><p>کاهش فعالیت دوپامینی به‌ویژه با بی‌لذتی و کندی حرکتی در افسردگی مرتبط دانسته می‌شود.</p></div>
+    <div class="card"><h4>استیل‌کولین</h4><p>داروهای افزاینده فعالیت کولینرژیک می‌توانند علائم افسردگی را تشدید و علائم شیدایی را تخفیف دهند.</p></div>
+  </div>
+  <h3>خواب و غدد درون‌ریز</h3>
+  <ul>
+    <li><b>معماری خواب:</b> <mark>کوتاه شدن زمان لازم تا آغاز نخستین مرحله خواب با حرکات سریع چشم</mark>، طولانی‌تر شدن نخستین دوره این مرحله، افزایش تراکم آن و کاهش خواب عمیق موج آهسته.</li>
+    <li><b>محور هیپوتالاموس، هیپوفیز و فوق کلیه:</b> بیش‌فعالی این محور و افزایش ترشح کورتیزول. در آزمون سرکوب با دگزامتازون، درصد قابل توجهی از بیماران، به‌ویژه در افسردگی با ویژگی‌های ملانکولیک، <b>عدم سرکوب</b> کورتیزول نشان می‌دهند.</li>
+  </ul>
+  <div class="box trap"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></svg>دام آزمونی</div>
+    <p>یافته‌های خواب و آزمون دگزامتازون ارزش پژوهشی و توصیفی دارند، اما هیچ‌یک به‌تنهایی آزمون تشخیصی افسردگی نیستند.</p>
+  </div>
+  <h3>دیدگاه شناختی: سه‌گانه شناختی بک</h3>
+  <div class="grid g3">
+    <div class="card"><h4>نگرش منفی به خود</h4><p>«من بی‌ارزش و بی‌کفایتم.»</p></div>
+    <div class="card"><h4>نگرش منفی به جهان و تجربه</h4><p>«همه چیز خصمانه و ناعادلانه است.»</p></div>
+    <div class="card"><h4>نگرش منفی به آینده</h4><p>«هیچ امیدی نیست و هیچ درمانی کمکم نمی‌کند.»</p></div>
+  </div>
+  <p>کاهش فعالیت در افسردگی، فرصت تجربه رویدادهای خوشایند و احساس تسلط را محدود می‌کند و به تداوم چرخه افسردگی می‌انجامد. این سازوکار، مبنای منطقی فعال‌سازی رفتاری است.</p>
+</section>
+
+<!-- ============ ۶ ============ -->
+<section class="ch" id="s6">
+  <div class="ch-head"><div class="ch-num">۶</div><h2>چارچوب ارزیابی بالینی</h2></div>
+  <p>ارزیابی بالینی با تعیین فوریت خطر آغاز می‌شود و سپس به بازسازی سیر زمانی نشانه‌ها، شناخت سابقه دوره‌های خلقی و بررسی علت‌های دیگر می‌رسد. احراز معیارهای یک اختلال، بدون توجه به تاریخچه مانیا، مصرف دارو یا مواد و وضعیت جسمانی، برای نتیجه‌گیری تشخیصی کافی نیست.</p>
+  <ol class="steps danger">
+    <li><b>غربالگری ایمنی و بحران</b><span>آیا افکار فعال، برنامه، دسترسی به ابزار یا سابقه اقدام به خودکشی وجود دارد؟ <span class="yes">در صورت مثبت بودن:</span> اجرای فوری اقدامات ایمنی، درگیر کردن شبکه حمایتی و ارجاع اضطراری.</span></li>
+    <li><b>بررسی علت‌های جایگزین</b><span>بیماری جسمانی، مصرف یا قطع دارو و مواد و اختلالات روان‌پریشی اولیه باید کنار گذاشته شوند.</span></li>
+    <li><b>تاریخچه نوسان خلق</b><span>آیا دوره‌ای با انرژی غیرمعمول، کاهش نیاز به خواب، پرحرفی یا ولخرجی وجود داشته است؟ <span class="yes">در صورت مثبت بودن:</span> توقف برچسب یک‌قطبی و ارزیابی دقیق اختلال دوقطبی.</span></li>
+    <li><b>تطبیق تعداد و مدت نشانه‌ها</b><span>دست‌کم پنج نشانه از نُه نشانه برای دو هفته؟ در غیر این صورت، آیا خلق افسرده مزمن دوساله با دو نشانه همراه وجود دارد؟ وجود هر دو الگو به معنای افسردگی مضاعف است.</span></li>
+    <li><b>تشخیص افتراقی و مشخص‌کننده‌ها</b><span>افتراق از سوگ، اختلال انطباقی و سایر وضعیت‌ها؛ سپس تعیین مشخص‌کننده‌هایی مانند ملانکولیک یا نامعمول.</span></li>
+    <li><b>انتخاب مسیر مداخله</b><span>خفیف تا متوسط: روان‌درمانی. متوسط تا شدید یا ملانکولیک: ارجاع برای ارزیابی دارویی همزمان. خطر حاد، روان‌پریشی یا کاتاتونیا: ارجاع فوری تخصصی.</span></li>
+  </ol>
+  <div class="box clin"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>نکته بالینی</div>
+    <p>در مواجهه با فقدان یکی از نزدیکان، ماهیت تجربه سوگ و نسبت آن با نشانه‌های افسردگی اهمیت دارد. در کودکانِ دارای تحریک‌پذیری مزمن نیز استمرار نشانه‌ها در محیط‌های مختلف باید بررسی شود، نه صرفاً وقوع یک رفتار در یک موقعیت.</p>
+  </div>
+</section>
+
+<!-- ============ ۷ ============ -->
+<section class="ch" id="s7">
+  <div class="ch-head"><div class="ch-num">۷</div><h2>اختلال افسردگی اساسی</h2></div>
+  <h3>ملاک اصلی: نشانه‌های دوره افسردگی اساسی</h3>
+  <p>تشخیص دوره افسردگی اساسی مستلزم وجود دست‌کم <span class="k">۵ نشانه از ۹ نشانه</span> در بازه‌ای <span class="k">حداقل دو هفته‌ای</span> است. نشانه‌ها باید تغییری نسبت به کارکرد پیشین فرد باشند و <b>دست‌کم یکی از آن‌ها خلق افسرده یا کاهش محسوس علاقه و لذت</b> باشد.</p>
+  <div class="tbl"><table>
+    <caption>نُه نشانه دوره افسردگی اساسی و نکات آزمونی</caption>
+    <thead><tr><th>ردیف</th><th>نشانه</th><th>نکته بالینی و آزمونی</th></tr></thead>
+    <tbody>
+      <tr><td class="c">۱</td><td>خلق افسرده در بخش عمده روز، تقریباً هر روز <span class="tag core">محوری</span></td><td>در کودک و نوجوان می‌تواند به صورت خلق تحریک‌پذیر باشد.</td></tr>
+      <tr><td class="c">۲</td><td>کاهش چشمگیر علاقه یا لذت <span class="tag core">محوری</span></td><td>در همه یا تقریباً همه فعالیت‌ها؛ «بی‌لذتی» نامیده می‌شود.</td></tr>
+      <tr><td class="c">۳</td><td>کاهش یا افزایش معنادار وزن یا اشتها</td><td>بدون رژیم غذایی؛ نمونه آن تغییر بیش از <span class="k">۵٪</span> وزن بدن در یک ماه است.</td></tr>
+      <tr><td class="c">۴</td><td>بی‌خوابی یا پرخوابی</td><td>بیدار شدن زودهنگام صبح، الگوی کلاسیک ملانکولیک است.</td></tr>
+      <tr><td class="c">۵</td><td>بی‌قراری یا کندی روانی‌حرکتی</td><td><mark>باید برای دیگران قابل مشاهده باشد</mark>، نه فقط احساس ذهنی بیمار.</td></tr>
+      <tr><td class="c">۶</td><td>خستگی یا کاهش انرژی</td><td>تقریباً هر روز؛ شایع‌ترین نشانه در گزارش‌های بالینی.</td></tr>
+      <tr><td class="c">۷</td><td>احساس بی‌ارزشی یا گناه مفرط و نامتناسب</td><td>ممکن است شدت هذیانی پیدا کند. <span class="tag red">کاهش عزت‌نفس در این فهرست نیست</span></td></tr>
+      <tr><td class="c">۸</td><td>کاهش توان تفکر و تمرکز یا بلاتصمیمی</td><td>در سالمندان ممکن است به شکل زوال عقل کاذب ظاهر شود.</td></tr>
+      <tr><td class="c">۹</td><td>افکار مکرر مرگ یا خودکشی، برنامه یا اقدام</td><td>داشتن برنامه مشخص لازم نیست. <span class="tag red">ترس از مردن معادل این نشانه نیست</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="box trap"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></svg>دام آزمونی پرتکرار</div>
+    <ul>
+      <li>«کاهش عزت‌نفس» به‌صورت مستقل در فهرست نُه‌گانه نیامده و از نشانه‌های <b>اختلال افسردگی مداوم</b> است. در دوره افسردگی اساسی، معیار متناظر «احساس بی‌ارزشی یا گناه مفرط» است.</li>
+      <li>«ترس از مرگ و مردن» با «افکار مکرر مرگ» یکسان نیست و ممکن است در وضعیت‌های اضطرابی نیز دیده شود.</li>
+      <li>اگر فرد هفت نشانه داشته باشد ولی هیچ‌یک خلق افسرده یا بی‌لذتی نباشد، دوره افسردگی اساسی احراز نمی‌شود.</li>
+    </ul>
+  </div>
+  <h3>شرایط تکمیلی تشخیص</h3>
+  <div class="grid g2">
+    <div class="card"><h4>پیامد بالینی</h4><p>نشانه‌ها موجب ناراحتی قابل توجه یا افت کارکرد اجتماعی، شغلی یا سایر حوزه‌های مهم شوند.</p></div>
+    <div class="card"><h4>کنار گذاشتن علل زیستی</h4><p>دوره ناشی از اثر فیزیولوژیک دارو، مواد یا بیماری جسمانی دیگر نباشد.</p></div>
+    <div class="card"><h4>کنار گذاشتن روان‌پریشی</h4><p>وضعیت با اسکیزوافکتیو، اسکیزوفرنی یا سایر اختلالات طیف روان‌پریشی بهتر توضیح داده نشود.</p></div>
+    <div class="card" style="border-color:var(--gold-line);background:var(--gold-bg)"><h4 style="color:var(--gold)">قاعده طلایی</h4><p><b>هرگز دوره مانیا یا هیپومانیا رخ نداده باشد</b>؛ مگر آنکه همه آن دوره‌ها صرفاً ناشی از اثر ماده یا بیماری جسمانی باشند.</p></div>
+  </div>
+  <p>به همین دلیل، در هر ارزیابی افسردگی، بررسی سابقه کاهش نیاز به خواب، افزایش غیرمعمول انرژی و فعالیت و تغییرات محسوس رفتار ضروری است.</p>
+  <h3>دوره‌های عودکننده و بازگشت علائم</h3>
+  <p>هنگامی که فرد بیش از یک دوره افسردگی اساسی داشته باشد، برای مستقل شمردن دو دوره، وجود دست‌کم <span class="k">دو ماه متوالی</span> بدون احراز معیارهای افسردگی اساسی میان آن‌ها لازم است.</p>
+  <div class="grid g2">
+    <div class="card"><h4>بازگشت علائم در همان دوره</h4><p>اگر پس از کمتر از دو ماه بهبودی علائم دوباره ظاهر شوند، ادامه همان دوره قبلی است، نه دوره جدید.</p></div>
+    <div class="card"><h4>عود و دوره جدید</h4><p>اگر دست‌کم دو ماه متوالی بهبودی وجود داشته و سپس علائم بازگردند، دوره جدید و تشخیص «عودکننده» مطرح است.</p></div>
+  </div>
+  <div class="box gold"><div class="bt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.5 5.5 21l2-7.5L2 9h7z"/></svg>نکته طلایی: حذف استثنای سوگ</div>
+    <p>در ویراست چهارم، سوگ تا دو ماه از تشخیص افسردگی اساسی معاف بود. در ویراست پنجم این استثنا حذف شده است؛ اگر فرد سوگوار معیارهای کامل دوره افسردگی اساسی را داشته باشد، به‌ویژه احساس بی‌ارزشی، کندی روانی‌حرکتی یا افکار خودکشی، تشخیص افسردگی اساسی قابل طرح است.</p>
+  </div>
+</section>
+
+<!-- ============ ۸ ============ -->
+<section class="ch" id="s8">
+  <div class="ch-head"><div class="ch-num">۸</div><h2>اختلال افسردگی مداوم</h2></div>
+  <p>این اختلال با خلق افسرده‌ای شناخته می‌شود که در بخش عمده روز و در بیشتر روزها وجود دارد و سیر آن طولانی است. حداقل مدت این الگو در <span class="k">بزرگسالان دو سال</span> و در <span class="k">کودکان و نوجوانان یک سال</span> است. خلق کودکان ممکن است بیش از اندوه، به صورت تحریک‌پذیری نمود پیدا کند.</p>
+  <h3>نشانه‌های همراه: دست‌کم دو مورد از شش مورد</h3>
+  <div class="grid g3">
+    <div class="card"><p>۱. کاهش یا افزایش اشتها</p></div>
+    <div class="card"><p>۲. بی‌خوابی یا پرخوابی</p></div>
+    <div class="card"><p>۳. خستگی یا افت انرژی</p></div>
+    <div class="card" style="border-color:var(--gold-line);background:var(--gold-bg)"><p><b>۴. کاهش عزت‌نفس</b></p></div>
+    <div class="card"><p>۵. تمرکز ضعیف یا دشواری در تصمیم‌گیری</p></div>
+    <div class="card"><p>۶. احساس ناامیدی</p></div>
+  </div>
+  <h3>شرط تداوم و موارد کنارگذارنده</h3>
+  <p>در طول دوره تعیین‌شده، فرد نباید بیش از <span class="k">دو ماه متوالی</span> از نشانه‌ها رها بوده باشد؛ بنابراین بهبودهای کوتاه‌مدت به‌خودی‌خود تشخیص را رد نمی‌کنند. هرگز نباید دوره مانیا یا هیپومانیا رخ داده یا معیارهای اختلال سیکلوتایمیک احراز شده باشد. اثرات دارو، مواد، بیماری جسمانی و اختلالات روان‌پریشی نیز باید بررسی شوند.</p>
+  <div class="grid g2">
+    <div class="card"><h4>زودآغاز</h4><p>شروع علائم پیش از ۲۱ سالگی.</p></div>
+    <div class="card"><h4>دیرآغاز</h4><p>شروع علائم در ۲۱ سالگی یا پس از آن.</p></div>
+  </div>
+  <div class="box def"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v5h1"/></svg>تفاوت ماهوی با افسردگی اساسی</div>
+    <p>در افسردگی مداوم، <b>شکایت‌های ذهنی</b> فرد، مانند ناامیدی، بی‌کفایتی و فرسودگی، معمولاً بسیار بیشتر از <b>نشانه‌های عینی قابل مشاهده</b> است. افسردگی بیشتر به‌صورت پایدار و درونی تجربه می‌شود و ناتوانی کارکردی شدید، کمتر از افسردگی اساسی دیده می‌شود.</p>
+  </div>
+  <div class="box trap"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></svg>دام آزمونی</div>
+    <p>اگر بیمار در طول دوره، سه ماه بهبودی کامل داشته باشد، شرط تداوم شکسته شده است. اما بهبودی‌های کوتاه‌تر از دو ماه، تشخیص افسردگی مداوم را رد نمی‌کنند.</p>
+  </div>
+  <h3>افسردگی مضاعف</h3>
+  <p>ممکن است در بستر خلق افسرده مزمن، دوره‌ای شدیدتر پدید آید که معیارهای کامل افسردگی اساسی را برآورده کند. این وضعیت «افسردگی مضاعف» نامیده می‌شود. نشانه‌ای که در آزمون معمولاً به آن اشاره می‌کند، سابقه چندساله خلق پایین، کم‌انرژی و بدبینی است که در چند هفته اخیر با نشانه‌های تازه و شدیدتر تشدید شده است.</p>
+</section>
+
+<!-- ============ ۹ ============ -->
+<section class="ch" id="s9">
+  <div class="ch-head"><div class="ch-num">۹</div><h2>اختلال کژتنظیمی خلق اخلال‌گر</h2></div>
+  <p>این اختلال دوران کودکی با هدف <b>کاهش تشخیص نادرست و بیش از حد اختلال دوقطبی در کودکان</b> تعریف شده است تا تحریک‌پذیری مزمن و غیردوره‌ای از دوره‌های مشخص شیدایی جدا شود. ویژگی آن تنها وقوع قشقرق نیست؛ خلق خشمگین و تحریک‌پذیر میان طغیان‌ها نیز ادامه دارد.</p>
+  <div class="tbl"><table>
+    <caption>ملاک‌های تشخیصی و اعداد کلیدی</caption>
+    <thead><tr><th>مؤلفه</th><th>ملاک</th></tr></thead>
+    <tbody>
+      <tr><td>طغیان‌های خشم</td><td>شدید، کلامی یا رفتاری و نامتناسب با موقعیت و سطح رشد کودک</td></tr>
+      <tr><td>فراوانی</td><td>به‌طور متوسط <span class="k">۳ بار یا بیشتر در هفته</span></td></tr>
+      <tr><td>خلق میان طغیان‌ها</td><td>تحریک‌پذیر یا خشمگین در بخش عمده روز و تقریباً همه روزها</td></tr>
+      <tr><td>مدت</td><td>دست‌کم <span class="k">۱۲ ماه</span>، بدون دوره <span class="k">۳ ماهه</span> یا بیشتر عاری از همه نشانه‌ها</td></tr>
+      <tr><td>محیط</td><td>دست‌کم <span class="k">دو محیط</span> از خانه، مدرسه و روابط با همسالان؛ شدید در دست‌کم یکی</td></tr>
+      <tr><td>سن</td><td>شروع پیش از <span class="k">۱۰ سالگی</span>؛ نخستین تشخیص نه پیش از <span class="k">۶</span> و نه پس از <span class="k">۱۸ سالگی</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="box trap"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></svg>دام آزمونی: قواعد همبودی</div>
+    <ul>
+      <li>این تشخیص هم‌زمان با اختلال دوقطبی، اختلال نافرمانی مقابله‌جویانه یا اختلال انفجاری متناوب ثبت نمی‌شود.</li>
+      <li>اگر کودک ملاک‌های این اختلال و نافرمانی مقابله‌جویانه را هم‌زمان داشته باشد، <b>فقط اختلال کژتنظیمی خلق اخلال‌گر</b> تشخیص داده می‌شود.</li>
+      <li>وجود یک دوره مشخص مانیا یا هیپومانیا، این تشخیص را منتفی می‌کند.</li>
+      <li>شرط «شروع پیش از ده‌سالگی» به معنای ممنوعیت تشخیص در کودک نُه‌ساله نیست.</li>
+    </ul>
+  </div>
+  <div class="box clin"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>پیش‌آگهی</div>
+    <p>کودکان دارای تحریک‌پذیری مزمن در ادامه رشد بیشتر در معرض <b>اختلالات افسردگی یک‌قطبی و اضطرابی</b> هستند تا اختلال دوقطبی. با این حال، پیش‌آگهی هر فرد نیازمند بررسی مستقل عوامل رشدی و محیطی است.</p>
+  </div>
+</section>
+
+<!-- ============ ۱۰ ============ -->
+<section class="ch" id="s10">
+  <div class="ch-head"><div class="ch-num">۱۰</div><h2>مشخص‌کننده‌های بالینی</h2></div>
+  <p>مشخص‌کننده‌ها به توصیف دقیق‌تر ویژگی‌های یک دوره افسردگی کمک می‌کنند و پس از احراز تشخیص پایه به کار می‌روند. بنابراین «ملانکولیک» یا «نامعمول» تشخیص مستقل نیستند.</p>
+  <h3>ویژگی‌های ملانکولیک</h3>
+  <p>نمای کلاسیک و «درون‌زاد» افسردگی با پیوند قوی با تغییرات زیستی و غدد درون‌ریز.</p>
+  <div class="grid g2">
+    <div class="card"><h4>بخش نخست: دست‌کم یک مورد</h4><p>از دست رفتن لذت از همه یا تقریباً همه فعالیت‌ها، یا <b>نبود واکنش خلق</b> به رویدادهای معمولاً خوشایند.</p></div>
+    <div class="card"><h4>بخش دوم: دست‌کم سه مورد از شش</h4><p>کیفیت متمایز و عمیق خلق؛ بدتر بودن منظم در صبح؛ بیداری دست‌کم <span class="k">۲ ساعت</span> زودتر از معمول؛ کندی یا بی‌قراری آشکار؛ بی‌اشتهایی یا کاهش وزن؛ گناه شدید یا نامتناسب.</p></div>
+  </div>
+  <h3>ویژگی‌های نامعمول</h3>
+  <div class="grid g2">
+    <div class="card"><h4>ملاک الزامی</h4><p><b>واکنش‌پذیری خلق</b>: خلق در پاسخ به رویدادهای مثبت واقعی یا بالقوه، به‌طور موقت بهتر می‌شود.</p></div>
+    <div class="card"><h4>دست‌کم دو مورد از چهار</h4><p>افزایش اشتها یا وزن؛ پرخوابی چشمگیر؛ فلج سربی یعنی احساس سنگینی شدید دست‌ها و پاها؛ حساسیت دیرپا به طرد بین‌فردی.</p></div>
+  </div>
+  <div class="box trap"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></svg>دام آزمونی</div>
+    <p>حساسیت به طرد بین‌فردی پدیده‌ای نیست که فقط در دوره افسردگی آغاز شود؛ یک <b>ویژگی پایدار و دیرینه</b> است که در دوره افسردگی تشدید می‌شود.</p>
+  </div>
+  <div class="tbl"><table>
+    <caption>مقایسه ویژگی‌های ملانکولیک و نامعمول</caption>
+    <thead><tr><th>مؤلفه</th><th>ملانکولیک</th><th>نامعمول</th></tr></thead>
+    <tbody>
+      <tr><td>واکنش‌پذیری خلق</td><td>وجود ندارد؛ حتی خبر خوش خلق را تغییر نمی‌دهد</td><td><b>بارز و الزامی</b>؛ خلق با رویداد خوشایند روشن می‌شود</td></tr>
+      <tr><td>اشتها و وزن</td><td>بی‌اشتهایی و کاهش وزن</td><td>پرخوری، به‌ویژه ولع مواد قندی و نشاسته‌ای، و افزایش وزن</td></tr>
+      <tr><td>خواب</td><td>بیداری زودهنگام صبح</td><td>پرخوابی</td></tr>
+      <tr><td>الگوی روزانه</td><td>بدتر بودن منظم در صبح</td><td>نوسان بر اساس رویدادهای بیرونی</td></tr>
+      <tr><td>نشانه جسمانی ویژه</td><td>کندی یا بی‌قراری آشکار روانی‌حرکتی</td><td>فلج سربی</td></tr>
+      <tr><td>یافته زیستی</td><td>بیشترین میزان عدم سرکوب در آزمون دگزامتازون</td><td>ارتباط کمتر با این یافته</td></tr>
+      <tr><td>پاسخ درمانی کلاسیک</td><td>ضدافسردگی‌های سه‌حلقه‌ای و درمان تشنج الکتریکی</td><td>مهارکننده‌های مونوآمین اکسیداز و ضدافسردگی‌های انتخابی سروتونین</td></tr>
+    </tbody>
+  </table></div>
+  <h3>سایر مشخص‌کننده‌ها</h3>
+  <div class="grid g2">
+    <div class="card"><h4>ویژگی‌های مختلط</h4><p>دست‌کم <span class="k">۳ نشانه</span> شیدایی یا نیمه‌شیدایی در بیشتر روزهای دوره افسردگی، بدون احراز معیارهای کامل مانیا یا هیپومانیا؛ زنگ هشدار طیف دوقطبی.</p></div>
+    <div class="card"><h4>همراه با پریشانی اضطرابی</h4><p>احساس تنش، بی‌قراری، نگرانی شدید و ترس از اتفاقی ناگوار یا از دست دادن کنترل.</p></div>
+    <div class="card"><h4>الگوی فصلی</h4><p>رابطه منظم شروع و فروکش دوره‌ها با زمان معینی از سال، معمولاً شروع در پاییز یا زمستان و بهبود در بهار، دست‌کم برای <span class="k">۲ سال</span> متوالی. نقش نور و ملاتونین مطرح است و نوردرمانی مداخله اختصاصی است؛ در افراد مستعد دوقطبی باید مراقب تغییر فاز بود.</p></div>
+    <div class="card"><h4>همراه با کاتاتونیا</h4><p>دست‌کم <span class="k">۳ نشانه</span> کاتاتونیک مانند بهت، انعطاف‌پذیری مومی، گنگی، منفی‌کاری، وضعیت‌گیری غیرعادی، رفتار قالبی، ادا و اطوار، تقلید گفتار یا تقلید حرکت؛ نیازمند ارزیابی و درمان فوری.</p></div>
+    <div class="card" style="border-color:var(--num-line)"><h4>شروع در حوالی زایمان</h4><p>شروع در دوران بارداری یا طی <span class="k">۴ هفته نخست</span> پس از زایمان. ایمنی مادر و نوزاد، خواب، حمایت اجتماعی و علائم روان‌پریشی باید ویژه بررسی شوند.</p></div>
+    <div class="card"><h4>همراه با ویژگی‌های روان‌پریشانه</h4><p>وجود هذیان یا توهم، که اغلب با محتوای گناه، بیماری یا نابودی همخوان با خلق است؛ از نشانه‌های شدت و ضرورت ارجاع تخصصی.</p></div>
+  </div>
+  <div class="box trap"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></svg>دام آزمونی</div>
+    <p>اگر علائم افسردگی دو ماه پس از زایمان آغاز شود، مشخص‌کننده «شروع در حوالی زایمان» به کار نمی‌رود؛ مهلت این مشخص‌کننده حداکثر چهار هفته نخست پس از زایمان است.</p>
+  </div>
+</section>
+
+<!-- ============ ۱۱ ============ -->
+<section class="ch" id="s11">
+  <div class="ch-head"><div class="ch-num">۱۱</div><h2>تشخیص افتراقی</h2></div>
+  <h3>اختلالات خلقی و وضعیت‌های مرتبط با سوگ</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>وضعیت</th><th>وجه مشترک با افسردگی</th><th>ویژگی افتراقی اصلی</th><th>خطای رایج</th></tr></thead>
+    <tbody>
+      <tr><td>اختلال افسردگی مداوم</td><td>خلق پایین، خستگی، ناامیدی</td><td>الگوی مزمن دوساله در بزرگسال و یک‌ساله در کودک؛ وقفه بدون علامت حداکثر دو ماه؛ شکایت ذهنی بیش از نشانه عینی</td><td>اشتباه گرفتن خلق پایین عادتی با دوره کامل افسردگی اساسی</td></tr>
+      <tr><td>اختلال دوقطبی نوع نخست</td><td>امکان دوره‌های افسردگی اساسی</td><td>دست‌کم یک دوره مانیا با مدت <span class="k">۷ روز</span> یا نیاز به بستری</td><td>تمرکز صرف بر شکایت فعلی افسردگی</td></tr>
+      <tr><td>اختلال دوقطبی نوع دوم</td><td>دوره افسردگی کاملاً مشابه</td><td>دست‌کم یک دوره هیپومانیا با مدت <span class="k">۴ روز</span>، بدون سابقه مانیا</td><td>غربالگری نکردن دوره‌های پرانرژی گذشته</td></tr>
+      <tr><td>اختلال سیکلوتایمیک</td><td>نوسان خلق و نشانه‌های افسردگی</td><td>نوسان‌های مزمن که به آستانه دوره کامل افسردگی اساسی یا هیپومانیا نمی‌رسند</td><td>خلط با دوقطبی نوع دوم</td></tr>
+      <tr><td>سوگ طبیعی</td><td>اندوه، گریه، اختلال خواب و اشتها</td><td>درد فقدان به‌صورت <b>موجی</b> و در پی یادآورها؛ عزت‌نفس حفظ می‌شود؛ اشتغال ذهنی با فرد درگذشته است نه با بی‌ارزشی خود</td><td>برچسب فوری افسردگی پیش از ارزیابی عزت‌نفس</td></tr>
+      <tr><td>اختلال سوگ طولانی‌مدت</td><td>اندوه پایدار، پوچی، افت کارکرد</td><td>اشتیاق یا اشتغال ذهنی شدید با فرد درگذشته، پس از دست‌کم <span class="k">۱۲ ماه</span> در بزرگسال یا <span class="k">۶ ماه</span> در کودک</td><td>عادی دانستن هر سوگ طولانی یا اختلال دانستن صرف طول مدت</td></tr>
+      <tr><td>اختلال کژتنظیمی خلق اخلال‌گر</td><td>خلق منفی و تحریک‌پذیری در کودکی</td><td>خشم پایدار میان طغیان‌ها، دوازده ماه، دو محیط یا بیشتر</td><td>خلط با دوقطبی کودکی یا نافرمانی مقابله‌جویانه</td></tr>
+    </tbody>
+  </table></div>
+  <h3>اختلالات دارای نشانه‌های مشابه</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>وضعیت</th><th>شباهت ظاهری</th><th>سرنخ افتراقی</th></tr></thead>
+    <tbody>
+      <tr><td>اختلال انطباقی با خلق افسرده</td><td>اندوه و افت عملکرد پس از فشار روانی</td><td>شروع ظرف <span class="k">۳ ماه</span> از عامل فشارزا و نرسیدن به آستانه افسردگی اساسی. <b>اگر معیارهای افسردگی اساسی احراز شوند، وجود عامل فشارزا مانع آن تشخیص نیست.</b></td></tr>
+      <tr><td>اختلال شخصیت اسکیزوئید</td><td>انزوا و کاهش ابراز عاطفه</td><td>بی‌علاقگی پایدار و دیرینه به روابط، نه بی‌لذتی تازه‌پدیدآمده و خلق افسرده</td></tr>
+      <tr><td>اختلال شخصیت مرزی</td><td>احساس پوچی، نوسان خلق، رفتار آسیب‌رسان</td><td>بی‌ثباتی عاطفی واکنشی همراه با دشواری‌های هویت، ترس از رهاشدگی و روابط ناپایدار</td></tr>
+      <tr><td>اختلال اسکیزوافکتیو</td><td>همراهی علائم خلقی با روان‌پریشی</td><td>دوره‌ای از هذیان یا توهم در غیاب دوره خلقی عمده</td></tr>
+      <tr><td>افسردگی با ویژگی‌های روان‌پریشانه</td><td>هذیان یا توهم در کنار افسردگی</td><td>علائم روان‌پریشی فقط در دوره‌های خلقی رخ می‌دهند</td></tr>
+      <tr><td>اختلال اضطراب فراگیر</td><td>خستگی، تمرکز ضعیف، اختلال خواب</td><td>نگرانی فراگیر و دشوارکنترل، هسته اصلی علائم است</td></tr>
+      <tr><td>افسردگی ناشی از مواد یا بیماری جسمانی</td><td>همه نشانه‌های افسردگی</td><td>پیوند زمانی با مصرف یا قطع ماده، یا با بیماری مانند کم‌کاری تیروئید</td></tr>
+    </tbody>
+  </table></div>
+  <h3>سوگ طبیعی و اختلال سوگ طولانی‌مدت</h3>
+  <p>سوگ طبیعی ممکن است بسیار دردناک و طولانی باشد و مدت آن به‌تنهایی برای تشخیص اختلال کافی نیست. در اختلال سوگ طولانی‌مدت، افزون بر معیار زمانی، اشتیاق یا اشتغال ذهنی با فرد درگذشته و دست‌کم <span class="k">۳ نشانه</span> همراه، مانند اختلال هویت، دشواری پذیرش فقدان، اجتناب از یادآورها، درد عاطفی شدید یا احساس بی‌معنایی، لازم است. این نشانه‌ها باید در بیشتر روزها و دست‌کم در <span class="k">ماه گذشته</span> حضور داشته، موجب اختلال بالینی معنادار شده و از هنجارهای فرهنگی و اجتماعی مورد انتظار فراتر روند.</p>
+  <div class="tbl narrow"><table>
+    <caption>سوگ طبیعی در برابر افسردگی اساسی</caption>
+    <thead><tr><th>مؤلفه</th><th>سوگ طبیعی</th><th>افسردگی اساسی</th></tr></thead>
+    <tbody>
+      <tr><td>عاطفه غالب</td><td>احساس خلأ و فقدان</td><td>خلق افسرده پایدار و ناتوانی در انتظار شادی</td></tr>
+      <tr><td>الگوی زمانی</td><td>موجی، همراه با یادآورها</td><td>پایدار و فراگیر</td></tr>
+      <tr><td>عزت‌نفس</td><td>معمولاً حفظ می‌شود</td><td>احساس بی‌ارزشی و تنفر از خود</td></tr>
+      <tr><td>محتوای افکار</td><td>اشتغال با خاطرات فرد درگذشته</td><td>نشخوار خودانتقادی و بدبینانه</td></tr>
+      <tr><td>افکار مرگ</td><td>بیشتر به شکل «پیوستن به عزیز»</td><td>ناشی از بی‌ارزشی یا تحمل‌ناپذیری درد</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ ۱۲ ============ -->
+<section class="ch" id="s12">
+  <div class="ch-head"><div class="ch-num">۱۲</div><h2>خطر خودکشی و مداخله در بحران</h2></div>
+  <p>ارزیابی ایمنی بخش جدایی‌ناپذیر مصاحبه با فرد افسرده است. افسردگی شدید، ناامیدی یا انزوا به‌تنهایی سطح خطر را مشخص نمی‌کنند؛ <b>پرسش مستقیم و همدلانه درباره افکار خودکشی، قصد، برنامه، دسترسی به ابزار، سابقه اقدام و عوامل محافظت‌کننده</b> ضرورت دارد. سابقه اقدام پیشین از مهم‌ترین نشانه‌های هشدار است.</p>
+  <div class="box clin"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>نکته بالینی</div>
+    <p>پرسیدن مستقیم درباره خودکشی، فکر خودکشی را در ذهن مراجع ایجاد نمی‌کند؛ برعکس، اغلب حس فهمیده شدن و امکان گفت‌وگو درباره کمک را فراهم می‌سازد.</p>
+  </div>
+  <h3>حوزه‌های نشانه‌های هشدار</h3>
+  <div class="grid g3">
+    <div class="card"><h4>شناختی</h4><p>ناامیدی و ناتوانی در تصور آینده</p></div>
+    <div class="card"><h4>هیجانی</h4><p>درماندگی یا بی‌حسی عاطفی</p></div>
+    <div class="card"><h4>رفتاری</h4><p>کناره‌گیری، تغییر محسوس فعالیت‌ها، بخشیدن اموال</p></div>
+    <div class="card"><h4>جسمانی</h4><p>آشفتگی شدید خواب و اشتها</p></div>
+    <div class="card"><h4>بین‌فردی</h4><p>قطع ارتباط و احساس سربار بودن</p></div>
+  </div>
+  <div class="box safe"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M12 8v5M12 16h.01"/></svg>هشدار ایمنی: پنجره خطر در آغاز درمان</div>
+    <p>در آغاز درمان، انرژی، خواب یا اشتها ممکن است زودتر از خلق بهبود یابند. بازگشت انرژی پیش از بهبود خلق می‌تواند توان اقدام را افزایش دهد؛ بنابراین بهبود ظاهری به معنای برطرف شدن خطر نیست و ارزیابی مجدد افکار و قصد خودکشی باید ادامه یابد.</p>
+  </div>
+  <h3>مراحل مداخله در بحران</h3>
+  <ol class="steps danger">
+    <li><b>سنجش موقعیت و خطر</b><span>ارزیابی فوری وضعیت جانی و روانی، شدت بحران، توان قضاوت، نشانه‌های روان‌پریشی و دسترسی به کمک.</span></li>
+    <li><b>برنامه‌ریزی و بسیج منابع</b><span>استفاده از توان خود مراجع و منابع حمایتی قابل اعتماد برای کاهش خطر و ایجاد ارتباط با خدمات مناسب.</span></li>
+    <li><b>اجرای مداخله و ارجاع</b><span>هماهنگی با خدمات فوریتی، فراهم کردن همراهی ایمن و پیگیری انتقال به مرکز درمانی در صورت ضرورت.</span></li>
+  </ol>
+  <h3>برنامه ایمنی مشارکتی</h3>
+  <p>برنامه ایمنی به‌صورت مشترک با مراجع تنظیم می‌شود و شامل شناخت علائم هشدار، راهبردهای مقابله‌ای در دسترس، تماس با افراد و مراکز حمایتگر و <b>محدود کردن دسترسی به ابزار آسیب‌رسان</b> است.</p>
+  <div class="box trap"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></svg>دام آزمونی</div>
+    <p>تعهد شفاهی یا کتبی به خودکشی نکردن، به‌تنهایی حفاظت کافی فراهم نمی‌کند و جایگزین ارزیابی خطر، برنامه ایمنی یا ارجاع اضطراری نیست. در گزینه‌ها، «قرارداد عدم خودکشی» به‌عنوان تنها اقدام، پاسخ نادرست است.</p>
+  </div>
+  <div class="box safe"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>خطر فوری</div>
+    <p>در خطر فوری، فرد نباید بدون تمهیدات کافی ایمنی تنها گذاشته شود. تماس با خدمات اضطراری و ارزیابی فوری در مرکز مناسب بر ادامه درمان معمول تقدم دارد. در ایران، <span class="k">۱۱۵</span> برای فوریت‌های پزشکی و <span class="k">۱۲۳</span> برای اورژانس اجتماعی بهزیستی به کار می‌روند.</p>
+  </div>
+</section>
+
+<!-- ============ ۱۳ ============ -->
+<section class="ch" id="s13">
+  <div class="ch-head"><div class="ch-num">۱۳</div><h2>اخلاق، رازداری و حدود صلاحیت</h2></div>
+  <h3>مرزهای صلاحیت تخصصی</h3>
+  <p>انجام مستقل ارزیابی و مداخله به آموزش معتبر، تجربه، مجوز و حدود صلاحیت حرفه‌ای وابسته است. درمانگری که آموزش و تجربه لازم برای مدیریت افسردگی شدید، علائم روان‌پریشی یا خطر خودکشی را ندارد، باید پس از اقدامات ایمنی متناسب، <b>ارجاع به متخصص واجد صلاحیت</b> را سامان دهد. آموزش کوتاه‌مدت یا آشنایی نظری با یک روش درمانی جایگزین صلاحیت حرفه‌ای نیست.</p>
+  <h3>سنجش روان‌شناختی و رازداری</h3>
+  <p>استفاده از ابزارهای سنجش افسردگی نیازمند آشنایی با روایی، پایایی، شرایط اجرا و تفسیر نتایج است.</p>
+  <div class="box trap"><div class="bt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18h.01"/></svg>دام آزمونی</div>
+    <p>نمره یک پرسش‌نامه به‌تنهایی برای تشخیص قطعی یا تعیین سطح فوری خطر خودکشی کافی نیست و به‌خودی‌خود مجوز افشای اطلاعات به خانواده هم به شمار نمی‌رود.</p>
+  </div>
+  <div class="grid g3">
+    <div class="card"><h4>اصل</h4><p>اطلاعات بالینی و نتایج آزمون‌ها محرمانه‌اند.</p></div>
+    <div class="card"><h4>افشای مجاز</h4><p>با رضایت معتبر و ترجیحاً کتبی مراجع، یا دستور قانونی مرجع قضایی.</p></div>
+    <div class="card"><h4>استثنای ایمنی</h4><p>در خطر جدی و قریب‌الوقوع جانی، افشای محدود و متناسب برای حفظ جان.</p></div>
+  </div>
+  <p>حتی در افشای مجاز نیز باید اصل <b>حداقل افشای لازم</b> و پیشگیری از آسیب غیرضروری رعایت شود. نوع و دامنه افشا باید با قوانین و مقررات حرفه‌ای قابل اجرا سازگار باشد.</p>
+  <h3>خودمختاری و حساسیت فرهنگی</h3>
+  <p>درمانگر باید حق تصمیم‌گیری آگاهانه مراجع، تفاوت‌های فرهنگی، زبان، ارزش‌های خانوادگی و دسترسی او به خدمات را در نظر بگیرد و از قالب‌بندی شتاب‌زده رفتار بر اساس پیش‌فرض‌های فرهنگی پرهیز کند.</p>
+</section>
+
+<!-- ============ ۱۴ ============ -->
+<section class="ch" id="s14">
+  <div class="ch-head"><div class="ch-num">۱۴</div><h2>رویکردهای درمانی و ارجاع</h2></div>
+  <p>درمان افسردگی بر اساس شدت علائم، سیر بیماری، ترجیح آگاهانه مراجع، وضعیت خطر و شرایط همراه انتخاب می‌شود. تجویز و تغییر دارو و تعیین مداخلات زیستی در حیطه صلاحیت پزشک است؛ روان‌شناس در حدود صلاحیت خود به ارزیابی، روان‌درمانی، آموزش روانی، پایش نشانه‌ها و هماهنگی درمان کمک می‌کند.</p>
+  <div class="grid g2">
+    <div class="card"><h4>درمان شناختی ـ رفتاری</h4><p>شناسایی افکار خودآیند منفی، بررسی شواهد، پرسشگری سقراطی و اصلاح سه‌گانه شناختی. <b>فعال‌سازی رفتاری</b> با طراحی تدریجی فعالیت‌های معنادار به مقابله با کم‌فعالی و کناره‌گیری کمک می‌کند.</p></div>
+    <div class="card"><h4>درمان بین‌فردی</h4><p>تمرکز بر چهار حوزه: سوگ حل‌نشده، اختلاف‌های نقشی بین‌فردی، گذار نقش و نقایص یا کمبودهای بین‌فردی.</p></div>
+    <div class="card"><h4>درمان پذیرش و تعهد</h4><p>افزایش انعطاف‌پذیری روان‌شناختی، پذیرش تجربه‌های درونی دشوار و حرکت در جهت ارزش‌های شخصی.</p></div>
+    <div class="card"><h4>دارودرمانی</h4><p>خط نخست معمولاً ضدافسردگی‌های انتخابی بازجذب سروتونین است، به دلیل عوارض کمتر. در عدم پاسخ، گروه‌های دیگر یا راهبردهای تقویتی توسط روان‌پزشک بررسی می‌شوند.</p></div>
+  </div>
+  <h3>درمان تشنج الکتریکی</h3>
+  <p>سریع‌ترین و از مؤثرترین درمان‌ها در موارد زیر است و تصمیم درباره آن کاملاً تخصصی است:</p>
+  <div class="grid g3">
+    <div class="card"><p>افسردگی شدید مقاوم به درمان</p></div>
+    <div class="card"><p>خطر حاد و فوری خودکشی</p></div>
+    <div class="card"><p>افسردگی همراه با هذیان یا روان‌پریشی</p></div>
+    <div class="card"><p>کاتاتونیا</p></div>
+    <div class="card"><p>ملانکولیای شدید</p></div>
+    <div class="card"><p>بارداری، وقتی دارودرمانی پرخطر است</p></div>
+  </div>
+  <div class="tbl narrow"><table>
+    <caption>انتخاب مسیر مداخله بر اساس شدت</caption>
+    <thead><tr><th>وضعیت</th><th>مسیر پیشنهادی</th></tr></thead>
+    <tbody>
+      <tr><td>خفیف تا متوسط</td><td>روان‌درمانی شناختی ـ رفتاری یا بین‌فردی</td></tr>
+      <tr><td>متوسط تا شدید، ملانکولیک یا با نشانه‌های نباتی شدید</td><td>ارجاع برای ارزیابی و دارودرمانی همزمان با روان‌درمانی</td></tr>
+      <tr><td>خطر حاد خودکشی، روان‌پریشی، کاتاتونیا یا مقاومت درمانی</td><td>ارجاع فوری تخصصی، بررسی بستری و درمان‌های زیستی</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ ۱۵ ============ -->
+<section class="ch" id="s15">
+  <div class="ch-head"><div class="ch-num">۱۵</div><h2>نمونه‌های بالینی</h2></div>
+  <p>هر نمونه را ابتدا خودتان تحلیل کنید و سپس تحلیل بالینی را باز کنید.</p>
+
+  <div class="vig">
+    <div class="vh">نمونه بالینی نخست <span>افسردگی ملانکولیک</span></div>
+    <div class="vb">
+      <p>آقای ۳۸ ساله، کارمند حسابداری، به همراه همسرش مراجعه می‌کند. از شش هفته پیش و به دنبال ارتقا نیافتن شغلی، کاملاً در خود فرورفته است. می‌گوید: «هیچ چیز برایم لذت ندارد؛ حتی بازی تیم محبوبم حالم را بهتر نمی‌کند. ساعت چهار صبح بی‌دلیل بیدار می‌شوم و باری از گناه روی سینه‌ام سنگینی می‌کند. غروب‌ها کمی قابل تحمل‌تر است.» تکلم او کند، صدایش یکنواخت و تماس چشمی ضعیف است. در این مدت هفت کیلوگرم وزن کم کرده است. درباره خبر خوش می‌گوید: «هیچ چیز حسم را عوض نمی‌کند؛ کاش فردا صبح بیدار نشوم.» آزمایش تیروئید طبیعی است و سابقه مصرف مواد یا دوره شیدایی و نیمه‌شیدایی ندارد.</p>
+    </div>
+    <details class="ans"><summary>نمایش تحلیل بالینی</summary><div class="ab">
+      <ol>
+        <li><b>نشانه‌ها و مدت:</b> شش هفته، بیش از دو هفته. بی‌لذتی، خلق افسرده، کاهش وزن بیش از پنج درصد، بیداری زودهنگام، کندی روانی‌حرکتی مشهود، خستگی، گناه مفرط و افکار مرگ؛ یعنی هشت نشانه از نُه.</li>
+        <li><b>کنار گذاشتن علل دیگر:</b> تیروئید طبیعی، نبود مصرف مواد و نبود سابقه مانیا یا هیپومانیا.</li>
+        <li><b>مشخص‌کننده:</b> نبود واکنش خلق به خبر خوش، بیداری زودهنگام، بدتر بودن صبحگاهی، گناه شدید، کندی و کاهش وزن؛ معیارهای ملانکولیک احراز می‌شوند.</li>
+        <li><b>تشخیص:</b> اختلال افسردگی اساسی، دوره منفرد، شدید، با ویژگی‌های ملانکولیک.</li>
+        <li><b>اقدام:</b> ارزیابی تفصیلی افکار خودکشی با توجه به جمله «کاش بیدار نشوم»، ارجاع به روان‌پزشک برای دارودرمانی و درگیر کردن خانواده در مراقبت حمایتی.</li>
+      </ol>
+    </div></details>
+  </div>
+
+  <div class="vig">
+    <div class="vh">نمونه بالینی دوم <span>افسردگی مزمن با تشدید اخیر</span></div>
+    <div class="vb">
+      <p>خانم ۳۶ ساله، معلم، از سه سال پیش بیشتر روزها خستگی، ناامیدی و کاهش عزت‌نفس داشته و دوره‌های بهبودی او هیچ‌گاه بیش از چند هفته طول نکشیده است. از چهار هفته پیش، کاهش شدید لذت، بیداری زودهنگام، شدت بیشتر اندوه در صبح، کاهش وزن و کندی آشکار حرکات به علائم او افزوده شده است. با شنیدن خبرهای خوشایند خلقش بهتر نمی‌شود. در مصاحبه می‌گوید به پایان دادن به زندگی فکر کرده و داروهایی را برای این منظور کنار گذاشته است. سابقه مانیا یا هیپومانیا ندارد و بررسی‌های جسمانی اخیر علت مشخصی نشان نداده‌اند.</p>
+    </div>
+    <details class="ans"><summary>نمایش تحلیل بالینی</summary><div class="ab">
+      <ol>
+        <li><b>اولویت ایمنی:</b> فکر خودکشی همراه با برنامه و دسترسی به دارو، ارزیابی فوری خطر و اقدام برای حفظ جان را ضروری می‌کند. مراجع نباید تنها گذاشته شود؛ کاهش دسترسی به دارو، مشارکت فرد حمایتگر و هماهنگی برای ارزیابی فوری روان‌پزشکی در اولویت‌اند.</li>
+        <li><b>الگوی طولی:</b> خلق افسرده سه‌ساله با ناامیدی، خستگی و کاهش عزت‌نفس و بدون بهبودی بیش از دو ماه، با اختلال افسردگی مداوم سازگار است.</li>
+        <li><b>الگوی اخیر:</b> تشدید چهارهفته‌ای با بی‌لذتی، تغییر وزن و خواب، کندی، خستگی و افکار خودکشی، معیارهای دوره افسردگی اساسی را برآورده می‌کند.</li>
+        <li><b>مشخص‌کننده:</b> بی‌واکنشی خلق، بدتر بودن صبحگاهی، بیداری زودهنگام و کاهش وزن، بررسی ویژگی‌های ملانکولیک را ضروری می‌سازند.</li>
+      </ol>
+      <p>این ترکیب «افسردگی مضاعف» نامیده می‌شود؛ با این حال، مدیریت خطر فوری بر تکمیل فرمول‌بندی تشخیصی تقدم دارد.</p>
+    </div></details>
+  </div>
+
+  <div class="vig">
+    <div class="vh">نمونه بالینی سوم <span>پرهیز از تشخیص شتاب‌زده</span></div>
+    <div class="vb">
+      <p>مرد ۲۴ ساله‌ای با افت تمرکز، پرخوابی، افزایش اشتها، احساس سنگینی دست‌ها و پاها و خلق پایین مراجعه می‌کند. می‌گوید در یک گردش دوستانه حالش به‌طور محسوسی بهتر شده است. همچنین از چند روز پرانرژی بودن در سال گذشته یاد می‌کند که در آن کارهای دانشگاهی بسیاری انجام داده، اما اطلاعاتش درباره خواب و تغییر رفتار در آن دوره کامل نیست.</p>
+    </div>
+    <details class="ans"><summary>نمایش تحلیل بالینی</summary><div class="ab">
+      <p>واکنش‌پذیری خلق، پرخوابی، افزایش اشتها و فلج سربی ویژگی‌های نامعمول را به ذهن می‌آورند، اما پیش از هر نتیجه‌گیری باید چهار مسئله روشن شود:</p>
+      <ol>
+        <li><b>مدت و تعداد نشانه‌های فعلی:</b> آیا معیارهای دوره افسردگی اساسی احراز می‌شوند؟</li>
+        <li><b>ماهیت دوره پرانرژی گذشته:</b> آیا کاهش نیاز به خواب، خلق بالا یا تحریک‌پذیر و افزایش فعالیت به مدت دست‌کم چهار روز وجود داشته است؟ صرف چند شب بیداری برای کار، معادل هیپومانیا نیست.</li>
+        <li><b>علل دیگر:</b> بیماری جسمانی، مصرف یا قطع دارو و مواد و تغییرات الگوی خواب.</li>
+        <li><b>وضعیت ایمنی:</b> سنجش افکار مرگ و خودکشی نباید به تعویق افتد.</li>
+      </ol>
+      <p>در جلسه نخست، هدف برچسب قطعی نیست؛ هدف تکمیل ارزیابی، توضیح روند تشخیص برای مراجع و تعیین مسیر مناسب مراقبت است.</p>
+    </div></details>
+  </div>
+</section>
+
+<!-- ============ ۱۶ ============ -->
+<section class="ch" id="s16">
+  <div class="ch-head"><div class="ch-num">۱۶</div><h2>نکات طلایی و دام‌های آزمونی</h2></div>
+  <div class="traps">
+    <div class="trapc"><b>عزت‌نفس در برابر بی‌ارزشی</b><p>کاهش عزت‌نفس نشانه افسردگی مداوم است؛ در افسردگی اساسی، احساس بی‌ارزشی یا گناه مفرط مطرح است.</p></div>
+    <div class="trapc"><b>ترس از مرگ</b><p>ترس از مردن معادل افکار مکرر مرگ یا خودکشی نیست.</p></div>
+    <div class="trapc"><b>یک دوره هیپومانیا</b><p>حتی یک دوره چهارروزه هیپومانیا در گذشته، تشخیص را از افسردگی اساسی به دوقطبی نوع دوم تغییر می‌دهد.</p></div>
+    <div class="trapc"><b>قاعده دو ماه در عود</b><p>بازگشت علائم پس از کمتر از دو ماه بهبودی، ادامه همان دوره است، نه دوره جدید.</p></div>
+    <div class="trapc"><b>وقفه در افسردگی مداوم</b><p>وقفه بدون علامت بیش از دو ماه، شرط تداوم را می‌شکند.</p></div>
+    <div class="trapc"><b>مهلت حوالی زایمان</b><p>فقط بارداری یا چهار هفته نخست پس از زایمان؛ شروع در هفته هفتم مشمول نیست.</p></div>
+    <div class="trapc"><b>کژتنظیمی و نافرمانی</b><p>در صورت احراز هم‌زمان ملاک‌ها، فقط کژتنظیمی خلق اخلال‌گر تشخیص داده می‌شود.</p></div>
+    <div class="trapc"><b>استثنای سوگ</b><p>در ویراست پنجم حذف شده؛ سوگوار با معیارهای کامل، تشخیص افسردگی اساسی می‌گیرد.</p></div>
+    <div class="trapc"><b>عامل فشارزا</b><p>اگر معیارهای افسردگی اساسی کامل باشد، وجود عامل فشارزا تشخیص را به اختلال انطباقی تبدیل نمی‌کند.</p></div>
+    <div class="trapc"><b>قرارداد عدم خودکشی</b><p>به‌تنهایی کافی نیست؛ برنامه ایمنی، محدودسازی ابزار و ارجاع لازم است.</p></div>
+    <div class="trapc"><b>بهبود انرژی</b><p>بازگشت انرژی پیش از بهبود خلق، پنجره افزایش خطر است، نه نشانه رفع خطر.</p></div>
+    <div class="trapc"><b>حساسیت به طرد</b><p>در ویژگی‌های نامعمول، صفتی دیرینه است، نه پدیده‌ای تازه در دوره افسردگی.</p></div>
+  </div>
+</section>
+
+<!-- ============ ۱۷ ============ -->
+<section class="ch" id="s17">
+  <div class="ch-head"><div class="ch-num">۱۷</div><h2>جمع‌بندی و اعداد کلیدی</h2></div>
+  <h3>چگونه در آزمون فکر کنیم؟</h3>
+  <ol class="steps">
+    <li><b>قاعده پنج از نُه</b><span>بدون خلق افسرده یا بی‌لذتی، حتی با هفت نشانه دیگر، دوره افسردگی اساسی احراز نمی‌شود.</span></li>
+    <li><b>عینک دوقطبی</b><span>هر سناریوی افسردگی را ابتدا از منظر دوقطبی بخوانید؛ یک جمله درباره «چند روز پرانرژی و کم‌خواب» می‌تواند کل پاسخ را تغییر دهد.</span></li>
+    <li><b>تفکیک دوماهه</b><span>بازگشت علائم در همان دوره با عود جدید، در گذشت دو ماه بهبودی کامل تفاوت دارد.</span></li>
+    <li><b>تضاد نباتی</b><span>ملانکولیک یعنی بی‌اشتهایی و بیداری زودهنگام؛ نامعمول یعنی پرخوری، پرخوابی و واکنش‌پذیری خلق.</span></li>
+    <li><b>اولویت ایمنی</b><span>در هر سناریویی که نشانه‌ای از افکار مرگ دارد، پاسخ درست با سنجش خطر و اقدام ایمنی آغاز می‌شود، نه با تکنیک شناختی یا ریشه‌یابی گذشته.</span></li>
+  </ol>
+  <div class="tbl"><table>
+    <caption>اعداد و ملاک‌های زمانی که باید به خاطر بسپارید</caption>
+    <thead><tr><th>مفهوم</th><th>عدد کلیدی</th></tr></thead>
+    <tbody>
+      <tr><td>دوره افسردگی اساسی</td><td><span class="k">۵ از ۹</span> نشانه، <span class="k">۲ هفته</span></td></tr>
+      <tr><td>فاصله دو دوره مستقل</td><td><span class="k">۲ ماه</span> متوالی بهبودی</td></tr>
+      <tr><td>تغییر معنادار وزن</td><td>بیش از <span class="k">۵٪</span> در یک ماه</td></tr>
+      <tr><td>افسردگی مداوم</td><td><span class="k">۲ سال</span> بزرگسال، <span class="k">۱ سال</span> کودک؛ <span class="k">۲ از ۶</span> نشانه؛ وقفه حداکثر <span class="k">۲ ماه</span></td></tr>
+      <tr><td>مرز زودآغاز و دیرآغاز</td><td><span class="k">۲۱ سالگی</span></td></tr>
+      <tr><td>کژتنظیمی خلق اخلال‌گر</td><td><span class="k">۳ بار</span> در هفته، <span class="k">۱۲ ماه</span>، بدون وقفه <span class="k">۳ ماهه</span>، <span class="k">۲ محیط</span>، شروع پیش از <span class="k">۱۰</span>، تشخیص بین <span class="k">۶ تا ۱۸</span> سالگی</td></tr>
+      <tr><td>ملانکولیک</td><td>بیداری دست‌کم <span class="k">۲ ساعت</span> زودتر؛ <span class="k">۱</span> مورد از بخش نخست و <span class="k">۳</span> مورد از بخش دوم</td></tr>
+      <tr><td>نامعمول</td><td>واکنش‌پذیری خلق و <span class="k">۲ از ۴</span> ویژگی</td></tr>
+      <tr><td>ویژگی‌های مختلط و کاتاتونیا</td><td>هر یک دست‌کم <span class="k">۳ نشانه</span></td></tr>
+      <tr><td>شروع در حوالی زایمان</td><td>بارداری یا <span class="k">۴ هفته</span> نخست پس از زایمان</td></tr>
+      <tr><td>الگوی فصلی</td><td>دست‌کم <span class="k">۲ سال</span> متوالی</td></tr>
+      <tr><td>هیپومانیا و مانیا</td><td><span class="k">۴ روز</span> و <span class="k">۷ روز</span> یا بستری</td></tr>
+      <tr><td>اختلال سوگ طولانی‌مدت</td><td><span class="k">۱۲ ماه</span> بزرگسال، <span class="k">۶ ماه</span> کودک؛ <span class="k">۳ نشانه</span> در ماه گذشته</td></tr>
+      <tr><td>اختلال انطباقی</td><td>شروع ظرف <span class="k">۳ ماه</span> از عامل فشارزا</td></tr>
+      <tr><td>شماره‌های اضطراری</td><td><span class="k">۱۱۵</span> فوریت پزشکی، <span class="k">۱۲۳</span> اورژانس اجتماعی</td></tr>
+    </tbody>
+  </table></div>
+  <h3>خلاصه معیارهای اصلی تشخیص</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>وضعیت بالینی</th><th>شاخص اصلی ارزیابی</th></tr></thead>
+    <tbody>
+      <tr><td>دوره افسردگی اساسی</td><td>دست‌کم پنج نشانه از نُه نشانه در دو هفته، با حضور خلق افسرده یا بی‌لذتی</td></tr>
+      <tr><td>اختلال افسردگی مداوم</td><td>خلق افسرده مزمن دوساله در بزرگسال و یک‌ساله در کودک، با دست‌کم دو نشانه دیگر</td></tr>
+      <tr><td>افسردگی مضاعف</td><td>دوره کامل افسردگی اساسی بر بستر افسردگی مداوم</td></tr>
+      <tr><td>اختلال کژتنظیمی خلق اخلال‌گر</td><td>طغیان‌های شدید با تحریک‌پذیری مداوم میان آن‌ها، دوازده ماه، در دو محیط یا بیشتر</td></tr>
+      <tr><td>اختلال دوقطبی نوع نخست</td><td>سابقه دوره مانیا، حتی اگر شکایت کنونی افسردگی باشد</td></tr>
+      <tr><td>اختلال دوقطبی نوع دوم</td><td>سابقه هیپومانیا همراه با دوره افسردگی اساسی و بدون سابقه مانیا</td></tr>
+      <tr><td>سوگ طبیعی</td><td>اندوه موجی و مرتبط با یادآورها؛ حفظ نسبی عزت‌نفس</td></tr>
+      <tr><td>اختلال سوگ طولانی‌مدت</td><td>اشتیاق یا اشتغال ذهنی پایدار با متوفی و نشانه‌های همراه پس از دوازده ماه در بزرگسال یا شش ماه در کودک</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ ۱۸ ============ -->
+<section class="ch" id="s18">
+  <div class="ch-head"><div class="ch-num">۱۸</div><h2>پرسش‌های مروری</h2></div>
+  <p>پیش از باز کردن پاسخ، آن را در ذهن خود بازیابی کنید. برای دیدن پاسخ روی هر کارت بزنید.</p>
+  <div class="rowbtns"><button class="btn ghost" id="fcAll">نمایش همه پاسخ‌ها</button><button class="btn ghost" id="fcNone">پنهان کردن همه</button></div>
+  <div class="flash" id="flash"></div>
+</section>
+
+<!-- ============ ۱۹ ============ -->
+<section class="ch" id="s19">
+  <div class="ch-head"><div class="ch-num">۱۹</div><h2>آزمون چهارگزینه‌ای تعاملی</h2></div>
+  <p>گزینه مورد نظر را انتخاب کنید تا پاسخ صحیح، تحلیل همه گزینه‌ها و نکته آزمونی هر سؤال نمایش داده شود.</p>
+  <div class="qbar">
+    <div class="score">پاسخ داده‌شده: <span class="k" id="answered">۰</span> از <span id="total">۰</span>، درست: <span class="k" id="correct">۰</span></div>
+    <div class="qfilter" id="qfilter">
+      <button data-f="all" class="on">همه</button>
+      <button data-f="مفهومی">مفهومی</button>
+      <button data-f="سناریومحور">سناریومحور</button>
+      <button data-f="ایمنی و اخلاق">ایمنی و اخلاق</button>
+      <button data-f="wrong">پاسخ‌های نادرست</button>
+    </div>
+    <button class="btn ghost" id="qReset">شروع دوباره</button>
+  </div>
+  <div id="quiz"></div>
+  <div class="result" id="result"></div>
+</section>
+
+<footer class="end">درسنامه فصل اول | اختلالات افسردگی؛ از نشانه‌شناسی تا تشخیص و مداخله</footer>
+</main>
+
+<button class="totop" id="totop" aria-label="بازگشت به بالا"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg></button>
+
+<script>
+(function(){
+  var fa = function(n){return String(n).replace(/\d/g,function(d){return '۰۱۲۳۴۵۶۷۸۹'[d];});};
+  var store = {get:function(k){try{return localStorage.getItem(k);}catch(e){return null;}},set:function(k,v){try{localStorage.setItem(k,v);}catch(e){}}};
+
+  /* ---------- menu ---------- */
+  var body=document.body, menuBtn=document.getElementById('menuBtn');
+  function setMenu(open){body.classList.toggle('menu-open',open);menuBtn.setAttribute('aria-expanded',open);}
+  menuBtn.onclick=function(){setMenu(!body.classList.contains('menu-open'));};
+  document.getElementById('closeBtn').onclick=function(){setMenu(false);};
+  document.getElementById('scrim').onclick=function(){setMenu(false);};
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')setMenu(false);});
+  document.querySelectorAll('#toc a').forEach(function(a){a.addEventListener('click',function(){setMenu(false);});});
+
+  /* ---------- active section + progress ---------- */
+  var links={}; document.querySelectorAll('#toc a').forEach(function(a){links[a.getAttribute('href').slice(1)]=a;});
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){Object.values(links).forEach(function(l){l.classList.remove('active');});var l=links[e.target.id];if(l)l.classList.add('active');}});},{rootMargin:'-30% 0px -60% 0px'});
+    document.querySelectorAll('section.ch').forEach(function(s){io.observe(s);});
+  }
+  var prog=document.getElementById('progress'), totop=document.getElementById('totop');
+  function onScroll(){var h=document.documentElement;var p=h.scrollTop/(h.scrollHeight-h.clientHeight||1);prog.style.width=(p*100)+'%';totop.classList.toggle('show',h.scrollTop>700);}
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  totop.onclick=function(){window.scrollTo({top:0,behavior:'smooth'});};
+
+  /* ---------- theme & font ---------- */
+  var root=document.documentElement;
+  var t=store.get('dep-theme'); if(t) root.setAttribute('data-theme',t);
+  document.getElementById('themeBtn').onclick=function(){
+    var cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var nx=cur==='dark'?'light':'dark'; root.setAttribute('data-theme',nx); store.set('dep-theme',nx);
+  };
+  var fs=parseFloat(store.get('dep-fs'))||17;
+  function setFs(v){fs=Math.max(14,Math.min(22,v));root.style.setProperty('--fs',fs+'px');store.set('dep-fs',fs);}
+  setFs(fs);
+  document.getElementById('fsUp').onclick=function(){setFs(fs+1);};
+  document.getElementById('fsDown').onclick=function(){setFs(fs-1);};
+  document.getElementById('printBtn').onclick=function(){
+    document.querySelectorAll('details.ans').forEach(function(d){d.setAttribute('open','');});
+    window.print();
+  };
+
+  /* ---------- flashcards ---------- */
+  var cards=[
+    ['چه تفاوتی میان نشانه افسردگی، دوره افسردگی اساسی و اختلال افسردگی اساسی وجود دارد؟','نشانه تجربه‌ای منفرد است؛ دوره، مجموعه‌ای از نشانه‌های هم‌زمان با مدت و شدت مشخص است؛ و اختلال، تشخیصی است که افزون بر احراز دوره، کنار گذاشتن تبیین‌های جایگزین، به‌ویژه سابقه مانیا یا هیپومانیا، را می‌طلبد.'],
+    ['حداقل تعداد نشانه‌ها و مدت لازم برای دوره افسردگی اساسی چیست؟','دست‌کم پنج نشانه از نُه نشانه در مدت حداقل دو هفته، به شرط حضور خلق افسرده یا کاهش علاقه و لذت.'],
+    ['چرا کاهش عزت‌نفس را نباید با احساس بی‌ارزشی یکسان دانست؟','کاهش عزت‌نفس از نشانه‌های همراه اختلال افسردگی مداوم است؛ در فهرست نُه‌گانه دوره افسردگی اساسی، احساس بی‌ارزشی یا گناه مفرط مطرح می‌شود.'],
+    ['شرط تفکیک دو دوره مستقل افسردگی اساسی چیست؟','وجود دست‌کم دو ماه متوالی بدون احراز معیارهای افسردگی اساسی میان دو دوره. بازگشت علائم پیش از آن، ادامه همان دوره است.'],
+    ['حداقل مدت اختلال افسردگی مداوم در بزرگسالان و کودکان چقدر است و وقفه بدون علامت چه محدودیتی دارد؟','دو سال در بزرگسالان و یک سال در کودکان و نوجوانان؛ وقفه بدون نشانه نباید بیش از دو ماه متوالی باشد.'],
+    ['تفاوت بنیادی افسردگی مداوم با افسردگی اساسی از نظر تظاهر بالینی چیست؟','در افسردگی مداوم، شکایت‌های ذهنی بیش از نشانه‌های عینی است، سیر مزمن دارد و ناتوانی کارکردی شدید کمتر دیده می‌شود.'],
+    ['مهم‌ترین تفاوت سابقه مانیا و هیپومانیا در تشخیص افتراقی چیست؟','سابقه مانیا به نفع دوقطبی نوع نخست است. هیپومانیا همراه با دوره افسردگی اساسی و بدون مانیا، تشخیص را به دوقطبی نوع دوم می‌برد.'],
+    ['کدام ویژگی‌ها، کژتنظیمی خلق اخلال‌گر را از تحریک‌پذیری گذرا متمایز می‌کنند؟','طغیان‌های شدید سه بار یا بیشتر در هفته، تحریک‌پذیری پایدار میان طغیان‌ها، استمرار دست‌کم دوازده‌ماهه و حضور علائم در دو محیط یا بیشتر.'],
+    ['دو ملاک اصلی و الزامی ویژگی‌های نامعمول کدام‌اند؟','ملاک الزامی، واکنش‌پذیری خلق است؛ همراه با دست‌کم دو مورد از پرخوری، پرخوابی، فلج سربی و حساسیت دیرپا به طرد.'],
+    ['آزمون سرکوب با دگزامتازون در کدام نوع افسردگی بیشترین عدم سرکوب را نشان می‌دهد؟','افسردگی با ویژگی‌های ملانکولیک، به دلیل بیش‌فعالی محور هیپوتالاموس، هیپوفیز و فوق کلیه.'],
+    ['حداکثر بازه مجاز برای مشخص‌کننده «شروع در حوالی زایمان» چقدر است؟','دوران بارداری یا حداکثر چهار هفته نخست پس از زایمان.'],
+    ['در افتراق سوگ طبیعی از افسردگی اساسی به کدام سرنخ‌ها توجه می‌شود؟','در سوگ، اندوه موجی و معطوف به فقدان است و عزت‌نفس حفظ می‌شود؛ در افسردگی اساسی، خلق افسرده یا بی‌لذتی و احساس بی‌ارزشی فراگیرند.'],
+    ['زوال عقل کاذب افسردگی چگونه از زوال عقل واقعی متمایز می‌شود؟','بیمار افسرده از نقایص خود آگاه است، با «نمی‌دانم» پاسخ می‌دهد و عملکردش به تلاش وابسته است؛ در زوال عقل واقعی، انکار نقص و جعل خاطره دیده می‌شود.'],
+    ['در مواجهه با خطر فوری خودکشی، ترتیب اصولی اقدامات چیست؟','سنجش مستقیم خطر و ایمن‌سازی موقعیت، بسیج حمایت و محدودسازی دسترسی به ابزار، و در خطر فوری، هماهنگی انتقال و ارجاع اضطراری؛ تعهد شفاهی جایگزین این اقدامات نیست.']
+  ];
+  var fl=document.getElementById('flash');
+  cards.forEach(function(c,i){
+    var b=document.createElement('button'); b.className='fc'; b.type='button';
+    b.innerHTML='<span class="q" data-n="'+fa(i+1)+'">'+c[0]+'</span><span class="a">'+c[1]+'</span><span class="hint">برای دیدن پاسخ بزنید</span>';
+    b.onclick=function(){b.classList.toggle('open');};
+    fl.appendChild(b);
+  });
+  document.getElementById('fcAll').onclick=function(){fl.querySelectorAll('.fc').forEach(function(x){x.classList.add('open');});};
+  document.getElementById('fcNone').onclick=function(){fl.querySelectorAll('.fc').forEach(function(x){x.classList.remove('open');});};
+
+  /* ---------- quiz ---------- */
+  var L=['الف','ب','ج','د'];
+  var Q=[
+    {c:'مفهومی',s:'کدام‌یک از موارد زیر جزو نشانه‌های تشخیصی دوره افسردگی اساسی نیست؟',
+     o:['خلق افسرده در بیشتر اوقات روز','احساس گناه مفرط','کاهش عزت‌نفس','خستگی روزانه'],a:2,
+     e:['خلق افسرده یکی از دو نشانه محوری دوره افسردگی اساسی است.','احساس گناه مفرط یا نامتناسب در شمار نشانه‌های معیار است.','کاهش عزت‌نفس در فهرست نُه‌گانه نیامده و از نشانه‌های اختلال افسردگی مداوم است.','خستگی یا کاهش انرژی از نشانه‌های دوره افسردگی اساسی است.'],
+     t:'هرجا «عزت‌نفس پایین» دیدید، به افسردگی مداوم فکر کنید؛ معادل آن در افسردگی اساسی «بی‌ارزشی» است.'},
+    {c:'مفهومی',s:'کدام‌یک از نشانه‌های زیر از نشانه‌های دوره افسردگی اساسی به شمار نمی‌رود؟',
+     o:['افزایش وزن','هذیان گناه','ترس از مرگ و مردن','بی‌قراری روانی‌حرکتی'],a:2,
+     e:['افزایش یا کاهش معنادار وزن یا اشتها می‌تواند در این دوره وجود داشته باشد.','گناه مفرط در برخی موارد شکل هذیانی پیدا می‌کند.','ترس از مرگ به‌تنهایی معادل افکار مکرر مرگ یا خودکشی نیست و در وضعیت‌های اضطرابی نیز دیده می‌شود.','بی‌قراری روانی‌حرکتی قابل مشاهده از نشانه‌های معیار است.'],
+     t:'ملاک نهم «اشتغال ذهنی با مرگ» است، نه «ترس از مرگ».'},
+    {c:'مفهومی',s:'بر اساس گزارش‌های بالینی کلاسیک، شایع‌ترین نشانه در بیماران مبتلا به افسردگی کدام است؟',
+     o:['کاهش انرژی','اضطراب همراه','اختلال خواب','انکار تجربه افسردگی'],a:0,
+     e:['کاهش انرژی با فراوانی حدود نود و هفت درصد، شایع‌ترین نشانه گزارش شده است.','اضطراب همراه در حدود نود درصد بیماران دیده می‌شود، اما شایع‌ترین نیست.','اختلال خواب در حدود هشتاد درصد بیماران دیده می‌شود.','انکار افسردگی در حدود نیمی از بیماران توصیف شده است.'],
+     t:'ترتیب را حفظ کنید: انرژی ۹۷، اضطراب ۹۰، خواب ۸۰، تغییرات روزانه و انکار هر یک ۵۰ درصد.'},
+    {c:'مفهومی',s:'کدام یافته در معماری خواب بیماران مبتلا به افسردگی اساسی گزارش شده است؟',
+     o:['طولانی شدن زمان لازم تا آغاز نخستین مرحله خواب با حرکات سریع چشم','کوتاه شدن زمان لازم تا آغاز نخستین مرحله خواب با حرکات سریع چشم','افزایش خواب عمیق موج آهسته','حذف کامل مرحله خواب با حرکات سریع چشم'],a:1,
+     e:['الگوی گزارش‌شده عکس این گزینه است.','بیمار افسرده زودتر از حالت طبیعی وارد نخستین دوره خواب با حرکات سریع چشم می‌شود و تراکم این مرحله نیز افزایش می‌یابد.','در افسردگی، خواب عمیق موج آهسته کاهش می‌یابد.','این مرحله حذف نمی‌شود، بلکه زودتر آغاز می‌شود و طولانی‌تر است.'],
+     t:'این یافته ارزش توصیفی دارد و به‌تنهایی آزمون تشخیصی نیست.'},
+    {c:'سناریومحور',s:'خانم ۳۵ ساله‌ای به مدت سه سال از خلق منفی، پراشتهایی، پرخوابی، کمبود انرژی و کاهش تمرکز شکایت دارد. در این مدت فقط چند روز و کمتر از دو ماه بهبودی داشته است. تشخیص محتمل کدام است؟',
+     o:['اختلال افسردگی اساسی','اختلال شخصیت افسرده','اختلال افسردگی مداوم','افسردگی مضاعف'],a:2,
+     e:['شرح‌حال الگوی مزمن چندساله را نشان می‌دهد و شواهدی از دوره مستقل افسردگی اساسی ارائه نشده است.','تغییرات پایدار خلق همراه با نشانه‌های خواب، اشتها و انرژی با اختلال افسردگی مداوم سازگارتر است.','خلق افسرده مزمن بیش از دو سال، نشانه‌های همراه و بهبودی‌های کوتاه‌تر از دو ماه با معیارهای افسردگی مداوم همخوان است.','افسردگی مضاعف نیازمند شواهد تشدید و احراز یک دوره کامل افسردگی اساسی است که در صورت سؤال وجود ندارد.'],
+     t:'«سه سال» و «بهبودی کمتر از دو ماه» دو کلید طلایی افسردگی مداوم‌اند.'},
+    {c:'سناریومحور',s:'خانم ۳۲ ساله‌ای می‌گوید از نوجوانی همواره کم‌انرژی، بدبین و فاقد اعتمادبه‌نفس بوده است. از سه هفته پیش و به دنبال اخراج از کار، دچار بی‌خوابی شدید، کاهش چهار کیلوگرم وزن، احساس گناه افراطی و بی‌علاقگی کامل به همسر و فرزندش شده است. سابقه مانیا یا هیپومانیا ندارد. دقیق‌ترین تشخیص کدام است؟',
+     o:['اختلال افسردگی مداوم با ویژگی‌های ملانکولیک','اختلال انطباقی با خلق افسرده بر زمینه شخصیت مرزی','افسردگی اساسی بر بستر افسردگی مداوم، یعنی افسردگی مضاعف','اختلال دوقطبی نوع دوم، دوره فعلی افسردگی شدید'],a:2,
+     e:['ویژگی ملانکولیک مشخص‌کننده دوره افسردگی اساسی است و این گزینه تشدید اخیر را توضیح نمی‌دهد.','با احراز معیارهای کامل دوره افسردگی اساسی، تشخیص اختلال انطباقی کنار می‌رود.','سابقه چندساله خلق پایین با افسردگی مداوم سازگار است و در سه هفته اخیر دوره کامل افسردگی اساسی بر آن افزوده شده است.','هیچ سابقه‌ای از هیپومانیا گزارش نشده است.'],
+     t:'طراح با «اخراج از کار» شما را به سمت اختلال انطباقی می‌برد؛ اما شدت و تعداد نشانه‌ها از آستانه افسردگی اساسی گذشته است.'},
+    {c:'سناریومحور',s:'دانشجوی ۲۳ ساله‌ای با سومین دوره بی‌لذتی، کم‌انرژی بودن، احساس بی‌ارزشی و کاهش تمرکز به مدت سه هفته مراجعه کرده و تشخیص اولیه «افسردگی اساسی عودکننده» گرفته است. در جلسه دوم به یاد می‌آورد که سال گذشته، بدون مصرف دارو یا ماده، پنج روز با سه ساعت خواب در شب کاملاً پرانرژی بوده، ایده‌های متعددی را هم‌زمان شروع کرده و بسیار پرحرف شده است، بی‌آنکه کارش به بستری یا اخراج بکشد. تصمیم تشخیصی صحیح کدام است؟',
+     o:['حفظ تشخیص افسردگی اساسی با مشخص‌کننده ویژگی‌های مختلط','تغییر تشخیص به اختلال دوقطبی نوع دوم','تغییر تشخیص به اختلال سیکلوتایمیک','تغییر تشخیص به اختلال دوقطبی نوع نخست'],a:1,
+     e:['دوره مستقل هیپومانیا را نمی‌توان با مشخص‌کننده ویژگی‌های مختلط که درون دوره افسردگی است توضیح داد.','دوره پنج‌روزه با کاهش نیاز به خواب، افزایش انرژی و تغییر رفتار بدون افت شدید کارکرد، با هیپومانیا سازگار است و همراه با دوره‌های افسردگی اساسی، دوقطبی نوع دوم را مطرح می‌کند.','در سیکلوتایمیا، نوسان‌ها به آستانه دوره کامل افسردگی اساسی یا هیپومانیا نمی‌رسند.','مانیا به مدت دست‌کم هفت روز یا نیاز به بستری و افت شدید کارکرد نیاز دارد.'],
+     t:'هر سناریوی افسردگی را با «عینک دوقطبی» بخوانید. چهار روز یا بیشتر یعنی هیپومانیا.'},
+    {c:'سناریومحور',s:'مراجعی پس از یک دوره افسردگی اساسی سه هفته بهبودی کامل داشته و اکنون نشانه‌ها دوباره بازگشته‌اند. این وضعیت چگونه توصیف می‌شود؟',
+     o:['دوره دوم و تشخیص افسردگی اساسی عودکننده','ادامه همان دوره قبلی','تبدیل به اختلال افسردگی مداوم','افسردگی مضاعف'],a:1,
+     e:['برای دوره جدید، دست‌کم دو ماه متوالی بهبودی لازم است.','چون فاصله بهبودی کمتر از دو ماه بوده، بازگشت علائم ادامه همان دوره نخست محسوب می‌شود.','افسردگی مداوم به خلق افسرده مزمن دوساله نیاز دارد.','افسردگی مضاعف به بستر افسردگی مداوم نیاز دارد که در این مورد وجود ندارد.'],
+     t:'زیر دو ماه: همان دوره. دو ماه یا بیشتر: دوره جدید و عودکننده.'},
+    {c:'سناریومحور',s:'خانمی هفت هفته پس از زایمان دچار خلق افسرده، بی‌خوابی، احساس گناه و کاهش تمرکز شده که دو هفته ادامه داشته است. کدام عبارت درست است؟',
+     o:['مشخص‌کننده «شروع در حوالی زایمان» به کار می‌رود، چون کمتر از سه ماه از زایمان گذشته است.','مشخص‌کننده «شروع در حوالی زایمان» به کار نمی‌رود، چون شروع پس از چهار هفته نخست بوده است.','این وضعیت فقط اندوه پس از زایمان است و نیازی به ارزیابی ندارد.','تشخیص افسردگی اساسی تا پایان شش ماه پس از زایمان ممکن نیست.'],a:1,
+     e:['مهلت این مشخص‌کننده سه ماه نیست.','بازه این مشخص‌کننده بارداری یا چهار هفته نخست پس از زایمان است؛ شروع در هفته هفتم مشمول آن نیست، هرچند تشخیص افسردگی اساسی همچنان قابل طرح است.','اندوه گذرای پس از زایمان معمولاً در روزهای نخست رخ می‌دهد و به این شدت و مدت نمی‌رسد.','چنین محدودیت زمانی برای تشخیص وجود ندارد.'],
+     t:'عدد طلایی این مشخص‌کننده «چهار هفته» است.'},
+    {c:'مفهومی',s:'ملاک الزامی مشخص‌کننده «ویژگی‌های نامعمول» کدام است؟',
+     o:['واکنش‌پذیری خلق','فلج سربی','پرخوابی','حساسیت به طرد بین‌فردی'],a:0,
+     e:['واکنش‌پذیری خلق، یعنی بهبود موقت خلق با رویداد مثبت، ملاک الزامی است و دست‌کم دو ویژگی دیگر نیز باید همراه آن باشد.','فلج سربی یکی از ویژگی‌های همراه است.','پرخوابی یکی از چهار ویژگی همراه است، نه ملاک الزامی.','حساسیت دیرپا به طرد یکی از ویژگی‌های همراه است.'],
+     t:'ملانکولیک یعنی «نبود» واکنش خلق؛ نامعمول یعنی «وجود» آن.'},
+    {c:'مفهومی',s:'در آزمون سرکوب با دگزامتازون، بیشترین میزان عدم سرکوب کورتیزول در کدام نوع افسردگی دیده می‌شود؟',
+     o:['افسردگی با ویژگی‌های ملانکولیک','افسردگی با ویژگی‌های نامعمول','اختلال افسردگی مداوم','افسردگی با الگوی فصلی'],a:0,
+     e:['افسردگی ملانکولیک با بیش‌فعالی محور هیپوتالاموس، هیپوفیز و فوق کلیه همراه است و بیشترین عدم سرکوب را نشان می‌دهد.','ویژگی‌های نامعمول ارتباط کمتری با این یافته دارد.','این یافته در افسردگی مداوم برجسته نیست.','الگوی فصلی بیشتر با نور و ملاتونین مرتبط دانسته می‌شود.'],
+     t:'ملانکولیک همان نمای «زیستی و درون‌زاد» افسردگی است.'},
+    {c:'سناریومحور',s:'خانم ۷۰ ساله‌ای از فراموشی و کاهش تمرکز در دو ماه اخیر شکایت دارد. در ارزیابی، به بیشتر پرسش‌ها با «نمی‌دانم» پاسخ می‌دهد، از نقایص خود به‌شدت ناراحت است و هم‌زمان خلق افسرده و بی‌خوابی دارد. محتمل‌ترین تبیین کدام است؟',
+     o:['زوال عقل نوع آلزایمر','اختلال شناختی خفیف پایدار','دلیریوم','زوال عقل کاذب ناشی از افسردگی'],a:3,
+     e:['در آلزایمر، بیمار معمولاً نقایص را انکار می‌کند و شروع تدریجی است.','شواهد خلقی برجسته و الگوی پاسخ‌دهی، تبیین افسردگی را محتمل‌تر می‌کند.','دلیریوم با نوسان سطح هوشیاری و شروع حاد مشخص می‌شود.','آگاهی از نقص، پاسخ‌های «نمی‌دانم»، شروع نسبتاً مشخص و همراهی با نشانه‌های خلقی، به نفع زوال عقل کاذب افسردگی است.'],
+     t:'«نمی‌دانم» و شکایت از نقص به نفع افسردگی؛ انکار و جعل خاطره به نفع زوال عقل واقعی.'},
+    {c:'سناریومحور',s:'مردی دو ماه پس از فوت همسرش، خلق افسرده فراگیر، احساس بی‌ارزشی، کندی روانی‌حرکتی، بی‌خوابی و افکار خودکشی دارد. کدام عبارت درست است؟',
+     o:['بر اساس ویراست پنجم، با احراز معیارهای کامل، تشخیص افسردگی اساسی قابل طرح است.','چون کمتر از یک سال از فقدان گذشته، فقط سوگ طبیعی مطرح است.','باید تا دو ماه پس از فقدان صبر کرد و سپس تشخیص گذاشت.','اختلال سوگ طولانی‌مدت محتمل‌ترین تشخیص است.'],a:0,
+     e:['استثنای سوگ در ویراست پنجم حذف شده و احراز معیارهای کامل، تشخیص افسردگی اساسی را ممکن می‌کند.','بی‌ارزشی، کندی و افکار خودکشی از سوگ طبیعی فراتر می‌روند.','این قاعده مربوط به ویراست چهارم بوده است.','سوگ طولانی‌مدت در بزرگسالان دست‌کم دوازده ماه پس از فقدان مطرح می‌شود.'],
+     t:'بی‌ارزشی و تنفر از خود، مرز سوگ طبیعی و افسردگی را مشخص می‌کند.'},
+    {c:'سناریومحور',s:'کدام عبارت درباره تفاوت سوگ و افسردگی اساسی درست است؟',
+     o:['عاطفه غالب در افسردگی، احساس تهی بودن است.','در سوگ، سرزنش خود با نشخوارهای بدبینانه فراگیر وجود دارد.','شدت اندوه در سوگ به صورت موجی بروز می‌کند.','در سوگ، احساس تنفر از خود شایع است.'],a:2,
+     e:['احساس تهی بودن و فقدان در سوگ شایع است و ویژگی تمایزبخش افسردگی نیست.','خودسرزنشگری فراگیر و بدبینی پایدار بیشتر به افسردگی اشاره دارد.','اندوه سوگ اغلب به شکل موج‌هایی در ارتباط با یادآورهای فقدان بروز می‌کند.','تنفر از خود و بی‌ارزشی فراگیر، مشخصه سوگ طبیعی نیست.'],
+     t:'الگوی زمانی هیجان، کانون اندوه و وضعیت عزت‌نفس سه محور افتراق‌اند.'},
+    {c:'سناریومحور',s:'خانم ۵۲ ساله‌ای چهارده ماه پس از فوت ناگهانی فرزند جوانش، تقریباً هر روز اشتیاق شدید برای او دارد، نمی‌تواند مرگ او را بپذیرد، می‌گوید «نمی‌دانم بدون او که هستم»، از هر مکان یادآور فرزندش اجتناب می‌کند و از آن زمان به کار بازنگشته است. احساس گناه هذیانی یا کندی روانی‌حرکتی ندارد. تشخیص محتمل کدام است؟',
+     o:['سوگ طبیعی، چون دلتنگی تا دو سال پس از فقدان بهنجار است','اختلال سوگ طولانی‌مدت','افسردگی اساسی با ویژگی‌های ملانکولیک','اختلال استرس پس از سانحه با شروع تأخیری'],a:1,
+     e:['طول مدت به‌تنهایی معیار نیست، اما ترکیب اشتیاق شدید، اختلال هویت، اجتناب و افت پایدار کارکرد از سوگ بهنجار فراتر است.','بیش از دوازده ماه از فقدان در بزرگسال گذشته و اشتیاق شدید با دست‌کم سه نشانه شامل اختلال هویت، ناپذیرفتن مرگ و اجتناب، همراه با افت کارکرد وجود دارد.','ملاک‌های ملانکولیک در صورت سؤال احراز نشده‌اند.','اجتناب از یادآورهای فرد درگذشته به‌تنهایی به معنای اختلال استرس پس از سانحه نیست.'],
+     t:'سوگ طولانی‌مدت: دوازده ماه در بزرگسال، شش ماه در کودک و دست‌کم سه نشانه.'},
+    {c:'سناریومحور',s:'پسربچه ۹ ساله‌ای به‌طور متوسط چهار بار در هفته طغیان شدید خشم کلامی و شکستن وسایل دارد. والدین و معلم گزارش می‌دهند که در فاصله طغیان‌ها نیز بیشتر ساعات روز بدخلق و تحریک‌پذیر است و این وضعیت از ۱۴ ماه پیش بدون بهبودی بیش از یک ماه ادامه دارد. کدام گزاره درست است؟',
+     o:['اگر سابقه یک دوره چهارروزه خلق بالا و کاهش نیاز به خواب داشته باشد، همچنان کژتنظیمی خلق اخلال‌گر بر دوقطبی ارجح است.','کافی است طغیان‌ها فقط در خانه گزارش شوند و نیازی به بروز در مدرسه نیست.','تشخیص ارجح کژتنظیمی خلق اخلال‌گر است و این کودکان در آینده بیشتر مستعد افسردگی یک‌قطبی و اضطراب‌اند تا دوقطبی.','چون کودک زیر ده سال است، این تشخیص ممکن نیست و باید تا یازده‌سالگی فقط نافرمانی مقابله‌جویانه ثبت شود.'],a:2,
+     e:['سابقه دوره مشخص هیپومانیا یا مانیا، این تشخیص را منتفی می‌کند.','وجود نشانه‌ها در دست‌کم دو محیط لازم است.','فراوانی، تحریک‌پذیری میان طغیان‌ها، مدت بیش از دوازده ماه و حضور در خانه و مدرسه با این اختلال سازگار است و پیش‌آگهی آن بیشتر به سمت افسردگی و اضطراب است.','شرط «شروع پیش از ده‌سالگی» به معنای ممنوعیت تشخیص در کودک نُه‌ساله نیست.'],
+     t:'اعداد این اختلال: سه بار در هفته، دوازده ماه، دو محیط، شروع پیش از ده، تشخیص بین شش تا هجده.'},
+    {c:'مفهومی',s:'کودکی هم‌زمان ملاک‌های کامل اختلال کژتنظیمی خلق اخلال‌گر و اختلال نافرمانی مقابله‌جویانه را دارد. تشخیص صحیح کدام است؟',
+     o:['هر دو تشخیص به‌صورت همبود ثبت می‌شوند.','فقط نافرمانی مقابله‌جویانه ثبت می‌شود.','فقط کژتنظیمی خلق اخلال‌گر ثبت می‌شود.','باید تشخیص دوقطبی کودکی گذاشته شود.'],a:2,
+     e:['این دو تشخیص هم‌زمان ثبت نمی‌شوند.','قاعده اولویت به نفع کژتنظیمی خلق اخلال‌گر است.','در صورت احراز هم‌زمان ملاک‌ها، فقط کژتنظیمی خلق اخلال‌گر تشخیص داده می‌شود.','این اختلال دقیقاً برای کاهش تشخیص نادرست دوقطبی در کودکان تعریف شده است.'],
+     t:'این تشخیص با دوقطبی، نافرمانی مقابله‌جویانه و اختلال انفجاری متناوب هم‌زمان ثبت نمی‌شود.'},
+    {c:'ایمنی و اخلاق',s:'مشاوری پس از اجرای پرسش‌نامه افسردگی بک متوجه می‌شود که مراجع افسردگی شدید دارد. درباره افشای نتایج آزمون، کدام گزینه صحیح است؟',
+     o:['مشاور باید فوراً نتایج را به خانواده اطلاع دهد.','در صورت درخواست کتبی مراجع یا دستور قانونی مرجع قضایی، نتایج را در اختیار قرار دهد.','اگر افشای نتایج موجب آسیب به مراجع شود، نباید آن را منتشر کند.','گزینه‌های ب و ج صحیح‌اند.'],a:3,
+     e:['بالا بودن نمره پرسش‌نامه به‌خودی‌خود مجوز افشای فوری به خانواده نیست.','افشا در چارچوب رضایت معتبر مراجع و الزام قانونی مجاز است.','حتی در افشای مجاز نیز اصل محدودسازی افشا و پیشگیری از آسیب غیرضروری رعایت می‌شود.','ترکیب دو اصل رضایت یا الزام قانونی و پرهیز از آسیب، کامل‌ترین پاسخ است.'],
+     t:'استثنا: خطر جدی و قریب‌الوقوع جانی، افشای محدود و متناسب برای حفظ ایمنی را توجیه می‌کند.'},
+    {c:'ایمنی و اخلاق',s:'آقای ۴۵ ساله با افسردگی ملانکولیک، سه هفته است سرترالین تجویزشده روان‌پزشک را مصرف می‌کند و در روان‌درمانی شناختی ـ رفتاری شرکت دارد. همسرش با خوشحالی می‌گوید خواب و اشتهای او بهتر شده و انرژی بیشتری دارد؛ اما بیمار می‌گوید: «درونم هنوز پوچ و سیاه است. تنها راه نجات خانواده‌ام از شر من، پایان دادن به زندگی‌ام در همین هفته است؛ طناب را هم در انباری آماده گذاشته‌ام.» بهترین اقدام روان‌شناس چیست؟',
+     o:['اطمینان‌بخشی درباره شروع اثر دارو و گرفتن قرارداد کتبی عدم خودکشی تا جلسه بعد','اجرای بازسازی شناختی درباره باور «من سربار خانواده‌ام هستم» و تعیین تکلیف ثبت افکار','تلقی وضعیت به‌عنوان خطر حاد، تنها نگذاشتن مراجع، آگاه‌سازی همسر برای حذف فوری ابزار و مراقبت، و هماهنگی ارجاع و ویزیت فوری روان‌پزشکی یا اورژانس','حفظ کامل رازداری و توصیه به تماس با اورژانس اجتماعی در صورت تشدید افکار در شب'],a:2,
+     e:['بهبود نسبی انرژی تضمین رفع خطر نیست و قرارداد عدم خودکشی به‌تنهایی کافی نیست.','بازسازی شناختی در حضور قصد، برنامه و ابزار آماده، اولویت نخست نیست.','بازگشت انرژی پیش از بهبود خلق همراه با برنامه و ابزار، خطر حاد است؛ مدیریت فوری خطر، حذف ابزار با کمک همراه و ارجاع اضطراری اقدام درست است.','حفظ مطلق رازداری و سپردن ایمنی به تماس احتمالی بعدی در این وضعیت نادرست است.'],
+     t:'قصد + برنامه + ابزار + بازگشت انرژی = خطر حاد؛ حفظ جان بر رازداری و روند معمول جلسه مقدم است.'},
+    {c:'ایمنی و اخلاق',s:'مراجع ۴۴ ساله‌ای با سحرخیزی، خستگی و کندی پاسخ‌دهی می‌گوید: «من انگل خانواده‌ام هستم. چند بار فکر کرده‌ام قرص‌های آرام‌بخش مادرم را یکجا بخورم، اما هنوز تصمیم قطعی نگرفته‌ام.» اقدام اولویت‌دار روان‌شناس کدام است؟',
+     o:['آموزش بازسازی شناختی برای چالش با فکر «من انگل خانواده‌ام هستم»','ارزیابی دقیق دسترسی به ابزار، تنظیم برنامه ایمنی مشارکتی، درگیر کردن فرد حامی و ارجاع فوری به روان‌پزشک','شروع فوری برنامه‌ریزی فعالیت‌های لذت‌بخش برای افزایش انگیزه','اطمینان‌بخشی درباره اثر داروها و ارجاع غیرفوری برای هفته بعد'],a:1,
+     e:['چالش شناختی در لبه بحران خودکشی اولویت ندارد و ممکن است مقاومت ایجاد کند.','فکر خودکشی با روش مشخص و ابزار در دسترس، حتی بدون تصمیم قطعی، نیازمند سنجش دسترسی، برنامه ایمنی، بسیج شبکه حمایتی و ارجاع فوری است.','فعال‌سازی رفتاری مداخله مؤثری است، اما بر اقدامات ایمنی مقدم نیست.','اطمینان‌بخشی کاذب و به تعویق انداختن ارجاع با اصول حرفه‌ای مغایر است.'],
+     t:'«هنوز تصمیم قطعی نگرفته‌ام» از فوریت نمی‌کاهد؛ روش مشخص و ابزار در دسترس، خود نشانه خطر است.'}
+  ];
+  var quiz=document.getElementById('quiz'), state=[], filter='all';
+  document.getElementById('total').textContent=fa(Q.length);
+  function render(){
+    quiz.innerHTML='';
+    Q.forEach(function(q,i){
+      var d=document.createElement('div'); d.className='q'; d.dataset.c=q.c; d.id='q'+i;
+      var tagc=q.c==='مفهومی'?'blue':(q.c==='سناریومحور'?'gold':'red');
+      var h='<div class="qh"><span class="qn">سؤال '+fa(i+1)+'</span><span class="tag '+tagc+'">'+q.c+'</span></div>';
+      h+='<div class="stem">'+q.s+'</div><ul class="opts">';
+      q.o.forEach(function(o,j){h+='<li><button type="button" class="opt" data-j="'+j+'"><span class="l">'+L[j]+'</span><span>'+o+'</span></button></li>';});
+      h+='</ul><div class="exp"><div class="verdict"></div><ul>';
+      q.e.forEach(function(e,j){h+='<li'+(j===q.a?' class="rt"':'')+'><b>گزینه '+L[j]+':</b>'+e+'</li>';});
+      h+='</ul><div class="tip"><b>نکته آزمونی: </b>'+q.t+'</div></div>';
+      d.innerHTML=h;
+      d.querySelectorAll('.opt').forEach(function(b){b.onclick=function(){answer(i,+b.dataset.j);};});
+      quiz.appendChild(d);
+    });
+  }
+  function answer(i,j){
+    if(state[i]!==undefined) return;
+    state[i]=j; paint(i); update(); applyFilter();
+  }
+  function paint(i){
+    var q=Q[i], d=document.getElementById('q'+i), j=state[i];
+    d.classList.add('done');
+    d.querySelectorAll('.opt').forEach(function(b){
+      var k=+b.dataset.j; b.disabled=true;
+      if(k===q.a) b.classList.add('correct'); else if(k===j) b.classList.add('wrong'); else b.classList.add('dim');
+    });
+    var v=d.querySelector('.verdict');
+    if(j===q.a){v.className='verdict ok';v.textContent='پاسخ شما درست است. گزینه '+L[q.a];}
+    else{v.className='verdict no';v.textContent='پاسخ شما نادرست است. پاسخ صحیح: گزینه '+L[q.a];}
+  }
+  function update(){
+    var n=0,c=0; state.forEach(function(s,i){if(s!==undefined){n++; if(s===Q[i].a)c++;}});
+    document.getElementById('answered').textContent=fa(n);
+    document.getElementById('correct').textContent=fa(c);
+    var r=document.getElementById('result');
+    if(n===Q.length){
+      var p=Math.round(c/Q.length*100), msg;
+      if(p>=85) msg='تسلط شما بر این فصل عالی است. پیش از آزمون، فقط جدول اعداد کلیدی را مرور کنید.';
+      else if(p>=65) msg='عملکرد خوبی داشتید. سؤال‌های نادرست را با فیلتر «پاسخ‌های نادرست» مرور کنید و بخش دام‌های آزمونی را دوباره بخوانید.';
+      else msg='پیشنهاد می‌شود بخش‌های معیارهای تشخیصی، مشخص‌کننده‌ها و تشخیص افتراقی را دوباره مطالعه کنید و سپس آزمون را از نو آغاز کنید.';
+      r.innerHTML='<h4>نتیجه آزمون: '+fa(c)+' از '+fa(Q.length)+'، معادل '+fa(p)+' درصد</h4><p>'+msg+'</p>';
+      r.classList.add('show');
+    } else r.classList.remove('show');
+    store.set('dep-quiz',JSON.stringify(state));
+  }
+  function applyFilter(){
+    quiz.querySelectorAll('.q').forEach(function(d,i){
+      var show = filter==='all' || (filter==='wrong' ? (state[i]!==undefined && state[i]!==Q[i].a) : d.dataset.c===filter);
+      d.style.display=show?'':'none';
+    });
+  }
+  document.querySelectorAll('#qfilter button').forEach(function(b){
+    b.onclick=function(){document.querySelectorAll('#qfilter button').forEach(function(x){x.classList.remove('on');});b.classList.add('on');filter=b.dataset.f;applyFilter();};
+  });
+  document.getElementById('qReset').onclick=function(){state=[];render();update();applyFilter();document.getElementById('s19').scrollIntoView();};
+  render();
+  try{var saved=JSON.parse(store.get('dep-quiz')||'[]'); if(Array.isArray(saved)&&saved.length<=Q.length){saved.forEach(function(s,i){if(typeof s==='number'){state[i]=s;paint(i);}});}}catch(e){}
+  update();
+})();
+</script>
+</body>
+</html>

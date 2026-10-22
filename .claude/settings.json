@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 scripts/build.py:*)",
+      "Bash(python3 scripts/validate.py:*)",
+      "Bash(python3 scripts/lint_lesson.py:*)",
+      "Bash(python3 scripts/inventory_sources.py:*)",
+      "Bash(python3 scripts/new_subchapter.py:*)",
+      "Bash(python3 scripts/import_legacy_questions.py:*)",
+      "Bash(python3 scripts/sync-skills.py:*)",
+      "Bash(python3 -m unittest:*)",
+      "Bash(node --check:*)"
+    ],
+    "deny": [
+      "Edit(sources/archive-docx/**)",
+      "Edit(sources/archive-md/**)",
+      "Edit(sources/legacy-sites/**)",
+      "Write(sources/archive-docx/**)",
+      "Write(sources/archive-md/**)",
+      "Write(sources/legacy-sites/**)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c 'import mistune,yaml,bs4' 2>/dev/null || python3 -m pip install -q -r \"$CLAUDE_PROJECT_DIR/requirements-dev.txt\" >/dev/null 2>&1 || true"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.pyc
+.env
+.venv/
+site-preview/
+*.log
+
+# Raw lesson archives: internal drafts with unverified claims (ADR 0005). Master copy lives in the project files folder.
+sources/archive-docx/
+sources/archive-md/
+work/*/extracted/

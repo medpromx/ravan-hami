@@ -1,0 +1,11 @@
+{
+  "name": "ravan-hami",
+  "owner": { "name": "Ravan-Hami" },
+  "plugins": [
+    {
+      "name": "ravan-hami",
+      "source": "./plugins/ravan-hami",
+      "description": "Ravan-Hami lesson, question-bank, design-system and release-QA skills with pipeline commands and reviewer agents."
+    }
+  ]
+}

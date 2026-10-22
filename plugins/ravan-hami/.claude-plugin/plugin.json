@@ -1,0 +1,7 @@
+{
+  "name": "ravan-hami",
+  "version": "0.2.0",
+  "description": "Ravan-Hami (روان‌حامی) Persian psychology/counseling exam-content toolkit: 12 project skills, pipeline commands and read-only reviewer agents.",
+  "author": { "name": "Ravan-Hami" },
+  "keywords": ["persian", "rtl", "psychology", "counseling", "exam", "lesson-authoring"]
+}

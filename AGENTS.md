@@ -3,7 +3,7 @@
 You are working on an Iranian Persian-first, exam-oriented psychology and counseling learning platform (روان‌حامی). The repository is a **static GitHub Pages site generated from canonical content**, not a certified clinical resource. Reply to the project owner in Persian; code, skills and ADRs are in English.
 
 ## Read first
-`docs/PRD-fa.md` → `docs/ARCHITECTURE-fa.md` → `docs/WORKFLOW-fa.md` → `docs/standards/RH-EDITORIAL-STANDARD-v1.md` → `docs/QUESTION-DATA-CONTRACT.md` → `docs/QUALITY-AND-RELEASE-fa.md` → ADRs in `docs/adr/`. Current work: `docs/PILOT-CH02-fa.md` (pilot) and `docs/migration/CH01-LEGACY-MAP.md`. Older documents mention `instruction.md`; it was not supplied, so do not assume its contents.
+`docs/PRD-fa.md` → `docs/ARCHITECTURE-fa.md` → `docs/WORKFLOW-fa.md` → `docs/standards/RH-EDITORIAL-STANDARD-v1.md` → `docs/QUESTION-DATA-CONTRACT.md` → `docs/QUALITY-AND-RELEASE-fa.md` → ADRs in `docs/adr/`. Current work: `docs/PILOT-CH02-fa.md` (pilot) and `docs/migration/CH01-LEGACY-MAP.md`. The project mother instruction is `docs/instruction.md` (chapter map, chapter boundaries, the 18-file Chapter 01 contract, 96-question bank standard, source priority). Its Google Drive / NotebookLM links are LISTED sources only unless actually opened in the session.
 
 ## Rules
 1. Phase-1 exams are only `clinical-psychology` and `clinical-counseling`. Future tracks stay in `content/catalog/exams.json` as `planned` until commissioned.

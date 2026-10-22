@@ -8,7 +8,7 @@
 - **منابع خام:** همهٔ فایل‌های Word و Markdown درسنامه‌ها در `sources/archive-docx/` و `sources/archive-md/`، و نسخهٔ ثابت دو سایت قبلی (`medpromx/ravanhamych1` و `ravanhamych2`) در `sources/legacy-sites/`. فهرست کامل با هش و تشخیص تکراری‌ها: `docs/SOURCE-INVENTORY.md`.
 - **سؤالات قبلی:** ۹۶ سؤال فصل ۰۲ و ۲۰ سؤال درسنامهٔ افسردگی فصل ۰۱ با نگاشت لفظی به قرارداد سؤال وارد `content/questions/legacy-*.json` شده‌اند (همه پیش‌نویس).
 - **پایلوت فصل ۰۲:** بستهٔ کار سه زیرفصل در `work/RH-02-0X/` و دفترهای داخلی در `content/ledgers/` — راهنما: `docs/PILOT-CH02-fa.md`.
-- **فصل ۰۱:** نقشهٔ مهاجرت در `docs/migration/CH01-LEGACY-MAP.md`. مجموعهٔ تاریخی ۱۸ فایل / ۹۶ سؤال در فایل‌های دریافتی پیدا نشد.
+- **فصل ۰۱:** نقشهٔ مهاجرت در `docs/migration/CH01-LEGACY-MAP.md`. مجموعهٔ تاریخی ۱۸ فایل / ۹۶ سؤال فقط در گوگل‌درایو فهرست شده (`docs/instruction.md` §۴) و از این محیط قابل دسترسی نبود.
 - **مهارت‌ها:** ۱۲ مهارت (۸ مهارت اولیه + `rh-source-ingest`، `rh-editorial-style`، `rh-subchapter-pipeline`، `rh-legacy-migration`)، ۵ دستور، ۲ ایجنت بازبین و بستهٔ پلاگین `plugins/ravan-hami`.
 - **اسکریپت‌ها:** `inventory_sources.py`، `new_subchapter.py`، `lint_lesson.py`، `import_legacy_questions.py`.
 - **استانداردها:** `docs/standards/` (استاندارد ویرایشی، پرامپت اجرایی، قالب درسنامه، قالب گزارش QA). نگاشت وضعیت‌ها: `docs/adr/0004-status-vocabulary.md`.

@@ -15,7 +15,7 @@ metadata:
 | Depression reference lesson (DX-DEP-001 style) | `sources/legacy-sites/ravanhamych1/index.html` | 19 H2 sections, JS `Q` array `{c,s,o,a,e,t}` | 20 MCQs with four explanations → `content/questions/legacy-ch01-depression.json` |
 | Chapter 02 single page | `sources/legacy-sites/ravanhamych2/index.html` | 8 H2, 96 `<article class="q">` (32 per 2-1/2-2/2-3) | → `content/questions/legacy-ch02.json` |
 | Chapter 01 legacy units | `sources/archive-md/فصل_۰۱_…/زیرفصل_1-x/NN_slug/{lesson.md,questions.json}` | 13 units, 65 questions `{id,stem,options,correctIndex,rationale,examSource,examYear,referenceCore,difficulty}` | One combined rationale, not four; exam-origin claims unverified |
-| Chapter 01 historic contract | named in `AGENTS.md` | 13 split + 3 omnibus + portal + 96-question bank = 18 HTML | **Not present in any uploaded archive or repo snapshot as of 2026-10-22.** Ask for it before claiming migration. |
+| Chapter 01 historic contract | named in `AGENTS.md` | 13 split + 3 omnibus + portal + 96-question bank = 18 HTML | Listed in `docs/instruction.md` §4 with Google Drive links (18 HTML + a dedicated ZIP). **Not in any uploaded archive or repo snapshot, and the Drive files were not readable from this environment on 2026-10-22.** Ask the owner to upload the ZIP before claiming migration. |
 
 ## Procedure
 1. Snapshot first: copy the legacy file into `sources/legacy-sites/<name>/` with `SNAPSHOT.txt` (repo, commit, date). Never modify it afterwards.

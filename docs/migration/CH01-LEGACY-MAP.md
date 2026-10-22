@@ -6,12 +6,12 @@
 
 | Asset | Found? | Location | Count |
 | --- | --- | --- | --- |
-| Historic contract "13 split + 3 omnibus + portal + 96-question bank = 18 HTML" | **No** — not in any uploaded zip, nor in `medpromx/ravanhamych1` / `ravanhamych2` | — | — |
+| Historic contract "13 split + 3 omnibus + portal + 96-question bank = 18 HTML" | **Listed only** — `docs/instruction.md` §4 links each file and a dedicated ZIP on Google Drive; Drive returned "no permission" from this environment; not in any uploaded zip or in `medpromx/ravanhamych1` / `ravanhamych2` | Google Drive (see instruction §4.1–4.3) | 18 HTML · 96 questions (`c,s,o,a,e,t,src,uid,sub`) |
 | 13 legacy units (`lesson.md` + `questions.json`) | Yes | `sources/archive-md/فصل_۰۱_…/` | 13 lessons · 65 questions (5 each) |
 | Depression reference lesson + interactive bank | Yes | `sources/legacy-sites/ravanhamych1/index.html` (commit in `SNAPSHOT.txt`) | 19 sections · 20 questions |
 | Chapter-01 Word drafts | No (folder in the zip is empty) | — | — |
 
-**Blocking question for the owner:** where is the 18-file / 96-question Chapter 01 set? Until it is supplied, "96 questions" stays a target, not a count.
+**Blocking request for the owner:** upload the Drive ZIP of the 18 Chapter 01 HTML files (instruction §4.3) to the project files, or share the Drive folder with the connected account. Until then "96 questions" stays a target, not a count. Note the legacy units' topics differ slightly from the instruction's 13-file list (e.g. instruction unit 01 = symptoms/criteria, archive unit 01 = pathophysiology); reconcile when the HTML set arrives.
 
 ## Question import status
 

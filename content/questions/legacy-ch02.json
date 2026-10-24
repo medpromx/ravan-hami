@@ -2528,10 +2528,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0001"
  },
  {
   "uid": "RH-L02-03-0002",
@@ -2566,10 +2567,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0002"
  },
  {
   "uid": "RH-L02-03-0003",
@@ -2604,10 +2606,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0003"
  },
  {
   "uid": "RH-L02-03-0004",
@@ -2642,10 +2645,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0004"
  },
  {
   "uid": "RH-L02-03-0005",
@@ -2680,10 +2684,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0005"
  },
  {
   "uid": "RH-L02-03-0006",
@@ -2718,10 +2723,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0006"
  },
  {
   "uid": "RH-L02-03-0007",
@@ -2756,10 +2762,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0007"
  },
  {
   "uid": "RH-L02-03-0008",
@@ -2794,10 +2801,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0008"
  },
  {
   "uid": "RH-L02-03-0009",
@@ -2832,10 +2840,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0009"
  },
  {
   "uid": "RH-L02-03-0010",
@@ -2870,10 +2879,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0010"
  },
  {
   "uid": "RH-L02-03-0011",
@@ -2908,10 +2918,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0011"
  },
  {
   "uid": "RH-L02-03-0012",
@@ -2946,10 +2957,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0012"
  },
  {
   "uid": "RH-L02-03-0013",
@@ -2984,10 +2996,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0013"
  },
  {
   "uid": "RH-L02-03-0014",
@@ -3022,10 +3035,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0014"
  },
  {
   "uid": "RH-L02-03-0015",
@@ -3060,10 +3074,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0015"
  },
  {
   "uid": "RH-L02-03-0016",
@@ -3098,10 +3113,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0016"
  },
  {
   "uid": "RH-L02-03-0017",
@@ -3136,10 +3152,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0017"
  },
  {
   "uid": "RH-L02-03-0018",
@@ -3174,10 +3191,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0018"
  },
  {
   "uid": "RH-L02-03-0019",
@@ -3212,10 +3230,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0019"
  },
  {
   "uid": "RH-L02-03-0020",
@@ -3250,10 +3269,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0020"
  },
  {
   "uid": "RH-L02-03-0021",
@@ -3288,10 +3308,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0021"
  },
  {
   "uid": "RH-L02-03-0022",
@@ -3326,10 +3347,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0022"
  },
  {
   "uid": "RH-L02-03-0023",
@@ -3364,10 +3386,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0023"
  },
  {
   "uid": "RH-L02-03-0024",
@@ -3402,10 +3425,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0024"
  },
  {
   "uid": "RH-L02-03-0025",
@@ -3440,10 +3464,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0025"
  },
  {
   "uid": "RH-L02-03-0026",
@@ -3478,10 +3503,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0026"
  },
  {
   "uid": "RH-L02-03-0027",
@@ -3516,10 +3542,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0027"
  },
  {
   "uid": "RH-L02-03-0028",
@@ -3554,10 +3581,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0028"
  },
  {
   "uid": "RH-L02-03-0029",
@@ -3592,10 +3620,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0029"
  },
  {
   "uid": "RH-L02-03-0030",
@@ -3630,10 +3659,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0030"
  },
  {
   "uid": "RH-L02-03-0031",
@@ -3668,10 +3698,11 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0031"
  },
  {
   "uid": "RH-L02-03-0032",
@@ -3706,9 +3737,10 @@
   "year": null,
   "verified": false,
   "reviewed_by": null,
-  "status": "DRAFT_REVIEW_REQUIRED",
+  "status": "WITHDRAWN",
   "difficulty": null,
   "tags": [],
-  "linked_units": []
+  "linked_units": [],
+  "superseded_by": "RH-02-03-0032"
  }
 ]

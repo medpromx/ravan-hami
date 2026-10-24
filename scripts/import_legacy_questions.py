@@ -127,9 +127,23 @@ def ch02():
     return out
 
 
+def superseded() -> dict:
+    """Legacy UID -> canonical UID, from lesson banks written by scripts/lesson_questions.py."""
+    out = {}
+    for p in OUT.glob('RH-*.json'):
+        for q in json.loads(p.read_text(encoding='utf8')):
+            if q.get('legacy_ref'):
+                out[q['legacy_ref']] = q['uid']
+    return out
+
+
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
+    sup = superseded()
     for name, rows in (('legacy-ch01-depression.json', ch01()), ('legacy-ch02.json', ch02())):
+        for r in rows:
+            if r['uid'] in sup:
+                r['status'], r['superseded_by'] = 'WITHDRAWN', sup[r['uid']]
         problems = [r['uid'] for r in rows if len(r['options']) != 4 or len(r['optionExplanations']) != 4]
         if problems:
             print('Shape problems:', problems); return 1

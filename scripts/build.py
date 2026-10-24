@@ -9,7 +9,8 @@ EXAMS=json.loads((ROOT/'content/catalog/exams.json').read_text(encoding='utf8'))
 CHAPTERS=json.loads((ROOT/'content/catalog/chapters.json').read_text(encoding='utf8'))
 CH={c['id']:c for c in CHAPTERS}
 # Every question file under content/questions is loaded; release mode filters by status below.
-Q=[q for p in sorted((ROOT/'content/questions').glob('*.json')) for q in json.loads(p.read_text(encoding='utf8'))]
+# WITHDRAWN records (e.g. legacy items superseded by a canonical lesson bank) are never shown.
+Q=[q for p in sorted((ROOT/'content/questions').glob('*.json')) for q in json.loads(p.read_text(encoding='utf8')) if q.get('status')!='WITHDRAWN']
 # The exams/ tree is build output only; delete stale HTML on mode switches.
 if (ROOT/'exams').exists(): shutil.rmtree(ROOT/'exams')
 M=mistune.create_markdown(escape=True,plugins=['table','strikethrough'])
@@ -68,7 +69,7 @@ for exam in pilots:
   side='<strong>در این فصل</strong>'+a('index.html','نمای کلی')+a('questions.html','بانک سؤالات')+''.join(a(link,title) for link,title in links)
   write(cb+'index.html','فصل '+cid+' · '+c['title'],desc,exam,side,breadcrumbs(ename,'فصل '+cid))
   for meta,md in chosen:
-   lesson_html=M(md)
+   lesson_html=M(re.sub(r'^<!--.*?-->\s*$\n?','',md,flags=re.M))  # question UID markers are source-only
    lesson_html=re.sub(r'<table>(.*?)</table>',r'<div class="table-scroll"><table>\1</table></div>',lesson_html,flags=re.S)
    main=f'<article class="paper" data-content-id="{e(meta["id"])}"><div class="quiz-meta">شناسه: {e(meta["id"])} · ویرایش {e(meta["revision"])} · {e(meta["status"])}</div>{lesson_html}<div class="toolbar">{a("../questions.html","بانک سؤال مرتبط","btn")}{a("../index.html","بازگشت به فصل","btn")}</div></article>'
    write(cb+f'lessons/{meta["id"]}.html',meta['title'],main,exam,'<strong>فهرست درسنامه</strong><nav id="toc"></nav>'+a('../questions.html','بانک سؤال'),breadcrumbs(ename,'فصل '+cid,meta['title']))

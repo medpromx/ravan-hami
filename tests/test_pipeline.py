@@ -38,10 +38,30 @@ class LegacyQuestionTests(unittest.TestCase):
         qs = self.load('legacy-ch02.json') + self.load('legacy-ch01-depression.json')
         self.assertEqual(len({q['uid'] for q in qs}), len(qs))
         for q in qs:
-            self.assertEqual(q['status'], 'DRAFT_REVIEW_REQUIRED')
+            # A legacy record is either still a draft or withdrawn in favour of a canonical lesson question.
+            self.assertIn(q['status'], ('DRAFT_REVIEW_REQUIRED', 'WITHDRAWN'))
+            self.assertEqual(q['status'] == 'WITHDRAWN', bool(q.get('superseded_by')))
             self.assertFalse(q['verified'])
             self.assertEqual(q['source_type'], 'legacy_site')
             self.assertEqual(q['shortAnswer'], q['options'][q['correctIndex']])
+
+
+class LessonBankTests(unittest.TestCase):
+    def test_lesson_banks_match_lesson_markdown(self):
+        lessons = [p for p in sorted((R / 'content/lessons').rglob('RH-??-??.md'))]
+        out = subprocess.run([sys.executable, str(R / 'scripts/lesson_questions.py'), '--check', *map(str, lessons)],
+                             capture_output=True, text=True) if lessons else None
+        self.assertTrue(out is None or out.returncode == 0, out and out.stdout)
+
+    def test_canonical_keys_match_superseded_legacy_keys(self):
+        legacy = {q['uid']: q for p in (R / 'content/questions').glob('legacy-*.json')
+                  for q in json.loads(p.read_text(encoding='utf8'))}
+        for p in (R / 'content/questions').glob('RH-*.json'):
+            for q in json.loads(p.read_text(encoding='utf8')):
+                if q.get('legacy_ref'):
+                    old = legacy[q['legacy_ref']]
+                    self.assertEqual(old.get('superseded_by'), q['uid'])
+                    self.assertEqual(old['correctIndex'], q['correctIndex'], q['uid'])
 
 
 class LintTests(unittest.TestCase):

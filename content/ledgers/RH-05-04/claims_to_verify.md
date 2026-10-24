@@ -1,0 +1,26 @@
+# RH-05-04 claims to verify
+
+| claim_id | claim (as written) | where | why sensitive | conflicting versions | proposed source | status |
+| --- | --- | --- | --- | --- | --- | --- |
+| C01 | SCL-90-R (Derogatis): 90 items, 0–4, past 7 days; 9 dimensions with item counts 12/10/9/13/10/6/7/6/10 + 7 additional | lesson table; Q18 | test structure | — | R01 | OPEN |
+| C02 | GSI = sum/90; PST = count >0; PSDI = sum/PST | lesson; Q9, Q21 | formula | source Q9 option 2 gave 0.46 for 42/90; corrected to 0.47 | R01 | OPEN |
+| C03 | Caseness: GSI T≥63 or any two dimensions T≥63 | lesson; Q1 | cutoff | source Q1 stem gave raw GSI 2.30 as if T; stem rewritten with GSI T = 68 | R01 | OPEN |
+| C04 | SCL-90-R has no formal validity scales; no accepted cutoffs for exaggeration or minimisation | lesson; Q22, Q31; case 1 | interpretive | source (part 5) gave GSI T>75, PST 75–80, PSDI>3.5 malingering and PST<10–15 faking-good thresholds; source case 1 said PST/PSDI 'proves' no malingering; removed/softened | R01 | OPEN |
+| C05 | BSI 53 items, same 9 dimensions and 3 indices; high correlations with SCL-90-R | lesson; Q22 | test structure | source gave r = 0.92–0.98 and 8–10 min; specific values omitted — verify | R01 | OPEN |
+| C06 | BDI-II: 21 items, 0–3, past two weeks, 0–63; bands 0–13/14–19/20–28/29–63; sleep and appetite items bidirectional | lesson table; Q2, Q24 | cutoffs | — | R02 | OPEN |
+| C07 | BDI-II item 9: score 2 or 3 requires immediate risk assessment; any positive score prompts direct questioning | lesson; Q2; case 1 | safety | source quoted item 9 response wording; replaced with paraphrase (copyright) | R02 | OPEN |
+| C08 | BDI-II factor split (cognitive-affective vs somatic) varies across studies | lesson › BDI-II | psychometric | source fixed the split at items 1–14 vs 15–21; softened | R02 | OPEN |
+| C09 | PHQ-9: 9 items, 0–27; bands 0–4/5–9/10–14/15–19/20–27; cutoff 10; item 9 any positive → assessment | lesson; Q23 | cutoffs | — | R03 | OPEN |
+| C10 | HRSD 17 or 21 items clinician-rated; HAM-A 14 items psychic and somatic | lesson tables | test structure | source called HRSD 'always the gold standard' in drug trials; softened | R03 | OPEN |
+| C11 | STAI form Y: 40 items, Y-1 state Y-2 trait, each 20–80, some items reverse-scored | lesson; Q8 | test structure | source said half the items are reversed; changed to 'a number of items'; pre-surgery wound-healing claim removed | R04 | OPEN |
+| C12 | BAI: 21 items 0–3, 0–63; bands 0–7/8–15/16–25/26–63; designed to reduce overlap with depression | lesson; Q20 | cutoffs | source: '>80% somatic items' and 'exclusively somatic'; softened to 'mostly'; time frame not stated — verify edition | R04 | OPEN |
+| C13 | BHS: 20 true/false, 0–20; bands 0–3/4–8/9–14/15–20; ≥9 warning; hopelessness predicts suicide more strongly than depression severity | lesson; Q12 | cutoffs/prediction | source: 'strongest statistical predictor of completed suicide' and '≥15 = psychiatric emergency requiring 24-hour care'; softened | R05 | OPEN |
+| C14 | GDS (Yesavage et al.): 30 or 15 items yes/no, 65+, few somatic items | lesson; Q3 | test structure | no cutoffs given in lesson | R05 | OPEN |
+| C15 | GHQ-28 (Goldberg & Hillier): 4 × 7 subscales; recent state vs usual; GHQ 0-0-1-1 (0–28) and Likert 0–3 (0–84); cutoffs ~5–6 and ~22–24 in some Iranian studies | lesson; Q16, Q25 | cutoffs | source: time frame 'one month' and cutoff 6 / 23 as fixed; reframed as recent vs usual and population-dependent | R06 | OPEN |
+| C16 | Beutler STS variables: functional impairment, coping style, resistance, subjective distress; matching rules | lesson table; Q4, Q13, Q26 | model | source listed three dimensions and called matching 'the strongest predictor'; impairment added and claims softened | R07 | OPEN |
+| C17 | 4P formulation: predisposing, precipitating, perpetuating, protective; presenting problem as starting point (5P) | lesson table; Q6, Q14, Q19, Q27 | model | source listed the presenting problem as one of the four Ps; corrected | R08 | OPEN |
+| C18 | TTM stages with time anchors (6 months / 1 month / <6 / >6 months); 10 processes; decisional balance; lapse normal | lesson table; Q5, Q11, Q17, Q28, Q29 | model | — | R09 | OPEN |
+| C19 | Report: 7 sections; Barnum effect; data vs inference; minimal disclosure; specific recommendations; Finn therapeutic assessment | lesson table; Q7, Q15, Q30 | practice standard | — | R10 | OPEN |
+| C20 | Raw test data and test materials released only to qualified professional or by order of competent authority, per applicable code | lesson; Q10, Q32; case 3 | legal/ethical | source: release to lawyer/client 'explicitly illegal' and 'only by written order of judge to official court expert'; generalised — check APA 9.04/9.11 and Iranian code | R11 | OPEN |
+| C21 | Suicide safety: written collaborative safety plan, means restriction; no-suicide contract alone insufficient | lesson › ایمنی; case 1 | safety | source recommended a 'written safety contract'; replaced with safety plan | R12 | OPEN |
+| C22 | Forensic custody report: evaluator addresses psychological questions; custody decision belongs to the court | lesson; case 3; Q32 | legal | source sample report 'certified' fitness for custody and named the court branch; reframed; branch removed | R11 | OPEN |

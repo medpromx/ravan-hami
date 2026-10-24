@@ -1,0 +1,339 @@
+{
+ "lesson_id": "RH-03-02",
+ "references": [
+  {
+   "reference_id": "R01",
+   "title": "Shneidman, The Suicidal Mind",
+   "edition": null,
+   "year": 1996,
+   "locator": "psychache",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R02",
+   "title": "Beck, Kovacs & Weissman / Beck et al., hopelessness and eventual suicide (prospective studies)",
+   "edition": null,
+   "year": 1985,
+   "locator": "hopelessness vs depression severity",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R03",
+   "title": "Joiner, Why People Die by Suicide; Van Orden et al., The interpersonal theory of suicide (Psychological Review 117)",
+   "edition": null,
+   "year": 2010,
+   "locator": "thwarted belongingness, perceived burdensomeness, acquired capability",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R04",
+   "title": "Klonsky & May, The three-step theory (3ST) (International Journal of Cognitive Therapy 8)",
+   "edition": null,
+   "year": 2015,
+   "locator": "pain + hopelessness; connectedness; capability",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R05",
+   "title": "Stanley & Brown, Safety Planning Intervention (Cognitive and Behavioral Practice 19)",
+   "edition": null,
+   "year": 2012,
+   "locator": "six steps",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R06",
+   "title": "Posner et al., Columbia-Suicide Severity Rating Scale (American Journal of Psychiatry 168)",
+   "edition": null,
+   "year": 2011,
+   "locator": "ideation levels; behaviour section; screen version",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R07",
+   "title": "SAMHSA, SAFE-T: Suicide Assessment Five-step Evaluation and Triage",
+   "edition": null,
+   "year": null,
+   "locator": "five steps",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R08",
+   "title": "Beck, Kovacs & Weissman, Scale for Suicide Ideation",
+   "edition": null,
+   "year": 1979,
+   "locator": "item count",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R09",
+   "title": "Motto & Bostrom, Randomized controlled trial of postcrisis suicide prevention (Psychiatric Services 52)",
+   "edition": null,
+   "year": 2001,
+   "locator": "caring letters",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R10",
+   "title": "Linehan, Cognitive-Behavioral Treatment of Borderline Personality Disorder / DBT Skills Training Manual",
+   "edition": null,
+   "year": null,
+   "locator": "target hierarchy; TIPP",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R11",
+   "title": "Jobes, Managing Suicidal Risk: A Collaborative Approach (CAMS)",
+   "edition": null,
+   "year": null,
+   "locator": "CAMS",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R12",
+   "title": "Brown et al., Cognitive therapy for the prevention of suicide attempts (JAMA 294)",
+   "edition": null,
+   "year": 2005,
+   "locator": "CT-SP ~10 sessions",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R13",
+   "title": "World Health Organization, Suicide worldwide / suicide fact sheet",
+   "edition": null,
+   "year": null,
+   "locator": "annual deaths",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R14",
+   "title": "U.S. FDA, antidepressant boxed warning (suicidality in children, adolescents and young adults)",
+   "edition": null,
+   "year": 2007,
+   "locator": "under-25 age range",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R15",
+   "title": "WHO, Preventing suicide: a resource for media professionals",
+   "edition": null,
+   "year": null,
+   "locator": "Werther/Papageno, reporting guidance",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R16",
+   "title": "Iranian law / regulations on emergency psychiatric admission and professional ethics code (سازمان نظام روان‌شناسی و مشاوره)",
+   "edition": null,
+   "year": null,
+   "locator": "confidentiality exceptions; involuntary admission",
+   "state": "LISTED"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C01",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C02",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C03",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C04",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C05",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C06",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C07",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C08",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C09",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C10",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C11",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C12",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C13",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C14",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C15",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C16",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C17",
+   "content_id": "RH-03-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-03-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  }
+ ]
+}

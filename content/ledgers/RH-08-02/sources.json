@@ -1,0 +1,695 @@
+{
+ "lesson_id": "RH-08-02",
+ "references": [
+  {
+   "reference_id": "R01",
+   "title": "Berk, Development Through the Lifespan",
+   "edition": null,
+   "year": null,
+   "locator": "overview; milestones; aging",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R02",
+   "title": "Moore, Persaud & Torchia, The Developing Human",
+   "edition": null,
+   "year": null,
+   "locator": "prenatal stages; viability",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R03",
+   "title": "Papalia & Martorell, Experience Human Development",
+   "edition": null,
+   "year": null,
+   "locator": "teratogens",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R04",
+   "title": "Medical genetics textbook (e.g. Thompson & Thompson)",
+   "edition": null,
+   "year": null,
+   "locator": "chromosomal and genetic disorders",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R05",
+   "title": "Apgar, A proposal for a new method of evaluation of the newborn infant",
+   "edition": null,
+   "year": 1953,
+   "locator": "Apgar",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R06",
+   "title": "AAP/ACOG, The Apgar Score committee opinion",
+   "edition": null,
+   "year": null,
+   "locator": "interpretation limits",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R07",
+   "title": "Brazelton & Nugent, Neonatal Behavioral Assessment Scale",
+   "edition": null,
+   "year": null,
+   "locator": "NBAS",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R08",
+   "title": "Pediatric neurology reference on primitive reflexes",
+   "edition": null,
+   "year": null,
+   "locator": "reflex timing",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R09",
+   "title": "CDC Learn the Signs. Act Early milestones",
+   "edition": null,
+   "year": null,
+   "locator": "milestones; red flags",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R10",
+   "title": "AAP autism surveillance and screening guidance",
+   "edition": null,
+   "year": null,
+   "locator": "red flags",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R11",
+   "title": "Thomas & Chess, Temperament and Development",
+   "edition": null,
+   "year": 1977,
+   "locator": "temperament",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R12",
+   "title": "Ainsworth et al., Patterns of Attachment",
+   "edition": null,
+   "year": 1978,
+   "locator": "Strange Situation",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R13",
+   "title": "Spitz, Anaclitic depression",
+   "edition": null,
+   "year": 1946,
+   "locator": "anaclitic depression; hospitalism",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R14",
+   "title": "Rutter et al. ERA study; Nelson et al. Bucharest Early Intervention Project",
+   "edition": null,
+   "year": null,
+   "locator": "institutional deprivation",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R15",
+   "title": "Parten, Social participation among preschool children",
+   "edition": null,
+   "year": 1932,
+   "locator": "play",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R16",
+   "title": "Wellman, Cross & Watson, Meta-analysis of theory-of-mind development",
+   "edition": null,
+   "year": 2001,
+   "locator": "false belief",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R17",
+   "title": "Baumrind, Child care practices anteceding three patterns of preschool behavior",
+   "edition": null,
+   "year": 1967,
+   "locator": "parenting styles",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R18",
+   "title": "Maccoby & Martin, Socialization in the context of the family",
+   "edition": null,
+   "year": 1983,
+   "locator": "neglectful style",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R19",
+   "title": "Coie, Dodge & Coppotelli, Dimensions and types of social status",
+   "edition": null,
+   "year": 1982,
+   "locator": "sociometric status",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R20",
+   "title": "Olweus, Bullying at School",
+   "edition": null,
+   "year": 1993,
+   "locator": "whole-school programs",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R21",
+   "title": "Harter, The Construction of the Self",
+   "edition": null,
+   "year": null,
+   "locator": "self-esteem",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R22",
+   "title": "Steinberg, A social neuroscience perspective on adolescent risk-taking",
+   "edition": null,
+   "year": 2008,
+   "locator": "dual systems",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R23",
+   "title": "Elkind, Egocentrism in adolescence",
+   "edition": null,
+   "year": 1967,
+   "locator": "imaginary audience; personal fable",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R24",
+   "title": "Marcia, Development and validation of ego-identity status",
+   "edition": null,
+   "year": 1966,
+   "locator": "identity statuses",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R25",
+   "title": "Erikson, Childhood and Society",
+   "edition": null,
+   "year": 1950,
+   "locator": "stages and virtues",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R26",
+   "title": "Arnett, Emerging adulthood",
+   "edition": null,
+   "year": 2000,
+   "locator": "emerging adulthood",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R27",
+   "title": "Sternberg, A triangular theory of love",
+   "edition": null,
+   "year": 1986,
+   "locator": "love",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R28",
+   "title": "Perry 1970; Labouvie-Vief; Sinnott",
+   "edition": null,
+   "year": null,
+   "locator": "postformal thought",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R29",
+   "title": "Schaie, Developmental Influences on Adult Intelligence: The Seattle Longitudinal Study",
+   "edition": null,
+   "year": null,
+   "locator": "fluid vs crystallized",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R30",
+   "title": "Baltes & Baltes, Successful Aging",
+   "edition": null,
+   "year": 1990,
+   "locator": "SOC",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R31",
+   "title": "Nagy, The child's theories concerning death",
+   "edition": null,
+   "year": 1948,
+   "locator": "death concept",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R32",
+   "title": "Speece & Brent, Children's understanding of death",
+   "edition": null,
+   "year": 1984,
+   "locator": "subconcepts",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R33",
+   "title": "Kubler-Ross, On Death and Dying",
+   "edition": null,
+   "year": 1969,
+   "locator": "five stages",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R34",
+   "title": "DSM-5-TR",
+   "edition": null,
+   "year": 2022,
+   "locator": "prolonged grief disorder",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R35",
+   "title": "Bartholomew & Horowitz, Attachment styles among young adults",
+   "edition": null,
+   "year": 1991,
+   "locator": "adult attachment",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R36",
+   "title": "Bayley Scales of Infant and Toddler Development manual",
+   "edition": null,
+   "year": null,
+   "locator": "DQ; age range",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R37",
+   "title": "قانون حمایت از اطفال و نوجوانان (ایران)",
+   "edition": null,
+   "year": null,
+   "locator": "reporting duty; listed only, not retrieved",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R38",
+   "title": "APA Ethical Principles; آیین‌نامهٔ اخلاقی سازمان نظام روان‌شناسی و مشاوره",
+   "edition": null,
+   "year": null,
+   "locator": "confidentiality with minors",
+   "state": "LISTED"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C01",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C02",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C03",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C04",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C05",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C06",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C07",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C08",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C09",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C10",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C11",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C12",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C13",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C14",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C15",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C16",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C17",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C18",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C19",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C20",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C21",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C22",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C23",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C24",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C25",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C26",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C27",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C28",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C29",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C30",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C31",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C32",
+   "content_id": "RH-08-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-08-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  }
+ ]
+}

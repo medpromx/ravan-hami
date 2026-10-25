@@ -28,10 +28,10 @@
 | 02 | phenomenology: positive/negative/cognitive symptoms | 1-1 | RH-01-01 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
 | 03 | schizoaffective, schizophreniform, catatonia | 1-1 | RH-01-01 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
 | 04 | treatment-resistant schizophrenia, clozapine | 1-1 | RH-01-01 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
-| 05 | bipolar I/II, mixed features | 1-2 | RH-01-02-U01 | 5 | pending |
-| 06 | MDD and clinical subtypes | 1-2 | RH-01-02-U02 | 5 | pending — merge with ravanhamych1 depression lesson (20 Q) |
-| 07 | persistent mood, child/adolescent | 1-2 | RH-01-02-U03 | 5 | pending |
-| 08 | suicide risk assessment, emergency | 1-2 | RH-01-02-U04 | 5 | pending — boundary with Chapter 03 |
+| 05 | bipolar I/II, mixed features | 1-2 | RH-01-02 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
+| 06 | MDD and clinical subtypes | 1-2 | RH-01-02 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) — ravanhamych1 lesson also integrated; its 20 Q stay in legacy-ch01-depression.json |
+| 07 | persistent mood, child/adolescent | 1-2 | RH-01-02 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
+| 08 | suicide risk assessment, emergency | 1-2 | RH-01-02 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
 | 09 | panic disorder, agoraphobia | 1-3 | RH-01-03-U01 | 5 | pending |
 | 10 | GAD, specific phobia, social anxiety | 1-3 | RH-01-03-U02 | 5 | pending |
 | 11 | OCD and related | 1-3 | RH-01-03-U03 | 5 | pending |

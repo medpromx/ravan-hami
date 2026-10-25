@@ -1,0 +1,339 @@
+{
+ "lesson_id": "RH-07-03",
+ "references": [
+  {
+   "reference_id": "R01",
+   "title": "Parsons, Choosing a Vocation",
+   "edition": null,
+   "year": 1909,
+   "locator": "three steps",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R02",
+   "title": "Brown & Lent, Career Development and Counseling; Zunker, Career Counseling",
+   "edition": null,
+   "year": null,
+   "locator": "history; overview of theories",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R03",
+   "title": "Williamson, How to Counsel Students",
+   "edition": null,
+   "year": 1939,
+   "locator": "six steps; diagnostic categories",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R04",
+   "title": "Holland, Making Vocational Choices",
+   "edition": "3rd",
+   "year": 1997,
+   "locator": "RIASEC; constructs; SDS",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R05",
+   "title": "Super, A life-span, life-space approach to career development",
+   "edition": null,
+   "year": 1980,
+   "locator": "stages; rainbow; minicycle",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R06",
+   "title": "Ginzberg et al., Occupational Choice; Ginzberg 1972, 1984 revisions",
+   "edition": null,
+   "year": 1951,
+   "locator": "periods; revision",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R07",
+   "title": "Mitchell, Levin & Krumboltz, Planned happenstance",
+   "edition": null,
+   "year": 1999,
+   "locator": "social learning; five skills",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R08",
+   "title": "Roe, The Psychology of Occupations; Roe & Lunneborg",
+   "edition": null,
+   "year": 1956,
+   "locator": "family climates; classification",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R09",
+   "title": "Bordin, Nachmann & Segal, An articulated framework for vocational development",
+   "edition": null,
+   "year": 1963,
+   "locator": "psychodynamic view",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R10",
+   "title": "Savickas, Career construction theory and practice",
+   "edition": null,
+   "year": null,
+   "locator": "adaptability; CCI",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R11",
+   "title": "Sampson, Reardon, Peterson & Lenz, Career Counseling and Services: A Cognitive Information Processing Approach",
+   "edition": null,
+   "year": 2004,
+   "locator": "CIP; CASVE",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R12",
+   "title": "Lent, Brown & Hackett, Toward a unifying social cognitive theory of career and academic interest, choice, and performance",
+   "edition": null,
+   "year": 1994,
+   "locator": "SCCT",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R13",
+   "title": "Maslach & Jackson, Maslach Burnout Inventory",
+   "edition": null,
+   "year": null,
+   "locator": "burnout dimensions",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R14",
+   "title": "Career indecision literature (e.g. Gati, Krausz & Osipow 1996)",
+   "edition": null,
+   "year": 1996,
+   "locator": "indecision vs indecisiveness",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R15",
+   "title": "Suicide risk and unemployment reviews; DSM-5-TR bipolar I",
+   "edition": null,
+   "year": null,
+   "locator": "job loss risk; mania",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R16",
+   "title": "ACA / NCDA Code of Ethics; آیین‌نامهٔ اخلاقی سازمان نظام روان‌شناسی و مشاوره",
+   "edition": null,
+   "year": null,
+   "locator": "assessment ethics",
+   "state": "LISTED"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C01",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C02",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C03",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C04",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C05",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C06",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C07",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C08",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C09",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C10",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C11",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C12",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C13",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C14",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C15",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C16",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C17",
+   "content_id": "RH-07-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-07-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  }
+ ]
+}

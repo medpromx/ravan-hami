@@ -1,0 +1,559 @@
+{
+ "lesson_id": "RH-10-01",
+ "references": [
+  {
+   "reference_id": "R01",
+   "title": "American Psychiatric Association, DSM-5-TR",
+   "edition": "5th, text revision",
+   "year": 2022,
+   "locator": "criteria, durations",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R02",
+   "title": "Joiner, Why People Die by Suicide",
+   "edition": null,
+   "year": 2005,
+   "locator": "warning signs",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R03",
+   "title": "Jobes, Managing Suicidal Risk (CAMS)",
+   "edition": "2nd",
+   "year": 2016,
+   "locator": "risk assessment",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R04",
+   "title": "Stith et al., Couples treatment for domestic violence",
+   "edition": null,
+   "year": 2004,
+   "locator": "IPV safety",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R05",
+   "title": "AFSP/SPRC, After a Suicide: A Toolkit for Schools",
+   "edition": "2nd",
+   "year": 2018,
+   "locator": "postvention",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R06",
+   "title": "APA Ethical Principles of Psychologists and Code of Conduct",
+   "edition": null,
+   "year": 2017,
+   "locator": "ethics",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R07",
+   "title": "Tarasoff v. Regents of the University of California",
+   "edition": null,
+   "year": 1976,
+   "locator": "duty to protect",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R08",
+   "title": "Kroenke et al., The PHQ-9",
+   "edition": null,
+   "year": 2001,
+   "locator": "PHQ-9",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R09",
+   "title": "Sadock et al., Kaplan & Sadock's Synopsis of Psychiatry",
+   "edition": "12th",
+   "year": 2022,
+   "locator": "MSE",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R10",
+   "title": "Skinner, Science and Human Behavior",
+   "edition": null,
+   "year": 1953,
+   "locator": "operant",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R11",
+   "title": "NICE guidelines (OCD CG31, PTSD NG116)",
+   "edition": null,
+   "year": null,
+   "locator": "evidence-based pairings",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R12",
+   "title": "Miller & Rollnick, Motivational Interviewing",
+   "edition": "4th",
+   "year": 2023,
+   "locator": "MI",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R13",
+   "title": "Linehan, Cognitive-Behavioral Treatment of Borderline Personality Disorder",
+   "edition": null,
+   "year": 1993,
+   "locator": "DBT",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R14",
+   "title": "Pharoah et al., Family intervention for schizophrenia (Cochrane)",
+   "edition": null,
+   "year": 2010,
+   "locator": "EE",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R15",
+   "title": "Maslach et al., Maslach Burnout Inventory Manual",
+   "edition": "4th",
+   "year": 2016,
+   "locator": "burnout",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R16",
+   "title": "Gabbard, Psychodynamic Psychiatry in Clinical Practice",
+   "edition": "5th",
+   "year": 2014,
+   "locator": "transference",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R17",
+   "title": "Minuchin, Families and Family Therapy",
+   "edition": null,
+   "year": 1974,
+   "locator": "boundaries",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R18",
+   "title": "Anastasi & Urbina, Psychological Testing",
+   "edition": "7th",
+   "year": 1997,
+   "locator": "SEM",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R19",
+   "title": "Lewinsohn, A behavioral approach to depression",
+   "edition": null,
+   "year": 1974,
+   "locator": "BA",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R20",
+   "title": "Marcia, Development and validation of ego-identity status",
+   "edition": null,
+   "year": 1966,
+   "locator": "identity status",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R21",
+   "title": "Bouton, Context and behavioral processes in extinction",
+   "edition": null,
+   "year": 2004,
+   "locator": "renewal",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R22",
+   "title": "Wolpe, Psychotherapy by Reciprocal Inhibition",
+   "edition": null,
+   "year": 1958,
+   "locator": "SD",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R23",
+   "title": "Bronfenbrenner, The Ecology of Human Development",
+   "edition": null,
+   "year": 1979,
+   "locator": "ecological systems",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R24",
+   "title": "قانون مدنی ایران (ولایت قهری)؛ قوانین حمایت از کودکان و نوجوانان",
+   "edition": null,
+   "year": null,
+   "locator": "consent for minors",
+   "state": "LISTED"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C01",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C02",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C03",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C04",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C05",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C06",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C07",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C08",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C09",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C10",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C11",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C12",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C13",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C14",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C15",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C16",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C17",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C18",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C19",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C20",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C21",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C22",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C23",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C24",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C25",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C26",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C27",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C28",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C29",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C30",
+   "content_id": "RH-10-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-10-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  }
+ ]
+}

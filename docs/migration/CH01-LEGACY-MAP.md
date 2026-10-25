@@ -1,6 +1,6 @@
 # Chapter 01 legacy migration map
 
-**Updated:** 2026-10-22 · **Skill:** `rh-legacy-migration` · **Command:** `/rh-migrate-ch01`
+**Updated:** 2026-10-25 · **Skill:** `rh-legacy-migration` · **Command:** `/rh-migrate-ch01`
 
 ## What actually exists (checked 2026-10-22)
 
@@ -24,10 +24,10 @@
 
 | # | Legacy unit | Legacy subchapter | Target ID | Questions | Status |
 | ---: | --- | --- | --- | ---: | --- |
-| 01 | pathophysiology, genetics, neuroimaging (schizophrenia) | 1-1 | RH-01-01-U01 | 5 | pending |
-| 02 | phenomenology: positive/negative/cognitive symptoms | 1-1 | RH-01-01-U02 | 5 | pending |
-| 03 | schizoaffective, schizophreniform, catatonia | 1-1 | RH-01-01-U03 | 5 | pending |
-| 04 | treatment-resistant schizophrenia, clozapine | 1-1 | RH-01-01-U04 | 5 | pending (pharmacology depth: check scope for psychology/counseling exams) |
+| 01 | pathophysiology, genetics, neuroimaging (schizophrenia) | 1-1 | RH-01-01 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
+| 02 | phenomenology: positive/negative/cognitive symptoms | 1-1 | RH-01-01 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
+| 03 | schizoaffective, schizophreniform, catatonia | 1-1 | RH-01-01 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
+| 04 | treatment-resistant schizophrenia, clozapine | 1-1 | RH-01-01 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
 | 05 | bipolar I/II, mixed features | 1-2 | RH-01-02-U01 | 5 | pending |
 | 06 | MDD and clinical subtypes | 1-2 | RH-01-02-U02 | 5 | pending — merge with ravanhamych1 depression lesson (20 Q) |
 | 07 | persistent mood, child/adolescent | 1-2 | RH-01-02-U03 | 5 | pending |
@@ -38,7 +38,7 @@
 | 12 | PTSD, acute stress disorder | 1-3 | RH-01-03-U04 | 5 | pending |
 | 13 | adjustment disorders | 1-3 | RH-01-03-U05 | 5 | pending |
 
-The current placeholder `content/lessons/ch01/RH-01-01-U01.md` is a template demo and will be replaced by unit 01.
+**Decision (2026-10-25):** each subchapter becomes one canonical lesson (`RH-01-01`, `RH-01-02`, `RH-01-03`) that integrates its legacy units, instead of one lesson per unit (`-Uzz`). Each has a newly authored 32-question bank (3 × 32 = 96). These 96 questions are **new drafts, not the historic 96-question bank**, which is still missing; when that bank is found, map its records by `uid` and keep both. The template placeholder `RH-01-01-U01.md` was removed. Conflicts found during integration are recorded in `work/RH-01-0Y/merge_decisions.md` (for example legacy Q `q-scz-aff-301`, whose key fails the schizoaffective majority-of-duration criterion).
 
 ## Rules
 Literal mapping only; legacy snapshots read-only; UIDs immutable; exam-origin claims stay LISTED until the original paper is checked; legacy URL → new URL list kept here for redirects.

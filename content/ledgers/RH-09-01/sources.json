@@ -1,0 +1,535 @@
+{
+ "lesson_id": "RH-09-01",
+ "references": [
+  {
+   "reference_id": "R01",
+   "title": "سیف، روان‌شناسی پرورشی نوین / روان‌شناسی یادگیری",
+   "edition": null,
+   "year": null,
+   "locator": "overview (listed in source)",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R02",
+   "title": "Tolman & Honzik, Introduction and removal of reward",
+   "edition": null,
+   "year": 1930,
+   "locator": "latent learning",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R03",
+   "title": "Pavlov, Conditioned Reflexes",
+   "edition": null,
+   "year": 1927,
+   "locator": "classical conditioning",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R04",
+   "title": "Domjan, The Principles of Learning and Behavior",
+   "edition": null,
+   "year": null,
+   "locator": "temporal arrangements; inhibition",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R05",
+   "title": "Kamin, Predictability, surprise, attention and conditioning",
+   "edition": null,
+   "year": 1969,
+   "locator": "blocking",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R06",
+   "title": "Rescorla & Wagner, A theory of Pavlovian conditioning",
+   "edition": null,
+   "year": 1972,
+   "locator": "prediction error",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R07",
+   "title": "Bouton, Context and behavioral processes in extinction",
+   "edition": null,
+   "year": 2004,
+   "locator": "renewal; reinstatement",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R08",
+   "title": "Watson & Rayner, Conditioned emotional reactions",
+   "edition": null,
+   "year": 1920,
+   "locator": "Little Albert",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R09",
+   "title": "Garcia & Koelling, Relation of cue to consequence in avoidance learning",
+   "edition": null,
+   "year": 1966,
+   "locator": "taste aversion",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R10",
+   "title": "Wolpe, Psychotherapy by Reciprocal Inhibition",
+   "edition": null,
+   "year": 1958,
+   "locator": "desensitization",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R11",
+   "title": "Thorndike, The Fundamentals of Learning",
+   "edition": null,
+   "year": 1932,
+   "locator": "revised law of effect",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R12",
+   "title": "Skinner, The Behavior of Organisms; Science and Human Behavior",
+   "edition": null,
+   "year": null,
+   "locator": "operant",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R13",
+   "title": "Premack, Toward empirical behavior laws",
+   "edition": null,
+   "year": 1959,
+   "locator": "Premack principle",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R14",
+   "title": "Gershoff, Corporal punishment meta-analysis",
+   "edition": null,
+   "year": 2002,
+   "locator": "punishment side effects",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R15",
+   "title": "Ferster & Skinner, Schedules of Reinforcement",
+   "edition": null,
+   "year": 1957,
+   "locator": "schedules",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R16",
+   "title": "Amsel, Frustration theory",
+   "edition": null,
+   "year": 1958,
+   "locator": "PRE",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R17",
+   "title": "Capaldi, Sequential hypothesis",
+   "edition": null,
+   "year": 1966,
+   "locator": "PRE",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R18",
+   "title": "Mowrer, Learning Theory and Behavior",
+   "edition": null,
+   "year": 1960,
+   "locator": "two-factor theory",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R19",
+   "title": "Ayllon & Azrin, The Token Economy",
+   "edition": null,
+   "year": 1968,
+   "locator": "token economy",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R20",
+   "title": "Cooper, Heron & Heward, Applied Behavior Analysis",
+   "edition": null,
+   "year": null,
+   "locator": "reduction techniques; DR procedures; time-out",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R21",
+   "title": "Herrnstein, Relative and absolute strength of response",
+   "edition": null,
+   "year": 1961,
+   "locator": "matching law",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R22",
+   "title": "Breland & Breland, The misbehavior of organisms",
+   "edition": null,
+   "year": 1961,
+   "locator": "instinctive drift",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R23",
+   "title": "APA Ethical Principles; BACB Ethics Code; آیین‌نامهٔ اخلاقی سازمان نظام روان‌شناسی و مشاوره",
+   "edition": null,
+   "year": null,
+   "locator": "least restrictive; rights",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R24",
+   "title": "Ainslie, Specious reward",
+   "edition": null,
+   "year": 1975,
+   "locator": "delay discounting",
+   "state": "LISTED"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C01",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C02",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C03",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C04",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C05",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C06",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C07",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C08",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C09",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C10",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C11",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C12",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C13",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C14",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C15",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C16",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C17",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C18",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C19",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C20",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C21",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C22",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C23",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C24",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C25",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C26",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C27",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C28",
+   "content_id": "RH-09-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  }
+ ]
+}

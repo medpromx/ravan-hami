@@ -1,0 +1,331 @@
+{
+ "lesson_id": "RH-06-01",
+ "references": [
+  {
+   "reference_id": "R01",
+   "title": "Goldenberg, Stanton & Goldenberg, Family Therapy: An Overview",
+   "edition": "9th",
+   "year": 2017,
+   "locator": "history; systems concepts; life cycle",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R02",
+   "title": "Nichols & Davis, Family Therapy: Concepts and Methods",
+   "edition": null,
+   "year": null,
+   "locator": "pioneers; cybernetics; boundaries",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R03",
+   "title": "Bateson, Jackson, Haley & Weakland, Toward a theory of schizophrenia (Behavioral Science)",
+   "edition": null,
+   "year": 1956,
+   "locator": "double bind",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R04",
+   "title": "Watzlawick, Beavin & Jackson, Pragmatics of Human Communication",
+   "edition": null,
+   "year": 1967,
+   "locator": "punctuation; communication levels",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R05",
+   "title": "Watzlawick, Weakland & Fisch, Change",
+   "edition": null,
+   "year": 1974,
+   "locator": "first- and second-order change",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R06",
+   "title": "von Bertalanffy, General System Theory",
+   "edition": null,
+   "year": 1968,
+   "locator": "GST principles",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R07",
+   "title": "Minuchin, Families and Family Therapy",
+   "edition": null,
+   "year": 1974,
+   "locator": "subsystems; boundaries",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R08",
+   "title": "McGoldrick, Carter & Garcia-Preto, The Expanded Family Life Cycle",
+   "edition": null,
+   "year": null,
+   "locator": "life-cycle stages; stressors",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R09",
+   "title": "McGoldrick, Gerson & Petry, Genograms: Assessment and Treatment",
+   "edition": null,
+   "year": null,
+   "locator": "genogram symbols",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R10",
+   "title": "Maturana & Varela / Anderson & Goolishian",
+   "edition": null,
+   "year": null,
+   "locator": "autopoiesis; problem-determined system",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R11",
+   "title": "APA / AAMFT codes / سازمان نظام روان‌شناسی و مشاورهٔ ایران، آیین‌نامهٔ اخلاقی",
+   "edition": null,
+   "year": null,
+   "locator": "secrets policy; dual relationship; reporting",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R12",
+   "title": "سازمان بهزیستی کشور، اورژانس اجتماعی ۱۲۳ / قانون حمایت از اطفال و نوجوانان",
+   "edition": null,
+   "year": null,
+   "locator": "domestic violence; child protection",
+   "state": "LISTED"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C01",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C02",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C03",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C04",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C05",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C06",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C07",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C08",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C09",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C10",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C11",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C12",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C13",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C14",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C15",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C16",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C17",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C18",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C19",
+   "content_id": "RH-06-01",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-06-01/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  }
+ ]
+}

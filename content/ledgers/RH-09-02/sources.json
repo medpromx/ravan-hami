@@ -1,0 +1,439 @@
+{
+ "lesson_id": "RH-09-02",
+ "references": [
+  {
+   "reference_id": "R01",
+   "title": "Tolman & Honzik, Introduction and removal of reward",
+   "edition": null,
+   "year": 1930,
+   "locator": "latent learning",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R02",
+   "title": "Tolman, Cognitive maps in rats and men",
+   "edition": null,
+   "year": 1948,
+   "locator": "cognitive map",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R03",
+   "title": "Kohler, The Mentality of Apes",
+   "edition": null,
+   "year": 1925,
+   "locator": "insight",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R04",
+   "title": "Bandura, Ross & Ross, Transmission of aggression",
+   "edition": null,
+   "year": 1961,
+   "locator": "Bobo",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R05",
+   "title": "Bandura, Influence of models' reinforcement contingencies",
+   "edition": null,
+   "year": 1965,
+   "locator": "learning vs performance",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R06",
+   "title": "Bandura, Social Foundations of Thought and Action",
+   "edition": null,
+   "year": 1986,
+   "locator": "processes; reciprocal determinism; self-regulation",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R07",
+   "title": "Bandura, Self-efficacy: toward a unifying theory",
+   "edition": null,
+   "year": 1977,
+   "locator": "self-efficacy",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R08",
+   "title": "Bandura, Social cognitive theory: an agentic perspective",
+   "edition": null,
+   "year": 2001,
+   "locator": "agency",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R09",
+   "title": "Zimmerman, Attaining self-regulation",
+   "edition": null,
+   "year": 2000,
+   "locator": "three-phase model",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R10",
+   "title": "Flavell, Metacognition and cognitive monitoring",
+   "edition": null,
+   "year": 1979,
+   "locator": "metacognition",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R11",
+   "title": "Seligman & Maier, Failure to escape traumatic shock",
+   "edition": null,
+   "year": 1967,
+   "locator": "learned helplessness",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R12",
+   "title": "Abramson, Seligman & Teasdale, Learned helplessness in humans",
+   "edition": null,
+   "year": 1978,
+   "locator": "attributional reformulation",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R13",
+   "title": "Abramson, Metalsky & Alloy, Hopelessness depression",
+   "edition": null,
+   "year": 1989,
+   "locator": "hopelessness theory",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R14",
+   "title": "Rotter, Generalized expectancies for internal versus external control",
+   "edition": null,
+   "year": 1966,
+   "locator": "locus of control",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R15",
+   "title": "Seligman, Learned Optimism",
+   "edition": null,
+   "year": 1990,
+   "locator": "ABCDE",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R16",
+   "title": "Bandura, Blanchard & Ritter, Relative efficacy of desensitization and modeling",
+   "edition": null,
+   "year": 1969,
+   "locator": "participant modelling",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R17",
+   "title": "Ausubel, The Psychology of Meaningful Verbal Learning",
+   "edition": null,
+   "year": 1963,
+   "locator": "advance organizers",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R18",
+   "title": "Rizzolatti & Craighero, The mirror-neuron system",
+   "edition": null,
+   "year": 2004,
+   "locator": "mirror neurons",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R19",
+   "title": "Hickok, The Myth of Mirror Neurons",
+   "edition": null,
+   "year": 2014,
+   "locator": "critique",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R20",
+   "title": "Witkin et al., Field-dependent and field-independent cognitive styles",
+   "edition": null,
+   "year": 1977,
+   "locator": "cognitive style",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R21",
+   "title": "Phillips, The influence of suggestion on suicide",
+   "edition": null,
+   "year": 1974,
+   "locator": "Werther effect",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R22",
+   "title": "WHO, Preventing suicide: a resource for media professionals; AFSP/SPRC After a Suicide toolkit for schools",
+   "edition": null,
+   "year": null,
+   "locator": "safe messaging; postvention",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R23",
+   "title": "NICE guideline on eating disorders",
+   "edition": null,
+   "year": null,
+   "locator": "anorexia management",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R24",
+   "title": "APA Ethical Principles; آیین‌نامهٔ اخلاقی سازمان نظام روان‌شناسی و مشاوره",
+   "edition": null,
+   "year": null,
+   "locator": "group confidentiality",
+   "state": "LISTED"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C01",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C02",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C03",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C04",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C05",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C06",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C07",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C08",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C09",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C10",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C11",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C12",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C13",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C14",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C15",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C16",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C17",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C18",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C19",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C20",
+   "content_id": "RH-09-02",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-09-02/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  }
+ ]
+}

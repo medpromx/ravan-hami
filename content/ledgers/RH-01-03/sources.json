@@ -1,0 +1,571 @@
+{
+ "lesson_id": "RH-01-03",
+ "references": [
+  {
+   "reference_id": "R01",
+   "title": "American Psychiatric Association, DSM-5-TR",
+   "edition": "5th, text revision",
+   "year": 2022,
+   "locator": "criteria",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R02",
+   "title": "Öst, Applied tension in blood phobia",
+   "edition": null,
+   "year": 1987,
+   "locator": "BII",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R03",
+   "title": "Kaplan & Sadock's Synopsis of Psychiatry",
+   "edition": "12th",
+   "year": 2022,
+   "locator": "neurobiology, pharmacology",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R04",
+   "title": "Mowrer, Learning Theory and Behavior",
+   "edition": null,
+   "year": 1960,
+   "locator": "two-factor theory",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R05",
+   "title": "Salkovskis, Obsessional-compulsive problems: a cognitive-behavioural analysis",
+   "edition": null,
+   "year": 1985,
+   "locator": "responsibility",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R06",
+   "title": "Rachman & Shafran, Cognitive distortions: thought-action fusion",
+   "edition": null,
+   "year": 1999,
+   "locator": "TAF",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R07",
+   "title": "Foa et al., Exposure and Ritual Prevention for OCD",
+   "edition": null,
+   "year": 2012,
+   "locator": "ERP",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R08",
+   "title": "Phillips, The Broken Mirror",
+   "edition": null,
+   "year": 2005,
+   "locator": "BDD",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R09",
+   "title": "Woods & Twohig, Trichotillomania: ACT-enhanced behavior therapy",
+   "edition": null,
+   "year": 2008,
+   "locator": "HRT",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R10",
+   "title": "Bonanno, Loss, trauma, and human resilience",
+   "edition": null,
+   "year": 2004,
+   "locator": "resilience",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R11",
+   "title": "Kagan, Galen's Prophecy",
+   "edition": null,
+   "year": 1994,
+   "locator": "behavioural inhibition",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R12",
+   "title": "Yehuda, Post-traumatic stress disorder (NEJM review)",
+   "edition": null,
+   "year": 2002,
+   "locator": "HPA",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R13",
+   "title": "Rachman, The conditioning theory of fear acquisition",
+   "edition": null,
+   "year": 1977,
+   "locator": "three pathways",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R14",
+   "title": "Seligman, Phobias and preparedness",
+   "edition": null,
+   "year": 1971,
+   "locator": "preparedness",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R15",
+   "title": "Clark, A cognitive approach to panic",
+   "edition": null,
+   "year": 1986,
+   "locator": "panic model",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R16",
+   "title": "Clark & Wells, A cognitive model of social phobia",
+   "edition": null,
+   "year": 1995,
+   "locator": "social anxiety model",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R17",
+   "title": "Borkovec et al., Avoidance theory of worry",
+   "edition": null,
+   "year": 2004,
+   "locator": "worry",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R18",
+   "title": "Dugas et al., Intolerance of uncertainty and worry",
+   "edition": null,
+   "year": 1998,
+   "locator": "IU",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R19",
+   "title": "Foa & Kozak, Emotional processing of fear",
+   "edition": null,
+   "year": 1986,
+   "locator": "emotional processing",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R20",
+   "title": "Ehlers & Clark, A cognitive model of PTSD",
+   "edition": null,
+   "year": 2000,
+   "locator": "PTSD cognitive model",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R21",
+   "title": "NICE NG116 PTSD; VA/DoD PTSD Guideline 2023",
+   "edition": null,
+   "year": null,
+   "locator": "treatment, debriefing, benzodiazepines",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R22",
+   "title": "Rose et al., Psychological debriefing for preventing PTSD (Cochrane)",
+   "edition": null,
+   "year": 2002,
+   "locator": "debriefing",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R23",
+   "title": "Raskind et al., Trial of prazosin for PTSD in military veterans",
+   "edition": null,
+   "year": 2018,
+   "locator": "prazosin mixed evidence",
+   "state": "LISTED"
+  },
+  {
+   "reference_id": "R24",
+   "title": "APA Ethical Principles; قوانین جاری حمایت از کودکان و نوجوانان و گزارش‌دهی",
+   "edition": null,
+   "year": null,
+   "locator": "reporting duties",
+   "state": "LISTED"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C01",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C02",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C03",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C04",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C05",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C06",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C07",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C08",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C09",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C10",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C11",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C12",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C13",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C14",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C15",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C16",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C17",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C18",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C19",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C20",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C21",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C22",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C23",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C24",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C25",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C26",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C27",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C28",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C29",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C30",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  },
+  {
+   "claim_id": "C31",
+   "content_id": "RH-01-03",
+   "claim": "see claims_to_verify.md",
+   "source_file": "work/RH-01-03/extracted",
+   "source_location": null,
+   "reference_id": null,
+   "review_state": "OPEN",
+   "conflict_notes": null,
+   "reviewer": null,
+   "review_date": null
+  }
+ ]
+}

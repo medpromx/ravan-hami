@@ -32,11 +32,11 @@
 | 06 | MDD and clinical subtypes | 1-2 | RH-01-02 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) — ravanhamych1 lesson also integrated; its 20 Q stay in legacy-ch01-depression.json |
 | 07 | persistent mood, child/adolescent | 1-2 | RH-01-02 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
 | 08 | suicide risk assessment, emergency | 1-2 | RH-01-02 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
-| 09 | panic disorder, agoraphobia | 1-3 | RH-01-03-U01 | 5 | pending |
-| 10 | GAD, specific phobia, social anxiety | 1-3 | RH-01-03-U02 | 5 | pending |
-| 11 | OCD and related | 1-3 | RH-01-03-U03 | 5 | pending |
-| 12 | PTSD, acute stress disorder | 1-3 | RH-01-03-U04 | 5 | pending |
-| 13 | adjustment disorders | 1-3 | RH-01-03-U05 | 5 | pending |
+| 09 | panic disorder, agoraphobia | 1-3 | RH-01-03 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
+| 10 | GAD, specific phobia, social anxiety | 1-3 | RH-01-03 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
+| 11 | OCD and related | 1-3 | RH-01-03 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
+| 12 | PTSD, acute stress disorder | 1-3 | RH-01-03 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
+| 13 | adjustment disorders | 1-3 | RH-01-03 (integrated) | 5 (not imported) | lesson drafted 2026-10-25 (DRAFT_REVIEW_REQUIRED) |
 
 **Decision (2026-10-25):** each subchapter becomes one canonical lesson (`RH-01-01`, `RH-01-02`, `RH-01-03`) that integrates its legacy units, instead of one lesson per unit (`-Uzz`). Each has a newly authored 32-question bank (3 × 32 = 96). These 96 questions are **new drafts, not the historic 96-question bank**, which is still missing; when that bank is found, map its records by `uid` and keep both. The template placeholder `RH-01-01-U01.md` was removed. Conflicts found during integration are recorded in `work/RH-01-0Y/merge_decisions.md` (for example legacy Q `q-scz-aff-301`, whose key fails the schizoaffective majority-of-duration criterion).
 
